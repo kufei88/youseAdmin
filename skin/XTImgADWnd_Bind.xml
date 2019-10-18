@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="ImgADWnd" Bounds="0, 0, 160, 63" Text="XTMainRemoteWnd" MiniSize="160, 63" >
+  <XUIManager ID="KDTMainRemoteWnd" Bounds="0,0, 160, 63">
+    
+    <!--纯色背景-->
+    <XImagePanel Bounds="0, 0, W, H" Fill="XTile" Dock="Fill" FastBit="True">
+      <Image><![CDATA[Images\Common\login_ad_bg.png]]></Image>
+    </XImagePanel>
+    
+    <XImagePanel ID="ADImg"  Bounds="0, 1, W, H - 1" Anchor="All" Fill="Fit" Visible="False">
+      <Image><![CDATA[]]></Image>
+    </XImagePanel>
+    <XGifImagePanel ID="GifADImg"  Bounds="0, 1, W, H - 1" Anchor="All" Fill="Fit" Visible="False">
+      <Image><![CDATA[]]></Image>
+    </XGifImagePanel>
+
+    <XTextPanel ID="ADText" Bounds="0, 1, W, H - 1"  Anchor="All" FontHeight="9" AlignV="Center" Color="#000000" Align="Near" Visible="False">
+      <![CDATA[]]>
+    </XTextPanel>
+
+    <!-- 一些链接 -->
+    <XUIHyperLink StyleID="DefHyperLink" ID="Link1" Bounds="18, 10, W - 36, 16" Anchor="Left|Top|Right" ElemID="DefHyperLink1">
+      <Text  Color="#666666" ColorHL="#0066CC"><![CDATA[只要299，立即去广告！]]></Text>
+    </XUIHyperLink>
+    <XUIHyperLink StyleID="DefHyperLink" ID="Link2" Bounds="18, 26, W - 36, 16" Anchor="Left|Top|Right" ElemID="DefHyperLink2">
+      <Text  Color="#666666" ColorHL="#0066CC"><![CDATA[如何注册一个账号]]></Text>
+    </XUIHyperLink>
+    <XUIHyperLink StyleID="DefHyperLink" ID="Link3" Bounds="18, 42, W - 36, 16" Anchor="Left|Top|Right" ElemID="DefHyperLink3">
+      <Text  Color="#666666" ColorHL="#0066CC"><![CDATA[如何立即添加一个联系人？]]></Text>
+    </XUIHyperLink>
+    
+    <XUIButton ID="ButtonClick" Bounds="0, 1, W, H - 1" ElemID="ButtonClick" StateCount="5" Anchor="All" Cursor="Hand" Visible="False">
+    </XUIButton>
+        
+  </XUIManager>
+</XWnd>

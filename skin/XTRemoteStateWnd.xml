@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteStateWnd" Bounds="0, 0, 320, 120" Text="远程控制" MiniSize="320, 120" OverlappedWindow="True" ThickFrame="False" BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTRemoteStateWnd" Bounds="0,0, 320, 120">
+    <!-- 纯色背景 -->
+    <XColorPanel ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <XTextPanel StyleID="DefTextSimSun" Bounds="80, 30, W - 80, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near">
+      <![CDATA[当前状态：]]>
+    </XTextPanel>
+    <XTextPanel ID="StatusText"  StyleID="DefTextSimSun" Bounds="80, 50, W - 80, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near">
+      <![CDATA[请输入远端计算机的访问授权码：]]>
+    </XTextPanel>
+    
+  </XUIManager>
+</XWnd>

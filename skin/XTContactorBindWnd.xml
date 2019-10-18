@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTMainRemoteWnd" Bounds="0, 0, 170, 432" Text="XTMainRemoteWnd" MiniSize="170, 432" >
+  <XUIManager ID="KDTMainRemoteWnd" Bounds="0,0, 170, 432">
+    
+    <!--纯色背景-->
+    <XImagePanel Bounds="0, 0, W, H" Fill="Title" Anchor="All" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_gray_2.png]]></Image>
+    </XImagePanel>
+    
+    <!-- Title -->
+    <XImagePanel Bounds="16, 39, 133, 19" Fill="Fit" Anchor="Left|Top" FastBit="False">
+      <Image><![CDATA[Images\Contactor\title.png]]></Image>
+    </XImagePanel>
+
+    <XUIContainer ID="LoginArea"  Bounds="0, 60, W, H" Anchor="All" Visible="False">
+      <XTextPanel StyleID="DefTextSimSun" ID="User" Bounds="18, 33, W - 40, 14" Anchor="Left|Top|Right" Color="#000000" Align="Near"  FontHeight="9">
+        <![CDATA[用户名：]]>
+      </XTextPanel>
+      <XUIWndObject ID="EditAccount" Bounds="18, 50, W - 36, 22" Anchor="Left|Top|Right"></XUIWndObject>
+
+      <XTextPanel StyleID="DefTextSimSun" ID="Password" Bounds="18, 84, W - 40, 14"  Anchor="Left|Right|Top" Color="#000000" Align="Near" FontHeight="9">
+        <![CDATA[密码：]]>
+      </XTextPanel>
+      <XUIWndObject ID="EditPassword" Bounds="18, 100, W - 36, 22" Anchor="Left|Top|Right"></XUIWndObject>
+
+      <!-- Check -->
+      <XUIWndObject ID="CheckAutoLogin" Bounds="18, 132, W - 36, 13" Anchor="Left|Top|Right"></XUIWndObject>
+
+      <!--按钮登录-->
+      <XUIButton StyleID="DefCommonBtn" ID="BtnLogin" Bounds="18, 162, 87, 24" Anchor="Left|Top" StateCount="5" ElemID="BtnLogin" Visible="True">
+        <Text Bounds="0, 0, 87, 24" Color="#FE000000"  AlignV="Center" Align="Center"><![CDATA[登 录]]></Text>
+        <Image Fill="XTitle"><![CDATA[Images\Window\Pub_btn.png]]></Image>
+      </XUIButton>
+
+      <!-- 一些链接 -->
+      <XUIHyperLink StyleID="DefHyperLinkLogin" ID="Registe" Bounds="18, 201, 80, 18" Anchor="Left|Top" ElemID="HyperLinkRegister">
+        <Text  Color="#0066CC" ColorHL="#0066CC"><![CDATA[注册账号]]></Text>
+      </XUIHyperLink>
+      <XUIHyperLink StyleID="DefHyperLinkLogin" ID="FindPWD" Bounds="18, 222, 80, 18" Anchor="Left|Top"  ElemID="HyperLinkFindPWD">
+        <Text  Color="#0066CC" ColorHL="#0066CC"><![CDATA[忘记密码]]></Text>
+      </XUIHyperLink>
+      <XUIHyperLink StyleID="DefHyperLinkLogin" ID="FindPWD" Bounds="18, 243, 140, 18" Anchor="Left|Top"  ElemID="HyperLinkFindWhy">
+        <Text  Color="#0066CC" ColorHL="#0066CC"><![CDATA[为什么要注册？]]></Text>
+      </XUIHyperLink>
+    </XUIContainer>
+
+    <XUIContainer ID="FirstArea"  Bounds="0, 60, W, H" Anchor="All" Visible="True">
+      <XImagePanel Bounds="17, 51, 10, 10" Fill="Fit" Anchor="Left|Top" FastBit="False">
+        <Image><![CDATA[Images\Contactor\icon_right.png]]></Image>
+      </XImagePanel>
+      <XTextPanel StyleID="DefTextSimSun" Bounds="27, 50, W - 29, 14" Anchor="Left|Top|Right" Align="Near" Color="#5E627E" FontHeight="9">
+        <![CDATA[立即创建您的联系人列表]]>
+      </XTextPanel>
+
+      <XImagePanel Bounds="17, 73, 10, 10" Fill="Fit" Anchor="Left|Top" FastBit="False">
+        <Image><![CDATA[Images\Contactor\icon_right.png]]></Image>
+      </XImagePanel>
+      <XTextPanel StyleID="DefTextSimSun" Bounds="27, 72, W - 29, 14" Anchor="Left|Top|Right" Align="Near" Color="#5E627E" FontHeight="9">
+        <![CDATA[无需逐一记住对方的帐号]]>
+      </XTextPanel>
+
+      <XImagePanel Bounds="17, 96, 10, 10" Fill="Fit" Anchor="Left|Top" FastBit="False">
+        <Image><![CDATA[Images\Contactor\icon_right.png]]></Image>
+      </XImagePanel>
+      <XTextPanel StyleID="DefTextSimSun" Bounds="27, 95, W - 29, 14" Anchor="Left|Top|Right" Align="Near" Color="#5E627E" FontHeight="9">
+        <![CDATA[随时查看对方的在线状态]]>
+      </XTextPanel>
+
+      <XImagePanel Bounds="17, 119, 10, 10" Fill="Fit" Anchor="Left|Top" FastBit="False">
+        <Image><![CDATA[Images\Contactor\icon_right.png]]></Image>
+      </XImagePanel>
+      <XTextPanel StyleID="DefTextSimSun" Bounds="27, 118, W - 29, 14" Anchor="Left|Top|Right" Align="Near" Color="#5E627E" FontHeight="9">
+        <![CDATA[随时发送消息和文件给对方]]>
+      </XTextPanel>
+
+      <XUIButton StyleID="DefCommonBtn" ID="BtnRegister" Bounds="18, 162, 87, 24" Anchor="Left|Top" StateCount="5" ElemID="BtnRegister" Visible="True">
+        <Text Bounds="0, 0, 87, 24" Color="#FE000000"  AlignV="Center" Align="Center"><![CDATA[注 册]]></Text>
+        <Image Fill="XTitle"><![CDATA[Images\Window\Pub_btn.png]]></Image>
+      </XUIButton>
+
+      <XImagePanel Bounds="1, H - 33, W - 2, 33" Fill="XTile" Anchor="Left|Bottom|Right" FastBit="True">
+        <Image><![CDATA[Images\Common\login_ad_bg_2.png]]></Image>
+      </XImagePanel>
+
+      <XTextPanel StyleID="DefTextSimSun" ID="User" Bounds="18, H - 19, 140, 14" Anchor="Left|Bottom" Align="Near" Color="#3D3D3D">
+        <![CDATA[已经有账号了？]]>
+      </XTextPanel>
+
+      <XUIHyperLink StyleID="DefHyperLinkLogin" ID="LinkLogin" Bounds="105, H - 19, 40, 14" Anchor="Left|Bottom"  ElemID="HyperLinkLogin">
+        <Text Color="#0066CC" ColorHL="#0066CC"><![CDATA[登录]]></Text>
+      </XUIHyperLink>
+
+    </XUIContainer>
+        
+    <!-- 广告区域 -->
+    <XUIWndObject ID="ADWnd" Bounds="0, H - 63, W, 63"  Anchor="Right|Left|Bottom" Visible="False"></XUIWndObject>
+    
+  </XUIManager>
+</XWnd>

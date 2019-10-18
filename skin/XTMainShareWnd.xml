@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTMainShareWnd" Bounds="0, 0, 477, 323" Text="XTMainShareWnd" MiniSize="477, 323">
+  <XUIManager ID="KDTMainShareWnd" Bounds="0,0, 477, 323">
+    <!-- 纯色背景 -->
+    <!--背景-->
+    <XImagePanel Bounds="0, 0, W, H" Fill="Title" Anchor="All" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_gray_2.png]]></Image>
+    </XImagePanel>
+
+    <XUIButton StyleID="DefCommonBtn" ID="BtnNewShare" Bounds="5, 3, 80, 24" Anchor="Left|Top" StateCount="5" ElemID="BtnNewShare" Tooltip="新建共享">
+      <Text Bounds="24, 0, W - 24, 24" AlignV="Center" Align="Near" ColorDisable="#828282"><![CDATA[新建共享]]></Text>
+      <Icon Bounds="0, 0, 24, 24" Align="Near"><![CDATA[Images\Share\Icon_add.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton StyleID="DefCommonBtn" ID="BtnCancelShare" Bounds="90, 3, 80, 24" Anchor="Left|Top"  StateCount="5" ElemID="BtnCancelShare" Tooltip="取消共享">
+      <Text Bounds="24, 0, W - 24, 24" AlignV="Center" Align="Near" ColorDisable="#828282"><![CDATA[取消共享]]></Text>
+      <Icon Bounds="0, 0, 24, 24" Align="Near"><![CDATA[Images\Share\Icon_del.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton StyleID="DefCommonBtn" ID="BtnSetShareAttr" Bounds="175, 3, 80, 24" Anchor="Left|Top"  StateCount="5" ElemID="BtnSetShareAttr" Tooltip="设置属性">
+      <Text Bounds="24, 0, W - 24, 24" AlignV="Center" Align="Near" ColorDisable="#828282"><![CDATA[设置属性]]></Text>
+      <Icon Bounds="0, 0, 24, 24" Align="Near"><![CDATA[Images\Share\Icon_shareset.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+
+    <XUIButton ID="BtnLVStyleMenu" Bounds="W - 43, 3, 32, 24" Anchor="Right|Top" ElemID="BtnLVStyleMenu" StateCount="5" Tooltip="显示方式" Visible="False">
+      <Icon><![CDATA[Images\Share\Icon_view.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+
+    <!--ListCtrl边框线-->
+    <XColorPanel Bounds="5, 30, W - 10, H - 32" Anchor="All" Color="#CDCDCD">
+    </XColorPanel>
+    <XUIWndObject ID="ListCtrl" Bounds="6, 31, W - 12, H - 34" Anchor="All"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

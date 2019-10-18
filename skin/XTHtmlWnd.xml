@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="XTHtmlWnd" Bounds="0, 0, 800, 600" Text="XTHtmlWnd" MiniSize="160, 120" OverlappedWindow="False" BigIconResID="101" SmallIconResID="138"
+      Region="4,0| W-4,0|W-3,1|W-2,1|W-1,2|W-1,3|W,4| W,H-5|W-1,H-4|W-1,H-3|W-3,H-1|W-4,H-1|W-5,H| 5,H|4,H-1|3,H-1|1,H-3|1,H-4|0,H-5| 0,4|1,3|1,2|2,1|3,1|4,0">
+  <XUIManager ID="XTHtmlWnd" Bounds="0, 0, 800, 600">
+    <!--背景图-->
+    <XImagePanel ID="xBackground" Bounds="0, 0, W, H" Fill="Title" Dock="Fill" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_blue.png]]></Image>
+    </XImagePanel>
+    <XImagePanel Bounds="3, H - 8, W - 6, 5" Fill="XTitle" Anchor="Left|Right|Bottom" >
+      <Image><![CDATA[Images\Window\Bg_history_bottom.png]]></Image>
+    </XImagePanel>
+    <!-- 纯色背景 -->
+    <XColorPanel Bounds="3, 33, W - 6, H - 36" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <!--Title-->
+    <XTextPanel ID="WindowTitle" Bounds="10, 8, W - 60, 18"  Anchor="Left|Top|Right" FontName="Tahoma" FontHeight="9" AlignV="Center" Color="#FFFFFFFF" Align="Near" Style="Bold">
+      <![CDATA[XTHtmlWnd]]>
+    </XTextPanel>
+
+    <!--拖动区域-->
+    <!-- NCHitTestArea Begin -->
+    <XUINcHitElem Bounds="0, 0, W, 32" Anchor="Left|Right|Top" />
+    <XUINcHitElem Bounds="W - 8, 0, 8, 8 " Anchor="Right|Top" NCHit="RightTop" />
+    <XUINcHitElem Bounds="W - 8, H - 8, 8, 8 " Anchor="Right|Bottom" NCHit="RightBottom" />
+    <XUINcHitElem Bounds="0, H - 8, 8, 8 " Anchor="Left|Bottom" NCHit="LeftBottom" />
+    <XUINcHitElem Bounds="0, 8, 4, H - 16" Anchor="Left|Bottom|Top" NCHit="Left" />
+    <XUINcHitElem Bounds="8, 0, W - 16, 4" Anchor="Right|Left|Top" NCHit="Top" />
+    <XUINcHitElem Bounds="W - 4, 8, 4, H - 16" Anchor="Right|Bottom|Top" NCHit="Right" />
+    <XUINcHitElem Bounds="8, H - 4, W - 16, 4" Anchor="Left|Right|Bottom" NCHit="Bottom" />
+    <!-- NCHitTestArea End -->
+
+    <!--SystemButton-->
+    <XUIButton ID="ButtonClose" Bounds="W - 29, 7, 18, 18" ElemID="ButtonClose" StateCount="5" Anchor="Right|Top" Tooltip="关闭" SysCmdID="SC_CLOSE">
+      <Image><![CDATA[Images\Window\Window_btn_close.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="ButtonMini" Bounds="W - 47, 7, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="最小化" SysCmdID="SC_MINIMIZE">
+      <Image><![CDATA[Images\Window\Window_btn_mini.png]]></Image>
+    </XUIButton>
+
+    <!--输出的View-->
+    <XUIWndObject ID="HistoryView" Bounds="3, 33, W - 6, H - 36" Anchor="All"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

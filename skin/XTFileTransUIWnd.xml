@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTFileTransUIWnd" Bounds="100, 100, 480, 430" Text="文件传输管理" MiniSize="433, 447" OverlappedWindow="False" WindowEdge="True" BigIconResID="101" SmallIconResID="138"
+    Region="4,0| W-4,0|W-3,1|W-2,1|W-1,2|W-1,3|W,4| W,H-5|W-1,H-4|W-1,H-3|W-3,H-1|W-4,H-1|W-5,H| 5,H|4,H-1|3,H-1|1,H-3|1,H-4|0,H-5| 0,4|1,3|1,2|2,1|3,1|4,0">
+  <XUIManager ID="KDTHistoryWnd" Bounds="0, 0, 480, 430">
+    <!--背景图-->
+    <XImagePanel ID="xBackground" Bounds="0, 0, W, H" Fill="Title" Dock="Fill" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_blue.png]]></Image>
+    </XImagePanel>
+    <XImagePanel Bounds="3, H - 8, W - 6, 5" Fill="XTitle" Anchor="Left|Right|Bottom" >
+      <Image><![CDATA[Images\Window\Bg_history_bottom.png]]></Image>
+    </XImagePanel>
+    <!-- 纯色背景 -->
+    <XColorPanel Bounds="3, 64, W - 6, H - 67" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <!--Title-->
+    <XTextPanel ID="WindowTitle" Bounds="10, 8, W - 80, 18"  Anchor="Left|Top" FontName="Tahoma" FontHeight="9" AlignV="Center" Color="#FFFFFFFF" Align="Near" Style="Bold">
+      <![CDATA[文件传输管理]]>
+    </XTextPanel>
+
+    <!--拖动区域-->
+    <!-- NCHitTestArea Begin -->
+    <XUINcHitElem Bounds="0, 0, W, 32" Anchor="Left|Right|Top" />
+    <!-- NCHitTestArea End -->
+
+    <!--SystemButton-->
+    <XUIButton ID="ButtonClose" Bounds="W - 29, 7, 18, 18" ElemID="ButtonClose" StateCount="5" Anchor="Right|Top" Tooltip="关闭" SysCmdID="SC_CLOSE">
+      <Image><![CDATA[Images\Window\Window_btn_close.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="ButtonMini" Bounds="W - 47, 7, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="最小化" SysCmdID="SC_MINIMIZE">
+      <Image><![CDATA[Images\Window\Window_btn_mini.png]]></Image>
+    </XUIButton>
+
+    <!-- MenuBar 区域背景 -->
+    <XImagePanel ID="MenuBarBG" Bounds="3, 33, W - 6, 31" Anchor="Top|Left|Right" Fill="XTile">
+      <Image><![CDATA[Images\Chat\Toolbar_bg.png]]></Image>
+    </XImagePanel>
+
+    <XUIButton StyleID="DefCommonBtn" ID="StartFileTrans" Bounds="7, 36, 50, 24" Anchor="Left|Top" StateCount="5" ElemID="BtnStartFileTrans" Tooltip="开始">
+      <Text Bounds="16, 3, W - 18, 20" AlignV="Center" Align="Near" Color="#1F2225" FontHeight="9"><![CDATA[开始]]></Text>
+      <Icon Bounds="2, 4, 16, 16" Align="Near"><![CDATA[Images\FileTransUI\File_icon_start.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton StyleID="DefCommonBtn" ID="PaustFileTrans" Bounds="59, 36, 50, 24" Anchor="Left|Top" StateCount="5" ElemID="BtnPaustFileTrans" Tooltip="暂停" Lockable="True">
+      <Text Bounds="16, 3, W - 18, 20" AlignV="Center" Align="Near" Color="#1F2225" FontHeight="9"><![CDATA[暂停]]></Text>
+      <Icon Bounds="2, 4, 16, 16" Align="Near"><![CDATA[Images\FileTransUI\File_icon_pause.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton StyleID="DefCommonBtn" ID="CancelFileTrans" Bounds="111, 36, 50, 24" Anchor="Left|Top" StateCount="5" ElemID="BtnCancelFileTrans" Tooltip="删除" Lockable="True">
+      <Text Bounds="16, 3, W - 18, 20" AlignV="Center" Align="Near" Color="#1F2225" FontHeight="9"><![CDATA[删除]]></Text>
+      <Icon Bounds="2, 4, 16, 16" Align="Near"><![CDATA[Images\FileTransUI\File_icon_del.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+
+    <XUIButton StyleID="DefCommonBtn"  ID="BtnViewMenu" Bounds="W - 43, 36, 34, 24" ElemID="BtnViewMenu" Anchor="Top|Right" StateCount="5">
+      <Icon><![CDATA[Images\FileTransUI\Icon_view.png]]></Icon>
+      <Image Fill="XTitle"><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    
+
+    <XProperty ID="FileTransTreeProperty" BackgroundColor="#FFFFFF" TextColor="#000000" SelTextColor="#FFDFFF"  ItemHeight="50" StateIcon="DefStateIcon" />
+
+    <XUIWndObject ID="FileTransTree" Bounds="3, 64, W - 6, H - 67" Anchor="All"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteStateWnd" Bounds="0, 0, 320, 180" Text="帐号绑定" MiniSize="320, 180" OverlappedWindow="True" ThickFrame="False" BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTRemoteStateWnd" Bounds="0,0, 320, 180">
+    <!-- 纯色背景 -->
+    <XColorPanel ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <XTextPanel StyleID="DefTextSimSun" Bounds="20, 20, W - 40, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near">
+      <![CDATA[请输入需要绑定的帐号：]]>
+    </XTextPanel>
+    <XUIWndObject ID="EditUser" Bounds="20, 40, W - 40, 20" Anchor="Left|Top|Right"></XUIWndObject>
+
+    <XTextPanel StyleID="DefTextSimSun" Bounds="20, 65, W - 40, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near">
+      <![CDATA[请输入需要帐号登录密码：]]>
+    </XTextPanel>
+    <XUIWndObject ID="EditPassword" Bounds="20, 85, W - 40, 20" Anchor="Left|Top|Right"></XUIWndObject>
+
+    <XTextPanel ID="LoginStatus"  StyleID="DefTextSimSun" Bounds="20, 110, W - 20, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near">
+      <![CDATA[]]>
+    </XTextPanel>
+   
+    <!--按钮登录-->
+    <XUIWndObject ID="BtnBind" Bounds="W - 190, H - 35, 87, 26" Anchor="Bottom|Right"></XUIWndObject>
+    <!--按钮取消-->
+    <XUIWndObject ID="BtnQuit" Bounds="W - 95, H - 35, 87, 26" Anchor="Bottom|Right"></XUIWndObject>
+    
+  </XUIManager>
+</XWnd>

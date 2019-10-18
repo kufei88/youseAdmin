@@ -1,0 +1,50 @@
+Fri May 31 21:21:44 2019
+>>  UpdatePath D:\code\javaweb\youse\Update\
+Fri May 31 21:21:44 2019
+>>  AppPath D:\code\javaweb\youse\
+Fri May 31 21:21:44 2019
+>>>  Need restart Yes
+Fri May 31 21:21:44 2019
+>>  DoUpdate in E_US_SILENT_SERVICE
+Fri May 31 21:21:44 2019
+>  正在关闭老旧服务...
+Fri May 31 21:21:44 2019
+>>>  OpenService 'XT800Service' Failed!(Error:1060)
+Fri May 31 21:21:44 2019
+>>>  Service 'XT800Service' not run.
+Fri May 31 21:21:44 2019
+>  正在关闭服务...
+Fri May 31 21:21:44 2019
+>>>  FindServiceBin:"I:\Program Files (x86)\XT800_Personal\Bin\XTService.exe" -service
+Fri May 31 21:21:44 2019
+>>>  Service 'XT800Service_Personal' is not my service:I:\Program Files (x86)\XT800_Personal\Bin\XTService.exe
+Fri May 31 21:21:44 2019
+>>>  Service 'XT800Service_Personal' not run.
+Fri May 31 21:21:44 2019
+>  正在关闭服务程序...
+Fri May 31 21:21:44 2019
+>>>  File D:\code\javaweb\youse\Bin\XTService.exe not run.
+Fri May 31 21:21:44 2019
+>  正在关闭程序...
+Fri May 31 21:21:44 2019
+>>>  File D:\code\javaweb\youse\Bin\XT.exe not run.
+Fri May 31 21:21:44 2019
+>  正在关闭程序...
+Fri May 31 21:21:44 2019
+>>>  File D:\code\javaweb\youse\Bin\XTUI.exe not run.
+Fri May 31 21:21:44 2019
+>  正在进行升级前的备份...
+Fri May 31 21:21:44 2019
+>  正在生成文件列表...
+Fri May 31 21:21:44 2019
+>  正在拷贝文件...
+Fri May 31 21:21:44 2019
+>  正在删除备份文件...
+Fri May 31 21:21:44 2019
+>  正在启动程序...
+Fri May 31 21:21:44 2019
+>>  ShellOpenXT in E_US_SILENT_SERVICE
+Fri May 31 21:21:44 2019
+>  升级完毕。
+Fri May 31 21:21:45 2019
+>>  Update finish.

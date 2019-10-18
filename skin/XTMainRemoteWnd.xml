@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTMainRemoteWnd" Bounds="0, 0, 527, 344" Text="XTMainRemoteWnd" MiniSize="527, 344">
+  <XUIManager ID="KDTMainRemoteWnd" Bounds="0,0, 527, 344">
+    <!--背景-->
+    <XImagePanel Bounds="0, 0, W, H" Fill="Title" Anchor="All" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_gray_2.png]]></Image>
+    </XImagePanel>
+
+    <!--分割线-->
+    <XTextPanel StyleID="DefTextSimSun" ID="User" Bounds="32, 26, 128, 14"  Anchor="Left|Right|Top" Color="#000000" Align="Near">
+      <![CDATA[控制远程计算机：]]>
+    </XTextPanel>
+
+    <XUIWndObject ID="EditRemoteUserID"   Bounds="34, 52, 175, 100" Anchor="Left|Top"></XUIWndObject>
+    <XUIWndObject ID="RadioRemoteControl" Bounds="34, 84, 200, 20" Anchor="Left|Top"></XUIWndObject>
+    <XUIWndObject ID="RadioRemoteFileFtp" Bounds="34, 106, 200, 20" Anchor="Left|Top"></XUIWndObject>
+    <XUIWndObject ID="RadioRemoteDemo"    Bounds="34, 128, 200, 20" Anchor="Left|Top"></XUIWndObject>
+
+    <XUIButton ID="ButtonRemoteConnect" Bounds="46, 162, 87, 26" Anchor="Left|Top" StateCount="5" ElemID="ButtonRemoteConnect" Visible="True">
+      <Text Bounds="0, 2, 87, 24" Color="#FE000000"  AlignV="Center" Align="Center"><![CDATA[开始连接]]></Text>
+      <Image Fill="XTitle"><![CDATA[Images\Window\Pub_btn.png]]></Image>
+    </XUIButton>
+    
+    <!-- 一张图 -->
+    <XImagePanel ID="RemoteDemoPic" Bounds="232, 34, 230, 160" Fill="Fit" FastBit="True" BitOnce="True">
+      <Image><![CDATA[Images/Common/Main_picture.png]]></Image>
+    </XImagePanel>
+
+    <!-- 本地连接设置 -->
+    <!--分割线-->
+    <XImagePanel ID="RemoteDemoPic" Bounds="19, 213, W - 38, 1" Fill="XTile" FastBit="True">
+      <Image><![CDATA[Images/Common/Bg_Line.png]]></Image>
+    </XImagePanel>
+
+    <XUIWndObject ID="CheckConnectionPermission" Bounds="35, 241, 180, 13" Anchor="Left|Top"></XUIWndObject>
+    <XUIHyperLink StyleID="DefHyperLink" ID="MoreInfo" Bounds="218, 242, 100, 14" Anchor="Left|Top" ElemID="HyperLinkMoreInfo">
+      <Text Color="#0066CC" ColorHL="#0066CC" Style="Underline"><![CDATA[了解更多]]></Text>
+    </XUIHyperLink>
+
+    <!-- -->
+    <XTextPanel StyleID="DefTextSimSun" ID="User" Bounds="33, 268, 100, 14"  Anchor="Left|Top" Color="#000000" Align="Near">
+      <![CDATA[本机号码：]]>
+    </XTextPanel>
+    <XTextPanel StyleID="DefTextSimSun" ID="Password" Bounds="213, 268, 100, 14"  Anchor="Left|Top" Color="#000000" Align="Near">
+      <![CDATA[授权码：]]>
+    </XTextPanel>
+
+    <XUIWndObject ID="EditConnectionUserID" Bounds="34, 286, 145, 20" Anchor="Left|Top"></XUIWndObject>
+    
+    <XUIWndObject ID="EditConnectionPassword" Bounds="214, 286, 145, 20" Anchor="Left|Top"></XUIWndObject>
+    <XUIHyperLink StyleID="DefHyperLink" ID="PrivatePassword" Bounds="365, 290, 100, 14" ElemID="HyperLinkPrivatePassword">
+      <Text Color="#0066CC" ColorHL="#0066CC" Style="Underline"><![CDATA[修改授权码]]></Text>
+    </XUIHyperLink>
+
+    <!--推广区域-->
+    <XUIContainer ID="ADPanel" Bounds="33, H - 20, W - 85, 18" Anchor="Right|Left|Bottom">
+      <XImagePanel Bounds="0, 0, 16, 16" Fill="Fit" FastBit="False">
+        <Image><![CDATA[Images\Common\Icon_info.png]]></Image>
+      </XImagePanel>
+      <XUIHyperLink StyleID="DefHyperLink3" ID="LinkAD"  Bounds="18, 2, W - 18, 16" Anchor="All" ElemID="HyperLinkAD">
+        <Text Color="#000000" ColorHL="#00000" ColorDisalbe="#00000" Style="Regular" Align="Near" AlignV="Near" MultiLine="False"><![CDATA[]]></Text>
+      </XUIHyperLink>
+    </XUIContainer>
+    
+  </XUIManager>
+</XWnd>

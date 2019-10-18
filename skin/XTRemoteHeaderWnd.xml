@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteHeaderWnd" Bounds="0, 0, 370, 29" AutoDelete="False">
+  <XUIManager ID="KDTRemoteHeaderWnd" Bounds="0,0, 370, 29">
+    <!-- 图片背景 -->
+    <XImagePanel ID="xBackground" Bounds="0, 0, W, H" Dock="Left|Right|Bottom" Fill="XTitle" FastBit="True">
+      <Image><![CDATA[Images\Remote\Remote_toolbar_bg.png]]></Image>
+    </XImagePanel>
+
+    <XUIButton Anchor="Left|Bottom" StyleID="DefRemoteHeaderBtn"  ID="ButtonChat" Bounds="8, 2, 64, 24" ElemID="ButtonChat">
+      <Icon Bounds="1, 0, 24, 24" Align="Near"><![CDATA[Images\Remote\Remote_icon_chat.png]]></Icon>
+      <Text Bounds="25, 4, 50, 20" Align="Near" AlignV="Center"><![CDATA[会话]]></Text>
+    </XUIButton>
+
+    <XUIButton Anchor="Left|Bottom" StyleID="DefRemoteHeaderBtn"  ID="ButtonViewFileShare" Bounds="75, 2, 72, 24" ElemID="ButtonViewFileShare">
+      <Icon Bounds="1, 0, 24, 24" Align="Near"><![CDATA[Images\Remote\Remote_icon_sendfile.png]]></Icon>
+      <Text Bounds="25, 4, 50, 20" Align="Near" AlignV="Center"><![CDATA[文件]]></Text>
+    </XUIButton>
+    <XImagePanel ID="ButtonViewFileShareArrow" Anchor="Left|Bottom" Bounds="131, 13, 7, 4" Fill="Fit" Transparent="True" DCBuffer="False">
+      <Image><![CDATA[Images\Menu\Menu_arrow.png]]></Image>
+    </XImagePanel>
+
+    <!-- 文件管理没有实现
+    <XUIButton StyleID="DefRemoteHeaderBtn"  ID="ButtonFileMgr" Bounds="80, 1, 70, 23" ElemID="ButtonFileMgr">
+      <Text><![CDATA[文件管理]]></Text>
+    </XUIButton>
+    -->
+
+    <XUIButton Anchor="Right|Bottom" StyleID="DefRemoteHeaderBtn"  ID="ButtonOption" Bounds="150, 2, 97, 24" ElemID="ButtonOption">
+      <Icon Bounds="1, 0, 24, 24" Align="Near"><![CDATA[Images\Remote\Remote_icon_setting.png]]></Icon>
+      <Text Bounds="25, 4, 60, 20" Align="Near" AlignV="Center"><![CDATA[控制选项]]></Text>
+    </XUIButton>
+    <XImagePanel Anchor="Right|Bottom" Bounds="231, 13, 7, 4" Fill="Fit" Transparent="True" DCBuffer="False">
+      <Image><![CDATA[Images\Menu\Menu_arrow.png]]></Image>
+    </XImagePanel>
+    
+    <!-- 广告放这里 -->
+    <XUIWndObject ID="ADWnd" Bounds="270, 1, 200, H - 2" Anchor="Left|Top" Visible="False"></XUIWndObject>
+   
+    <XUIStateButton Anchor="Right|Bottom" ID="ButtonFullscreen" Bounds="W - 66, 6, 16, 16" ElemID="ButtonFullscreen" State="0" AutoSwitchState="True">
+      <State StateCount="5" Tooltip="全屏">
+        <Image><![CDATA[Images\Remote\Remote_icon_fullscreen.png]]></Image>
+      </State>
+      <State StateCount="5" Tooltip="退出全屏">
+        <Image><![CDATA[Images\Remote\Remote_icon_exitfullscreen.png]]></Image>
+      </State>
+    </XUIStateButton>
+
+    <XUIStateButton Anchor="Right|Bottom"  ID="ButtonLock" Bounds="W - 45, 6, 16, 16" ElemID="ButtonLock" State="0" AutoSwitchState="True">
+      <State StateCount="5" Tooltip="锁定工具条">
+        <Image><![CDATA[Images\Remote\Remote_icon_unlock.png]]></Image>
+      </State>
+      <State StateCount="5" Tooltip="取消锁定工具条">
+        <Image><![CDATA[Images\Remote\Remote_icon_lock.png]]></Image>
+      </State>
+    </XUIStateButton>
+
+    <XUIButton Anchor="Right|Bottom"  ID="ButtonClose" Bounds="W - 23, 6, 16, 16" ElemID="ButtonClose" StateCount="5" Tooltip="关闭远程控制" DCBuffer="False">
+      <Image><![CDATA[Images\Remote\Remote_icon_close.png]]></Image>
+    </XUIButton>
+
+  </XUIManager>
+</XWnd>

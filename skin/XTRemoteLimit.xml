@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteStateWnd" Bounds="0, 0, 330, 146" Text="远程控制" MiniSize="330, 146" OverlappedWindow="True" ThickFrame="False" BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTRemoteStateWnd" Bounds="0,0, 330, 146">
+    <!-- 纯色背景 -->
+    <XColorPanel ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <XImagePanel ID="Logo" Bounds="18, 35, 32, 32" Fill="Fit" BufferOnce="True">
+      <Image><![CDATA[Images\Common\logo_32.png]]></Image>
+    </XImagePanel>
+    <XTextPanel StyleID="DefTextSimSun" ID="LimitMsg" Bounds="65, 30, 240, 50"  Anchor="Left|Top" Color="#000000" Align="Near" MultiLine="True">
+      <![CDATA[远程控制连接超出时间限制，已自动关闭。\r\n出现该提示是由于您远程控制的计算机总数量已超出免费版限制。]]>
+    </XTextPanel>
+    <XUIHyperLink StyleID="DefHyperLinkLogin" ID="LinkKnowMore" Bounds="65, 80, 100, 18" Anchor="Left|Top" ElemID="LinkKnowMore">
+      <Text Bounds="0, 0, W, H" Dock="Fill" Color="#1604FA" Style="Underline" ColorHL="#1604FA" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Near">
+        <![CDATA[了解更多]]>
+      </Text>
+    </XUIHyperLink>
+
+    <!--按钮登录-->
+    <XUIWndObject ID="ButtonOK" Bounds="W - 100, H - 40, 80, 24" Anchor="Bottom|Right"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

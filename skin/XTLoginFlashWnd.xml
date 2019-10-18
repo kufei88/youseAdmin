@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTLoginFlashWnd" Bounds="0, 0, 400, 154" Text="XT800 个人版" MiniSize="400, 154" BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTLoginFlashWnd" Bounds="0,0, 400, 154">    
+    <!--背景图片-->
+    <XImagePanel Bounds="0, 0, W, 15" Fill="XTitle" Dock="Top">
+      <Image><![CDATA[Images\SplashWnd\Splash_bg1.png]]></Image>
+    </XImagePanel>
+    <XImagePanel Bounds="0, 15, W, H - 30" Fill="XTitle" Anchor="All">
+      <Image><![CDATA[Images\SplashWnd\Splash_bg2.png]]></Image>
+    </XImagePanel>
+    <XImagePanel Bounds="0, H - 15, W, 15" Fill="XTitle" Dock="Bottom">
+      <Image><![CDATA[Images\SplashWnd\Splash_bg3.png]]></Image>
+    </XImagePanel>
+    
+    <!--一张Logo-->
+    <XImagePanel Bounds="13, 20, 170, 110" Fill="Fit">
+      <Image><![CDATA[Images\SplashWnd\Splash_picture.png]]></Image>
+    </XImagePanel>
+    <XImagePanel Bounds="186, 34, 180, 25" Fill="Fit">
+      <Image><![CDATA[Images\SplashWnd\Logo_personal.png]]></Image>
+    </XImagePanel>
+
+    <!-- 状态提示 -->
+    <XTextPanel ID="LoginStatus" Bounds="188, 68, 200, 30"  Anchor="Left|Top|Right" FontName="新宋体" FontHeight="9" AlignV="Near" Color="#FE333333" Align="Near" DCBuffer="False" MultiLine="True">
+      <![CDATA[欢迎使用XT800，正在启动...]]>
+    </XTextPanel>
+
+    <!--分割线-->
+    <XImagePanel Bounds="14, 142, W - 28, 2" Fill="XTile" Visible="False">
+      <Image><![CDATA[Images\SplashWnd\Splash_splitline.png]]></Image>
+    </XImagePanel>
+
+    <!--网址-->
+    <XTextPanel ID="StatusText" Bounds="20, H - 24, 100, 14"  Anchor="Left|Bottom" FontName="Tahoma" FontHeight="8" AlignV="Near" Color="#FE9C9C9C" Align="Near">
+      <![CDATA[©2010 XT800.cn]]>
+    </XTextPanel>
+    
+    <!--拖动区域-->
+    <XUINcHitElem Bounds="0, 0, W, H" Dock="Fill" NCHit="Caption" />
+
+    <!--System Button-->
+    <XUIButton ID="ButtonClose" Bounds="W - 28, 10, 18, 18" ElemID="ButtonClose" StateCount="5" Anchor="Right|Top" Tooltip="关闭" SysCmdID="SC_CLOSE">
+      <Image><![CDATA[Images\Window\Window_close.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="ButtonOption" Bounds="W - 46, 10, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="设置">
+      <Image><![CDATA[Images\Window\Icon_setting.png]]></Image>
+    </XUIButton>
+      
+  </XUIManager>
+</XWnd> 

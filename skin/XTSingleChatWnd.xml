@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTOneChatWnd" Bounds="0, 0, 320, 470" Text="XTOneChatWnd" MiniSize="320, 470" OverlappedWindow="False" BigIconResID="101" SmallIconResID="138"
+      Region="4,0| W-4,0|W-3,1|W-2,1|W-1,2|W-1,3|W,4| W,H-5|W-1,H-4|W-1,H-3|W-3,H-1|W-4,H-1|W-5,H| 5,H|4,H-1|3,H-1|1,H-3|1,H-4|0,H-5| 0,4|1,3|1,2|2,1|3,1|4,0">
+  <XUIManager ID="KDTOneChatWnd" Bounds="0, 0, 320, 470">
+    <!--背景图-->
+    <XImagePanel ID="xBackground" Bounds="0, 0, W, H" Fill="Title" Dock="Fill" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_blue.png]]></Image>
+    </XImagePanel>
+    <!-- 纯色背景 -->
+    <XColorPanel Bounds="3, 33, W - 6, H - 40" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+    
+    <!--  -->
+    <XImagePanel ID="StateIcon"  Bounds="4, 8, 16, 16" Fill="Fit" Transparent="True" DCBuffer="False">
+      <Image Rect="0, 0, 16, 16"><![CDATA[Images\Common\Usrstate_round.png]]></Image>
+    </XImagePanel>
+    <!--Title-->
+    
+    <XTextPanel ID="WindowTitle" Bounds="20, 8, W - 80, 18"  Anchor="Left|Top" FontName="Tahoma" FontHeight="9" AlignV="Center" Color="#FFFFFFFF" Align="Near" Style="Bold">
+      <![CDATA[XT800 个人版]]>
+    </XTextPanel>
+
+    <!--拖动区域-->
+    <!-- NCHitTestArea Begin -->
+    <XUINcHitElem Bounds="0, 0, W, 32" Anchor="Left|Right|Top" />
+    <XUINcHitElem Bounds="W - 8, 0, 8, 8 " Anchor="Right|Top" NCHit="RightTop" />
+    <XUINcHitElem Bounds="W - 8, H - 8, 8, 8 " Anchor="Right|Bottom" NCHit="RightBottom" />
+    <XUINcHitElem Bounds="0, H - 8, 8, 8 " Anchor="Left|Bottom" NCHit="LeftBottom" />
+    <XUINcHitElem Bounds="0, 8, 4, H - 16" Anchor="Left|Bottom|Top" NCHit="Left" />
+    <XUINcHitElem Bounds="8, 0, W - 16, 4" Anchor="Right|Left|Top" NCHit="Top" />
+    <XUINcHitElem Bounds="W - 4, 8, 4, H - 16" Anchor="Right|Bottom|Top" NCHit="Right" />
+    <XUINcHitElem Bounds="8, H - 4, W - 16, 4" Anchor="Left|Right|Bottom" NCHit="Bottom" />
+    <!-- NCHitTestArea End -->
+
+    <!--SystemButton-->
+    <XUIButton ID="ButtonClose" Bounds="W - 29, 7, 18, 18" ElemID="ButtonClose" StateCount="5" Anchor="Right|Top" Tooltip="关闭" SysCmdID="SC_CLOSE">
+      <Image><![CDATA[Images\Window\Window_btn_close.png]]></Image>
+    </XUIButton>
+    <!--<XUIButton ID="ButtonMax" Bounds="W - 47, 7, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="最大化" SysCmdID="SC_MAXIMIZE">
+      <Image><![CDATA[Images\Window\Window_btn_max.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="ButtonRestore" Bounds="W - 47, 7, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="还原" SysCmdID="SC_RESTORE" Visible="False">
+      <Image><![CDATA[Images\Window\Window_btn_restore.png]]></Image>
+    </XUIButton>-->
+    <XUIButton ID="ButtonMini" Bounds="W - 47, 7, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="最小化" SysCmdID="SC_MINIMIZE">
+      <Image><![CDATA[Images\Window\Window_btn_mini.png]]></Image>
+    </XUIButton>
+   
+    <!-- 上方广告区域 -->
+    <XUIWndObject ID="ADWndTop" Bounds="3, 35, W - 6, 40" Anchor="Right|Left|Bottom" Visible="False"></XUIWndObject>
+
+    <!-- 聊天功能区域 -->
+    <XUIContainer Bounds="0, 33, W, H - 35" Anchor="All">
+      <!-- MenuBar 区域背景 -->
+      <XImagePanel ID="MenuBarBG" Bounds="3, 0, W - 6, 31" Anchor="Top|Left|Right" Fill="XTile" FastBit="True">
+        <Image><![CDATA[Images\Chat\Toolbar_bg.png]]></Image>
+      </XImagePanel>
+      
+      <!-- Extend button -->
+      <XUIButton StyleID="DefRemoteHeaderBtn"  ID="ButtonRemote" Bounds="8, 2, 72, 26" ElemID="ButtonRemote">
+        <Icon Bounds="1, 1, 24, 24" Align="Near"><![CDATA[Images\Chat\Icon_remote.png]]></Icon>
+        <Text Bounds="26, 3, W - 38, H - 4" Align="Near"><![CDATA[远控]]></Text>
+      </XUIButton>
+      <XImagePanel Bounds="65, 13, 7, 4" Fill="Fit" Transparent="True" DCBuffer="False">
+        <Image><![CDATA[Images\Menu\Menu_arrow.png]]></Image>
+      </XImagePanel>
+
+      <XUIButton StyleID="DefRemoteHeaderBtn"  ID="ButtonFile" Bounds="82, 2, 72, 26" ElemID="ButtonFile">
+        <Icon Bounds="1, 1, 24, 24" Align="Near"><![CDATA[Images\Chat\Icon_sendfile.png]]></Icon>
+        <Text Bounds="26, 3, W - 38, H - 4" Align="Near"><![CDATA[文件]]></Text>
+      </XUIButton>
+      <XImagePanel Bounds="139, 13, 7, 4" Fill="Fit" Transparent="True" DCBuffer="False">
+        <Image><![CDATA[Images\Menu\Menu_arrow.png]]></Image>
+      </XImagePanel>
+      <XUIButton StyleID="DefRemoteHeaderBtn"  ID="ButtonScreenShot" Bounds="156, 2, 60, 26" ElemID="ButtonScreenShot" Anchor="Top|Left">
+        <Icon Bounds="1, 1, 24, 24" Align="Near"><![CDATA[Images\Chat\Icon_screenshot.png]]></Icon>
+        <Text Bounds="26, 3, W - 26, H - 4" Align="Near"><![CDATA[截屏]]></Text>
+      </XUIButton>
+
+      <XUIButton StyleID="DefRemoteHeaderBtn"  ID="ButtonMore" Bounds="W - 80, 2, 72, 26" ElemID="ButtonMore" Anchor="Top|Right">
+        <Icon Bounds="1, 1, 24, 24" Align="Near"><![CDATA[Images\Chat\Icon_chat.png]]></Icon>
+        <Text Bounds="26, 3, W - 38, H - 4" Align="Near"><![CDATA[更多]]></Text>
+      </XUIButton>
+      <XImagePanel Bounds="W - 23, 13, 7, 4" Fill="Fit" Transparent="True" DCBuffer="False" Anchor="Top|Right">
+        <Image><![CDATA[Images\Menu\Menu_arrow.png]]></Image>
+      </XImagePanel>
+
+      <!--输出的Edit-->
+      <XUIWndObject ID="WndMsgOutput" Bounds="4, 32, W - 8, H - 83" Anchor="All"></XUIWndObject>
+
+      <!--输入的Eidt-->
+      <XUIContainer ID="InputArea" Bounds="3, H - 49, W - 6, 48" Anchor="Bottom|Left|Right">
+        <XImagePanel Bounds="0, H - 5, W, 5" Fill="XTitle" Transparent="True" DCBuffer="False" Anchor="Bottom|Left|Right">
+          <Image><![CDATA[Images\Chat\Bg_chat_input_2.png]]></Image>
+        </XImagePanel>
+        <XColorPanel Bounds="0, 0, W, H - 5" Anchor="All" Color="#C8D7F4"></XColorPanel>
+        <XColorPanel Bounds="4, 4, W - 8, 40" Anchor="All"  Color="#A3B6D8"></XColorPanel>
+        <XUIWndObject ID="WndMsgInput" Bounds="5, 5, W - 10, 38" Anchor="All"></XUIWndObject>
+      </XUIContainer>
+    </XUIContainer>
+    
+    <!-- 下方广告区域 -->
+    <XUIWndObject ID="ADWndBottom" Bounds="3, H - 25, W - 6, 20" Anchor="Right|Left|Bottom" Visible="False"></XUIWndObject>
+    
+  </XUIManager>
+</XWnd>

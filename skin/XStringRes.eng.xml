@@ -1,0 +1,2141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XResources>
+  <!-- Text resources definition -->
+  <Texts AlwaysLoad="True">
+
+    <!-- XSkin resources start -->
+    <Text ID="xString_SYS_CLOSE"><![CDATA[Close]]></Text>
+    <Text ID="xString_SYS_MIN"><![CDATA[Min]]></Text>
+    <Text ID="xString_SYS_MAX"><![CDATA[Max]]></Text>
+    <Text ID="xString_SYS_RESTORE"><![CDATA[Restore]]></Text>
+    <Text ID="xString_CHAT_001"><![CDATA[XT800 Quick Support]]></Text>
+    <Text ID="xString_CHAT_002"><![CDATA[Remote]]></Text>
+    <Text ID="xString_CHAT_003"><![CDATA[File]]></Text>
+    <Text ID="xString_CHAT_004"><![CDATA[Shot]]></Text>
+    <Text ID="xString_CHAT_005"><![CDATA[More]]></Text>
+    <Text ID="xString_SLWTITLE"><![CDATA[Account bind]]></Text>
+    <Text ID="xString_SLW001"><![CDATA[Enter account to be bound:]]></Text>
+    <Text ID="xString_SLW002"><![CDATA[Password]]></Text>
+    <Text ID="xString_RVFTITLE"><![CDATA[XT800 Remote control]]></Text>
+    <Text ID="xString_RVF001"><![CDATA[XT800 Remote control]]></Text>
+    <Text ID="xString_RSTATTITLE"><![CDATA[Remote control]]></Text>
+    <Text ID="xString_RSTAT001"><![CDATA[Current status:]]></Text>
+    <Text ID="xString_RSTAT002"><![CDATA[Enter remote computer access auth code:]]></Text>
+    <Text ID="xString_RREQTITLE"><![CDATA[Auth code verification]]></Text>
+    <Text ID="xString_RREQ001"><![CDATA[Enter remote computer access auth code:]]></Text>
+    <Text ID="xString_RLMTTITLE"><![CDATA[Remote control]]></Text>
+    <Text ID="xString_RLMT001"><![CDATA[Remote control time out and auto closed.\r\n This appears when you have more remote control PCs than the max. num that a free version supports.]]></Text>
+    <Text ID="xString_RLMT002"><![CDATA[More]]></Text>
+    <Text ID="xString_RHW001"><![CDATA[Session]]></Text>
+    <Text ID="xString_RHW002"><![CDATA[File]]></Text>
+    <Text ID="xString_RHW003"><![CDATA[Control options]]></Text>
+    <Text ID="xString_RHW004"><![CDATA[Full screen]]></Text>
+    <Text ID="xString_RHW005"><![CDATA[Quit]]></Text>
+    <Text ID="xString_RHW006"><![CDATA[Lock toolbar]]></Text>
+    <Text ID="xString_RHW007"><![CDATA[Unlock toolbar]]></Text>
+    <Text ID="xString_RHW008"><![CDATA[Close remote control]]></Text>
+    <Text ID="xString_RFMTITLE"><![CDATA[Remote file management]]></Text>
+    <Text ID="xString_RFM001"><![CDATA[File-sharing]]></Text>
+    <Text ID="xString_RLW001"><![CDATA[Remote computer:]]></Text>
+    <Text ID="xString_RLW002"><![CDATA[Refresh]]></Text>
+    <Text ID="xString_RLW003"><![CDATA[Delete]]></Text>
+    <Text ID="xString_RLW004"><![CDATA[New folder]]></Text>
+    <Text ID="xString_RLW005"><![CDATA[Up]]></Text>
+    <Text ID="xString_RLW006"><![CDATA[Back to desktop]]></Text>
+    <Text ID="xString_QSTITLE"><![CDATA[Waiting service]]></Text>
+    <Text ID="xString_QS001"><![CDATA[Is requesting for Agent...]]></Text>
+    <Text ID="xString_QS002"><![CDATA[May access to self-service via  .]]></Text>
+    <Text ID="xString_QS003"><![CDATA[Knowledge base]]></Text>
+    <Text ID="xString_NWTITLE"><![CDATA[Prompt message]]></Text>
+    <Text ID="xString_NW001"><![CDATA[Prompt message]]></Text>
+    <Text ID="xString_NW002"><![CDATA[Accept]]></Text>
+    <Text ID="xString_NW003"><![CDATA[Continue]]></Text>
+    <Text ID="xString_NW004"><![CDATA[Save as]]></Text>
+    <Text ID="xString_NW005"><![CDATA[Reject]]></Text>
+    <Text ID="xString_NW006"><![CDATA[Add to my contacts]]></Text>
+    <Text ID="xString_TITL001"><![CDATA[XT800 Quick Support]]></Text>
+    <Text ID="xString_SYS_SETTINGS"><![CDATA[Settings]]></Text>
+    <Text ID="xString_LW001"><![CDATA[Query knowledge base]]></Text>    
+    <Text ID="xString_LW002"><![CDATA[Disconnect current remote control connection]]></Text>
+    <Text ID="xString_LW003"><![CDATA[Log back into XT]]></Text>
+    <Text ID="xString_LW004"><![CDATA[Initiate a request for help]]></Text>
+    <Text ID="xString_LW005"><![CDATA[Modify auth code]]></Text>
+    <Text ID="xString_LW006"><![CDATA[Relogin]]></Text>
+    <Text ID="xString_LW007"><![CDATA[Welcome to use XT800 Quick Support. Starting...]]></Text>
+    <Text ID="xString_LW008"><![CDATA[Request help]]></Text>
+    <Text ID="xString_LW009"><![CDATA[Disconnect]]></Text>
+    <Text ID="xString_LW010"><![CDATA[Already connected...]]></Text>
+    <Text ID="xString_LFLW001"><![CDATA[Refresh]]></Text>
+    <Text ID="xString_LFLW002"><![CDATA[Delete]]></Text>
+    <Text ID="xString_LFLW003"><![CDATA[New folder]]></Text>
+    <Text ID="xString_LFLW004"><![CDATA[Up]]></Text>
+    <Text ID="xString_LFLW005"><![CDATA[Back to desktop]]></Text>
+    <Text ID="xString_HIS001"><![CDATA[History]]></Text>    
+    <Text ID="xString_HIS002"><![CDATA[Search]]></Text>    
+    <Text ID="xString_HIS003"><![CDATA[Refresh]]></Text>
+    <Text ID="xString_HIS005"><![CDATA[Delete]]></Text>
+    <Text ID="xString_HIS006"><![CDATA[Contact]]></Text>
+    <Text ID="xString_FS001"><![CDATA[File-sharing]]></Text>
+    <Text ID="xString_FS001"><![CDATA[Back to root directory]]></Text>
+    <Text ID="xString_FS002"><![CDATA[Back]]></Text>
+    <Text ID="xString_FS003"><![CDATA[Forward]]></Text>
+    <Text ID="xString_FS004"><![CDATA[Up]]></Text>
+    <Text ID="xString_FS005"><![CDATA[Download]]></Text>
+    <Text ID="xString_FS006"><![CDATA[Refresh]]></Text>
+    <Text ID="xString_FS007"><![CDATA[Display mode]]></Text>
+    <Text ID="xString_FS008"><![CDATA[Type: Unknown  Size: Unknown  Date Modified: Unknown]]></Text>
+    <Text ID="xString_FTU001"><![CDATA[File transfer manager]]></Text>
+    <Text ID="xString_FTU002"><![CDATA[File transfer manager]]></Text>
+    <Text ID="xString_FTU003"><![CDATA[Start]]></Text>
+    <Text ID="xString_FTU004"><![CDATA[Delete]]></Text>
+    <Text ID="xString_CON001"><![CDATA[Suspended]]></Text>
+    <Text ID="xString_CON002"><![CDATA[Aside]]></Text>
+    <Text ID="xString_CON003"><![CDATA[Add Contact]]></Text>
+    <Text ID="xString_CON004"><![CDATA[Start text conversation]]></Text>
+    <Text ID="xString_CON005"><![CDATA[Send file]]></Text>
+    <Text ID="xString_CON006"><![CDATA[View shared files]]></Text>
+    <Text ID="xString_CON007"><![CDATA[Start remote control]]></Text>
+    <Text ID="xString_COL001"><![CDATA[Add contact]]></Text>
+    <Text ID="xString_COL002"><![CDATA[You have more contacts than the free version supports.]]></Text>
+    <Text ID="xString_COL003"><![CDATA[Learn more]]></Text>
+    <Text ID="xString_AUTH001"><![CDATA[Auth code verification]]></Text>
+    <Text ID="xString_AUTH002"><![CDATA[Enter remote computer access auth code:]]></Text>
+    <Text ID="xString_VIPNWTITLE"><![CDATA[System tips]]></Text>
+    <Text ID="xString_APN_001"><![CDATA[No service assistant available,]]></Text>
+    <Text ID="xString_APN_002"><![CDATA[Click to add]]></Text>
+    <Text ID="xString_MYID"><![CDATA[My ID:]]></Text>
+    <Text ID="xString_MYPWD"><![CDATA[Password:]]></Text>
+
+    <!-- XSkin Resources End -->
+
+    <Text ID="XT800">
+      <![CDATA[XT800 Quick Support]]>
+    </Text>
+
+    <!--Login status description-->
+    <Text ID="Login_State_Welcome">
+      <![CDATA[Welcome to use XT800, please login]]>
+    </Text>
+    <Text ID="Login_State_Logining">
+      <![CDATA[Logging ...]]>
+    </Text>
+    <Text ID="Login_State_Logined">
+      <![CDATA[Login successfully, ready to connect...]]>
+    </Text>
+    <Text ID="Login_State_Get_Info">
+      <![CDATA[Get Info...]]>
+    </Text>
+    <Text ID="Login_State_Loginout">
+      <![CDATA[User has logged out. \r\n Please login again.]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin">
+      <![CDATA[Network outages, \r\n will auto re-login in %s...]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin_Timeout">
+      <![CDATA[Login timeout, \r\n will auto re-login in %s...]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin_MREG">
+      <![CDATA[Registration error, \r\n will auto re-register in %s...]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin_NAS">
+      <![CDATA[Login error, \r\n will auto re-login in %s...]]>
+    </Text>
+
+    <Text ID="Login_Remote_State_Invited">
+      <![CDATA[has invited %s to control your PC, waiting for confirmation...]]>
+    </Text>
+    <Text ID="Login_Remote_State_Accept">
+      <![CDATA[has been certified, is trying to connect...]]>
+    </Text>
+
+    <Text ID="MREG_Login_Register">
+      <![CDATA[is registering...]]>
+    </Text>
+    <Text ID="MREG_Login_Register_Succeed">
+      <![CDATA[Registered successfully]]>
+    </Text>
+
+    <Text ID="NAS_Login_State_Getting">
+      <![CDATA[Get server address...]]>
+    </Text>
+    <Text ID="NAS_Login_State_Ping">
+      <![CDATA[Test server speed...]]>
+    </Text>
+    <Text ID="NAS_Login_State_Complete">
+      <![CDATA[Login XT800 server...]]>
+    </Text>
+    <Text ID="Error_License">
+      <![CDATA[Authorization error]]>
+    </Text>
+    <Text ID="Login_Error_License_Error">
+      <![CDATA[without a valid license or license has expired, please contact your service provider]]>
+    </Text>
+    <Text ID="Login_Error_Bind_Address_Error">
+      <![CDATA[This account is not allowed to log on at this computer. Contact your service provider. ]]>
+    </Text>
+
+    <Text ID="State_Online">
+      <![CDATA[Online]]>
+    </Text>
+    <Text ID="State_Away">
+      <![CDATA[Away]]>
+    </Text>
+    <Text ID="State_Busy">
+      <![CDATA[Busy]]>
+    </Text>
+    <Text ID="State_Offline">
+      <![CDATA[Offline]]>
+    </Text>
+    <Text ID="State_Locked">
+      <![CDATA[Locked]]>
+    </Text>
+
+    <!--Login error description-->
+    <Text ID="Login_Error">
+      <![CDATA[Login error!]]>
+    </Text>
+    <Text ID="Login_Error_Input_ID">
+      <![CDATA[Enter your login ID]]>
+    </Text>
+    <Text ID="Login_Error_Input_ID_Error">
+      <![CDATA[Login ID format error]]>
+    </Text>
+    <Text ID="Login_Error_Input_PWD">
+      <![CDATA[Enter your login password]]>
+    </Text>
+
+    <Text ID="Login_Error_Hostunreach">
+      <![CDATA[Network unavailable. Make sure the network is available.]]>
+    </Text>
+    <Text ID="Login_Error_Timeout">
+      <![CDATA[Login timeout]]>
+    </Text>
+    <Text ID="Login_Error_Unauthorized">
+      <![CDATA[Unauthorized]]>
+    </Text>
+    <Text ID="Login_Error_Unauthorized2">
+      <![CDATA[Unauthorized. Try again.]]>
+    </Text>
+    <Text ID="Login_Error_ConnectAbout">
+      <![CDATA[Connection about]]>
+    </Text>
+    <Text ID="Login_Error_Kick">
+      <![CDATA[Kicked]]>
+    </Text>
+    <Text ID="Login_Error_Kick_MsgBox">
+      <![CDATA[Current account logged on in another computer.]]>
+    </Text>
+
+    <Text ID="NAS_Login_Error_Decrypt">
+      <![CDATA[NAS decryption failed]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Invalid">
+      <![CDATA[NAS invalid data]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Srv_Invalid">
+      <![CDATA[NAS invalid server returning address]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Retry_Limit">
+      <![CDATA[NAS connection failed]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Connect_Failed">
+      <![CDATA[NAS connection failed]]>
+    </Text>
+    <Text ID="Login_Error_Setting_File">
+      <![CDATA[Setting file error. Re-install the software. ]]>
+    </Text>
+
+    <Text ID="MREG_ERROR_ECRYPT_FAILED">
+      <![CDATA[Network initialization error (-1). Try to restart the software. ]]>
+    </Text>
+    <Text ID="MREG_ERROR_DATA_INVALID">
+      <![CDATA[Network initialization error (-2). Try to restart the software. ]]>
+    </Text>
+    <Text ID="MREG_ERROR_USR_DATA_INVALID">
+      <![CDATA[Network initialization error (-3). Try to restart the software. ]]>
+    </Text>
+    <Text ID="MREG_ERROR_RET_ERROR">
+      <![CDATA[Network initialization error (0). Try to restart the software. ]]>
+    </Text>
+    <Text ID="MREG_ERROR_RETRY_LIMIT">
+      <![CDATA[Retry limit]]>
+    </Text>
+    <Text ID="MREG_ERROR_CONNECT_FAILED">
+      <![CDATA[Network initialization error (1). Check the network connection. ]]>
+    </Text>
+
+    <!--Remote control-->
+    <Text ID="XTRemote">
+      <![CDATA[Remote control]]>
+    </Text>
+    <Text ID="RemoteControlNotify">
+      <![CDATA[%s is accessing your computer. Press Ctrl + Alt + Esc to close the current connection.]]>
+    </Text>
+    <Text ID="Remote_Query_Control">
+      <![CDATA[Control the other computer via an authorization code]]>
+    </Text>
+    <Text ID="Remote_Query_Monitor">
+      <![CDATA[View the other computer via an authorization code]]>
+    </Text>
+    <Text ID="Remote_Share_Desktop">
+      <![CDATA[Invite the other to control my computer]]>
+    </Text>
+    <Text ID="Remote_File_Mgr">
+      <![CDATA[File transfer and management]]>
+    </Text>
+    <Text ID="Remote_Browser_Share_File">
+      <![CDATA[Browse the other’s shared files]]>
+    </Text>
+    <Text ID="Remote_Start_Connect">
+      <![CDATA[Start connection]]>
+    </Text>
+    <Text ID="Remote_Connect_Permission">
+      <![CDATA[Allow others to control my computer]]>
+    </Text>
+    <Text ID="Remote_Operator_Sep">
+      <![CDATA[--------------]]>
+    </Text>
+    <Text ID="Remote_Operator_Clear_History">
+      <![CDATA[Clear history]]>
+    </Text>
+    <Text ID="Remote_Control_Release">
+      <![CDATA[Remote control released]]>
+    </Text>
+    <Text ID="Remote_Control_Noanwser">
+      <![CDATA[No answer. Request is auto canceled. Please try again later.]]>
+    </Text>
+    <Text ID="Remote_Control_Confirm">
+      <![CDATA[Invite for remote control? Please confirm. ]]>
+    </Text>
+    <Text ID="Remote_Already_Start">
+      <![CDATA[Already in remote connection. Upgrade to VIP for multi-point simultaneous remote connection.]]>
+    </Text>
+    <Text ID="Remote_Control_Disconnect">
+      <![CDATA[Remote control disconnected. ]]>
+    </Text>
+    <Text ID="Remote_Control_Session_End">
+      <![CDATA[Windows session is interrupted, please retry later.]]>
+    </Text>
+    <Text ID="Remote_Control_Usr_Disconnect">
+      <![CDATA[Remote control is disconnected.]]>
+    </Text>
+    <Text ID="Remote_Input_Contactor_UID">
+      <![CDATA[Enter contactor's ID]]>
+    </Text>
+
+    <Text ID="Remote_Error_Invalid_Password">
+      <![CDATA[Invalid password!]]>
+    </Text>
+    <Text ID="Remote_Error_Unauthorized">
+      <![CDATA[Unauthorized!]]>
+    </Text>
+    <Text ID="Remote_Error_Maxconnect">
+      <![CDATA[Already in remote connection. Request the other to upgrade to VIP for multi-point simultaneous remote connection.]]>
+    </Text>
+    <Text ID="Remote_Error_RDP_Exists">
+      <![CDATA[The other’s computer is in Windows remote desktop connection %s. Log off and disconnect it and try XT800 for remote control.]]>
+    </Text>
+    <Text ID="Remote_Error_No_Console">
+      <![CDATA[No valid remote desktop session. Remote control session has ended. Try again.]]>
+    </Text>
+    <Text ID="Remote_Error_Session_Zero_Disconnect">
+      <![CDATA[Remote Windows desktop session is disconnected. Remote control session has ended. Try again.]]>
+    </Text>
+    <Text ID="Remote_Error_Session_Zero_Disconnect_0">
+      <![CDATA[Remote control session has ended as another user has connected to this computer via Windows remote desktop. Your connection has been lost. Try to connect again.]]>
+    </Text>
+    <Text ID="Remote_Error_Forbid">
+      <![CDATA[Remote control forbidden!]]>
+    </Text>
+    <Text ID="Remote_Error_Server_Locked">
+      <![CDATA[Server locked!]]>
+    </Text>
+    <Text ID="Remote_Request_Denied">
+      <![CDATA[Request denied!]]>
+    </Text>
+    <Text ID="Remote_Connection_Limited">
+      <![CDATA[Connection limited!]]>
+    </Text>
+    <Text ID="Remote_Connection_Overtime">
+      <![CDATA[Timeout, connection interrupted! ]]>
+    </Text>
+
+    <Text ID="Remote_Limit_Default_Msg">
+      <![CDATA[Remote control connection timeout and is auto closed. \r\n As you have more remote control PCs than the Num the free version supports.]]>
+    </Text>
+    
+    <Text ID="Remote_Disconnect_Default_Msg">
+      <![CDATA[这是由协之通XT800提供的免费远程控制。\r\n只能用于非商业用途。\r\n想要体验快速、无限制的远程控制，请升级为VIP。\r\n  \r\n感谢您的支持！]]>
+    </Text>
+
+    <Text ID="Idel_Auto_Disconnect">
+      <![CDATA[Idle time too long, remote disconnected]]>
+    </Text>
+
+    <Text ID="User_Identify">
+      <![CDATA[(User identity:]]>
+    </Text>
+
+    <Text ID="Cannot_Be_Acessed">
+      <![CDATA[Cannot be accessed!]]>
+    </Text>
+
+    <!--Chat-->
+    <Text ID="Chat_Default_Input_Text">
+      <![CDATA[Press Enter to send the message]]>
+    </Text>
+
+    <Text ID="Msg_Multi_Send">
+      <![CDATA[[Mass message]: ]]>
+    </Text>
+
+    <Text ID="Service_Divert_Msg_Wait_Confirm">
+      <![CDATA[Has transferred request of %s|%s|%s|%s| to %s, waiting for confirmation...]]>
+    </Text>
+
+    <Text ID="Service_Divert_Msg_Notify">
+      <![CDATA[%s(%s) has transferred request of %s|%s|%s|%s| to you, please %s|%s|%s|accept|, or %s|%s|%s|deny|.]]>
+    </Text>
+
+    <Text ID="Agent_Will_Be_Service_Notify">
+      <![CDATA[Agent %s|%s|%s|%s| will be at your service. Click %s|%s|%s|here| to request for help]]>
+    </Text>
+
+    <Text ID="Service_Divert_Request_Notify">
+      <![CDATA[Accept service transfer request for %s|%s|%s|%s|.]]>
+    </Text>
+
+    <Text ID="Agent_Accept_Service_Divert_Notify">
+      <![CDATA[%s has accepted service transfer request for %s|%s|%s|%s|.]]>
+    </Text>
+
+    <Text ID="Service_Divert_Accepted_Notify">
+      <![CDATA[Hello, %s|%s|%s|%s| has transferred your request to me. I am at your service.]]>
+    </Text>
+
+    <Text ID="Deny_Service_Divert_Request">
+      <![CDATA[Deny service transfer request for %s|%s|%s|%s|.]]>
+    </Text>
+
+    <Text ID="Service_Divert_Request_Denied_Notify">
+      <![CDATA[%s has accepted service transfer request for %s|%s|%s|%s|.]]>
+    </Text>
+
+    <Text ID="Missing_ScreenShot_Part">
+      <![CDATA[screenshot program is missing, unable to complete screenshot, please re-install the software.]]>
+    </Text>
+
+    <Text ID="Same_Task_Exists">
+      <![CDATA[Same task exists.]]>
+    </Text>
+
+    <!--Generic error-->
+    <Text ID="Error_No_Contactor">
+      <![CDATA[Enter the account you want to connect. ]]>
+    </Text>
+    <Text ID="Error_No_Self_Opt">
+      <![CDATA[Can not be self operated remotely.]]>
+    </Text>
+    <Text ID="Error_Share_No_Access">
+      <![CDATA[No "Authorized User" selected or no "Unauthorized User Access Code" set, and thus no user may access this shared folder.]]>
+    </Text>
+    <Text ID="Error_Nick_Over_Size">
+      <![CDATA[Your nickname is too long. Do not exceed 30 words.]]>
+    </Text>
+    <Text ID="Error_Visit_No_Access">
+      <![CDATA[No "Authorized User" selected and thus no user may connect remotely to this computer.]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Must_Confirm">
+      <![CDATA[Inconsistent auth codes. Please try again]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Empty">
+      <![CDATA[Private auth codes can not be empty]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Short">
+      <![CDATA[Private auth codes can not be less than 6 characters]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Long">
+      <![CDATA[Private auth code can not exceed 24 characters]]>
+    </Text>
+
+    <Text ID="Error_Low_Ver_For_Shutdown">
+      <![CDATA[XT program in remote PC is too low. It does not support remote shutdown. Needs to upgrade to the latest version.]]>
+    </Text>
+    <Text ID="Error_Low_Ver_For_Reboot">
+      <![CDATA[XT program in remote PC is too low. It does not support remote reboot. Needs to upgrade to the latest version.]]>
+    </Text>
+    <Text ID="Error_Low_Ver_For_Terminate">
+      <![CDATA[XT program in remote PC is too low. It does not support remote process termination. Needs to upgrade to the latest version.]]>
+    </Text>
+
+    <Text ID="Error_Corp_SN_Bind_Limit">
+      <![CDATA[Reached limit for free version, unable to bind to corpation.]]>
+
+    </Text>
+
+    <!--General Tips-->
+    <Text ID="Notify_Clear_Remote_Con_History">
+      <![CDATA[Are you sure you want to clear the history?]]>
+    </Text>
+    <Text ID="Notify_Add_Friend_Msg_Send">
+      <![CDATA[Already sent request for adding contact]]>
+    </Text>
+    <Text ID="Notify_No_Unlock_Password">
+      <![CDATA[You have not set the unlock password. Click OK to set.]]>
+    </Text>
+
+    <!--FolderShare Tips-->
+    <Text ID="Folder_Share_Error_Same_Name">
+      <![CDATA[A shared folder with the same name already exists. Please use another share name.]]>
+    </Text>
+    <Text ID="Folder_Share_Error_Path_Exists">
+      <![CDATA[This folder has been shared. Please choose another folder.]]>
+    </Text>
+
+    <!--Corresponding link-->
+    <!--Visit the website-->
+    <Text ID="Link_Help_HomePage">
+      <![CDATA[/rd?pid=1]]>
+    </Text>
+
+    <!--Registered users-->
+    <Text ID="Link_Register">
+      <![CDATA[http://api.xt800.cn/api/rd?pid=2]]>
+    </Text>
+
+    <!--Password settings-->
+    <Text ID="Link_Account_PWD">
+      <![CDATA[/rd?pid=3]]>
+    </Text>
+
+    <!--Forgot password-->
+    <Text ID="Link_Forget_PWD">
+      <![CDATA[http://api.xt800.cn/api/rd?pid=4]]>
+    </Text>
+
+    <!--Account Info-->
+    <Text ID="Link_Account_Info">
+      <![CDATA[/rd?pid=5]]>
+    </Text>
+
+    <!--Account and password settings-->
+    <Text ID="Link_Account_Setting">
+      <![CDATA[/rd?pid=6]]>
+    </Text>
+
+    <!--Contents and index-->
+    <Text ID="Link_Help_Index">
+      <![CDATA[/rd?pid=10]]>
+    </Text>
+
+    <!--Feedback-->
+    <Text ID="Link_Help_Feedback">
+      <![CDATA[/rd?pid=11]]>
+    </Text>
+
+    <!--Admin-->
+    <Text ID="Link_Help_Mgr">
+      <![CDATA[/rd?pid=16]]>
+    </Text>
+
+    <!--Add contacts limit is reached. Learn more-->
+    <Text ID="Link_Contactor_Limit_Know_More">
+      <![CDATA[/rd?pid=12]]>
+    </Text>
+
+    <!--"Learn more" on remote PC-->
+    <Text ID="Line_Remote_Know_More">
+      <![CDATA[/rd?pid=13]]>
+    </Text>
+
+    <!--Remote connection time limit is reached. Auto shut down. Relevant help-->
+    <Text ID="Line_Remote_Limit_Know_More">
+      <![CDATA[/rd?pid=14]]>
+    </Text>
+
+    <!--File sharing limit is reached. Relevant help-->
+    <Text ID="Line_FolderShare_Limit_Know_More">
+      <![CDATA[/rd?pid=15]]>
+    </Text>
+
+    <!-- Remote service help records -->
+    <Text ID="Link_Assist_History">
+      <![CDATA[/rd?pid=16]]>
+    </Text>
+
+    <!-- Remote service help records -->
+    <Text ID="Link_Shortcut_Setting">
+      <![CDATA[/rd?pid=17]]>
+    </Text>
+
+    <!-- Buy corporate VIP services -->
+    <Text ID="Link_VIP_Buy">
+      <![CDATA[/rd?pid=19]]>
+    </Text>
+
+    <!-- Account management -->
+    <Text ID="Link_Acount_Mgr">
+      <![CDATA[/rd?pid=20]]>
+    </Text>
+
+    <!--Group management-->
+    <Text ID="Link_Group_Mgr">
+      <![CDATA[/rd?pid=21]]>
+    </Text>
+
+    <!--Agent relationship settings-->
+    <Text ID="Link_Client_Service_Mgr">
+      <![CDATA[/rd?pid=22]]>
+    </Text>
+
+    <!--Rapid deployment-->
+    <Text ID="Link_Q_Deploy">
+      <![CDATA[/rd?pid=23]]>
+    </Text>
+
+    <!--Send message broadcast-->
+    <Text ID="Link_Broadcast">
+      <![CDATA[/rd?pid=24]]>
+    </Text>
+
+    <!-- View process instant info of remote PC-->
+    <Text ID="Link_SysInfo_Process">
+      <![CDATA[/rd?pid=25]]>
+    </Text>
+
+    <!-- View Install instant info of remote PC -->
+    <Text ID="Link_SysInfo_Install">
+      <![CDATA[/rd?pid=26]]>
+    </Text>
+
+    <!-- View Window instant info of remote PC -->
+    <Text ID="Link_SysInfo_Window">
+      <![CDATA[/rd?pid=27]]>
+    </Text>
+
+    <!-- Rapid deployment page -->
+    <Text ID="Link_Quick_Deploy">
+      <![CDATA[/rd?pid=28]]>
+    </Text>
+
+    <!-- Personal register -->
+    <Text ID="Link_P_REG">
+      <![CDATA[/rd?pid=29]]>
+    </Text>
+
+    <!-- Personal forgotten -->
+    <Text ID="Link_P_RETRIEVAL">
+      <![CDATA[/rd?pid=30]]>
+    </Text>
+
+    <!-- My account -->
+    <Text ID="Link_My_Account">
+      <![CDATA[/rd?pid=31]]>
+    </Text>
+
+    <!--Corresponding link End-->
+
+    <Text ID="Remote_File_Ftp">
+      <![CDATA[Remote file management]]>
+    </Text>
+
+    <!--Delete files and folders-->
+    <Text ID="Affirm_Del_File">
+      <![CDATA[Are you sure you want to delete the file "%s"?]]>
+    </Text>
+
+    <Text ID="Affirm_Del_Msg_Prompt">
+      <![CDATA[Confirmed]]>
+    </Text>
+
+    <Text ID="Affirm_Del_Folder">
+      <![CDATA[You sure you want to delete the folder "%s" and all contents in it?]]>
+    </Text>
+
+    <Text ID="Del_File_Folder_Error">
+      <![CDATA[Unable to delete "%s" as file is being used by another person or program. %s close all programs using this file and try again]]>
+    </Text>
+
+    <Text ID="Del_File_Folder_Msg_Prompt">
+      <![CDATA[An error occurred while deflecting the file or folder]]>
+    </Text>
+
+    <Text ID="Rename_File_Error">
+      <![CDATA[Unable to rename "%s" as file is being used by another person or program. %s close all programs using this file and try again]]>
+    </Text>
+
+    <Text ID="Rename_File_Error_Msg_Prompt">
+      <![CDATA[An error occurred while renaming the file or foler]]>
+    </Text>
+
+    <!-- Remote file management -->
+    <Text ID="Remote_File_Up">
+      <![CDATA[Upload>>]]>
+    </Text>
+
+    <Text ID="Remote_File_Down">
+      <![CDATA[Download<<]]>
+    </Text>
+
+    <Text ID="Remote_File_Window_title">
+      <![CDATA[Remote file management]]>
+    </Text>
+
+    <Text ID="Remote_File_ATTR_name">
+      <![CDATA[Name]]>
+    </Text>
+
+    <Text ID="Remote_File_ATTR_size">
+      <![CDATA[Size]]>
+    </Text>
+
+    <Text ID="Remote_File_ATTR_type">
+      <![CDATA[Type]]>
+    </Text>
+
+    <!-- Upgrade -->
+    <Text ID="Update_Tray_Text">
+      <![CDATA[XT800 Upgrade]]>
+    </Text>
+
+    <!--Common Info-->
+    <Text ID="Common_Invite_User">
+      <![CDATA[Hello, \r\n please download and start remote helper XT800 free version: \r\nhttp://www.xt800.cn/download/latest?t=p&l=c\r\n\r\n----\r\nwww.xt800.cn]]>
+    </Text>
+
+    <!-- AD -->
+    <Text ID="Default_AD_Text">
+      <![CDATA[Welcome to use XT800 remote services...]]>
+    </Text>
+    <Text ID="Default_AD_Link">
+      <![CDATA[http://www.xt800.cn]]>
+    </Text>
+
+    <!-- Other copywriting -->
+    <Text ID="Input_Valid_UID">
+      <![CDATA[Enter a valid contact ID.]]>
+    </Text>
+
+    <Text ID="User_Already_In_Black_List">
+      <![CDATA[The contact already exists in the blacklist.]]>
+    </Text>
+
+    <Text ID="User_Already_In_White_List">
+      <![CDATA[The contact already exists in the whitelist.]]>
+    </Text>
+
+    <Text ID="Remote_Control">
+      <![CDATA[Remote control]]>
+    </Text>
+
+    <Text ID="Remote_Assist">
+      <![CDATA[Remote help]]>
+    </Text>
+
+    <Text ID="Sheet_Caption_Settings">
+      <![CDATA[Configuration]]>
+    </Text>
+
+    <Text ID="Input_Add_Computer">
+      <![CDATA[Enter the PC num you want to add:]]>
+    </Text>
+
+    <Text ID="Input_Add_Contactor">
+      <![CDATA[Enter the account you want to add:]]>
+    </Text>
+
+    <Text ID="Please_Input_Corret_MID">
+      <![CDATA[Enter the correct PC num (not username)!]]>
+    </Text>
+
+    <Text ID="Error_Number_Exists">
+      <![CDATA[Can not add as it is already in your list!]]>
+    </Text>
+
+    <Text ID="Error_User_Exists">
+      <![CDATA[Can not add as it is already your contact!]]>
+    </Text>
+
+    <Text ID="Error_Black_Contactor">
+      <![CDATA[Can not add as the user is in your blacklist!]]>
+    </Text>
+
+    <Text ID="Error_Self_Contactor">
+      <![CDATA[You can not add yourself as a contact!]]>
+    </Text>
+
+    <Text ID="Contactor_Limit_Notify_VIP">
+      <![CDATA[You have more contacts than that free version supports. Upgrade to VIP for unlimited num of contacts.]]>
+    </Text>
+
+    <Text ID="File_Locked_Retry">
+      <![CDATA[File is locked and can not be read. Close the relevant program and try again.]]>
+    </Text>
+
+    <Text ID="Same_Task_In_Quere">
+      <![CDATA[Can not add the same task as it is already in the queue]]>
+    </Text>
+
+    <Text ID="Select_Folder_to_Send">
+      <![CDATA[Select the folder you want to send]]>
+    </Text>
+
+    <Text ID="File_Share_">
+      <![CDATA[File sharing]]>
+    </Text>
+
+    <Text ID="Confirm_Add_to_Blacklist">
+      <![CDATA[Are you sure you want to add the contact to blacklist?]]>
+    </Text>
+
+    <Text ID="Not_Auth_to_Survey">
+      <![CDATA[No auth to initiate satisfaction survey.]]>
+    </Text>
+
+    <Text ID="s_Share_Folder">
+      <![CDATA[shared directory]]>
+    </Text>
+
+    <Text ID="Pic_Transfering">
+      <![CDATA[[Image being transmitted...]]]>
+    </Text>
+
+    <Text ID="Setting_Mode">
+      <![CDATA[(Setting mode)]]>
+    </Text>
+
+    <Text ID="Error_Can_not_Shutdown_Windows">
+      <![CDATA[Can not turn off Windows!(Error Code:%d)]]>
+    </Text>
+
+    <Text ID="Error_Key_Modual_Missing_Request_Failed">
+      <![CDATA[Critical program module is lost. Initiated request failed!"]]>
+    </Text>
+
+    <Text ID="Continue_Add">
+      <![CDATA[Continue to add]]>
+    </Text>
+
+    <Text ID="Next_Step">
+      <![CDATA[Next]]>
+    </Text>
+
+    <Text ID="Finish">
+      <![CDATA[Finish]]>
+    </Text>
+
+    <Text ID="Cancel">
+      <![CDATA[Cancel]]>
+    </Text>
+
+    <Text ID="Confirm">
+      <![CDATA[Confirm]]>
+    </Text>
+
+    <Text ID="Confirm_">
+      <![CDATA[Confirm]]>
+    </Text>
+
+    <Text ID="Exit_">
+      <![CDATA[Exit]]>
+    </Text>
+
+    <Text ID="Cancel_">
+      <![CDATA[Cancel]]>
+    </Text>
+
+    <Text ID="Close_">
+      <![CDATA[Cancel]]>
+    </Text>
+
+    <Text ID="New_Folder">
+      <![CDATA[New folder]]>
+    </Text>
+
+    <Text ID="_File">
+      <![CDATA[File]]>
+    </Text>
+
+    <Text ID="All_Files_Filter">
+      <![CDATA[All files (*.*)|*.*||]]>
+    </Text>
+
+    <Text ID="Upgrade_to_VIP">
+      <![CDATA[Upgrade to VIP]]>
+    </Text>
+
+    <Text ID="Menu_Cut">
+      <![CDATA[Cut (&T)]]>
+    </Text>
+
+    <Text ID="Menu_Copy">
+      <![CDATA[Copy (&C)]]>
+    </Text>
+
+    <Text ID="Menu_Paste">
+      <![CDATA[Paste (&P)]]>
+    </Text>
+
+    <Text ID="Menu_Sel_All">
+      <![CDATA[Select all (&A)]]>
+    </Text>
+
+    <Text ID="Menu_Clear">
+      <![CDATA[Clear screen (&S)]]>
+    </Text>
+
+    <Text ID="Menu_Reference">
+      <![CDATA[Reference (&R)]]>
+    </Text>
+
+    <Text ID="Msg_Notify">
+      <![CDATA[Message tips]]>
+    </Text>
+
+    <Text ID="Zero_Second">
+      <![CDATA[0 second]]>
+    </Text>
+
+    <Text ID="Time_Format_HMS">
+      <![CDATA[%d hours %d minutes %d seconds]]>
+    </Text>
+
+    <Text ID="Time_Format_MS">
+      <![CDATA[%d minutes %d seconds]]>
+    </Text>
+
+    <Text ID="Time_Format_S">
+      <![CDATA[%d seconds]]>
+    </Text>
+
+    <!-- Main Module text -->
+    <Text ID="Error_Commet_Too_Long">
+      <![CDATA[Note names can not exceed 32 characters.]]>
+    </Text>
+
+    <Text ID="Input_Login_ID">
+      <![CDATA[Enter your login account]]>
+    </Text>
+
+    <Text ID="Input_Passowrd">
+      <![CDATA[Enter password]]>
+    </Text>
+
+    <Text ID="Remember_My_Login_State">
+      <![CDATA[Remember my login status]]>
+    </Text>
+
+    <Text ID="Save_Password">
+      <![CDATA[Save password]]>
+    </Text>
+
+    <Text ID="Auto_login">
+      <![CDATA[Auto login]]>
+    </Text>
+
+    <Text ID="Input_Valid_ID_PWD">
+      <![CDATA[Enter a valid username and password]]>
+    </Text>
+
+    <Text ID="Msg_Invited">
+      <![CDATA[%s(Invited)]]>
+    </Text>
+
+    <Text ID="Msg_My_Machine">
+      <![CDATA[(My PC)]]>
+    </Text>
+
+    <Text ID="Unknow_Version">
+      <![CDATA[Unknown version]]>
+    </Text>
+
+    <Text ID="Ver_Enterprise">
+      <![CDATA[Enterprise edition]]>
+    </Text>
+
+    <Text ID="Ver_Service">
+      <![CDATA[Service edition]]>
+    </Text>
+
+    <Text ID="Ver_Mini">
+      <![CDATA[Remote helper]]>
+    </Text>
+
+    <Text ID="Ver_Mini_Mon">
+      <![CDATA[Remote helper (monitor version)]]>
+    </Text>
+
+    <Text ID="Ver_Personal">
+      <![CDATA[Personal edition]]>
+    </Text>
+
+    <Text ID="Ver_Web">
+      <![CDATA[Web version]]>
+    </Text>
+
+    <Text ID="Unknow_Type">
+      <![CDATA[Unknown type]]>
+    </Text>
+
+    <Text ID="Unknow_Res">
+      <![CDATA[Unknown type (%s)]]>
+    </Text>
+
+    <Text ID="Ver">
+      <![CDATA[Version:]]>
+    </Text>
+
+    <Text ID="Type">
+      <![CDATA[Type:]]>
+    </Text>
+
+    <Text ID="State_Auto_DND">
+      <![CDATA[Switch to busy when in remote control]]>
+    </Text>
+
+    <Text ID="State_Auto_Chat_DND">
+      <![CDATA[Switch to busy when in text conversation]]>
+    </Text>
+
+    <Text ID="Search_Contactor">
+      <![CDATA[Search contacts]]>
+    </Text>
+
+    <Text ID="Logout">
+      <![CDATA[Logout]]>
+    </Text>
+
+    <Text ID="My_ID">
+      <![CDATA[My ID]]>
+    </Text>
+
+    <Text ID="No_Connection">
+      <![CDATA[No connection]]>
+    </Text>
+
+    <Text ID="User_In_Control">
+      <![CDATA[Your PC is under remote control of %s. \r\n Click to interrupt remote control.]]>
+    </Text>
+
+    <Text ID="User_In_Control_2">
+      <![CDATA[Your PC is under remote control of %s(%s) \r\n Click to interrupt remote control.]]>
+    </Text>
+
+    <Text ID="Remote_Connect_Succeed">
+      <![CDATA[Remote connection succeeded]]>
+    </Text>
+
+    <Text ID="Connectino_Elapse">
+      <![CDATA[Already connected to %s]]>
+    </Text>
+
+    <Text ID="Multi_Connection_Disconnect">
+      <![CDATA[Your PC is under remote control by multiple users. \r\n Click to disconnect all.]]>
+    </Text>
+
+    <Text ID="Remote_Control_Estabished">
+      <![CDATA[Remote control established]]>
+    </Text>
+
+    <Text ID="Cancel_Request">
+      <![CDATA[Cancel request]]>
+    </Text>
+
+    <Text ID="Disconnect">
+      <![CDATA[Disconnect]]>
+    </Text>
+
+    <Text ID="Input_Info_And_Bind">
+      <![CDATA[Enter username and password for binding.]]>
+    </Text>
+
+    <Text ID="Cancel_Bind_Exit_Confirm">
+      <![CDATA[Cancel the binding and exit the program?]]>
+    </Text>
+
+    <Text ID="Cancel_Bind_Exit_Confirm_2">
+      <![CDATA[Cancel the binding and exit the program? \r\n Current account will be remembered and auto log in next time it is started.]]>
+    </Text>
+
+    <Text ID="Msg_Notify">
+      <![CDATA[Message tips]]>
+    </Text>
+
+    <Text ID="My_Share">
+      <![CDATA[My sharing]]>
+    </Text>
+
+    <Text ID="Contactor_out">
+      <![CDATA[Contacts>>]]>
+    </Text>
+
+    <Text ID="Contactor_in">
+      <![CDATA[Contacts<<]]>
+    </Text>
+
+    <Text ID="Update_Check">
+      <![CDATA[Check for update]]>
+    </Text>
+
+    <Text ID="Update_Valiable">
+      <![CDATA[Get upgrade info, click to upgrade]]>
+    </Text>
+
+    <Text ID="Update_Downloading">
+      <![CDATA[Downloading upgrades...]]>
+    </Text>
+
+    <Text ID="Check_KBS">
+      <![CDATA[Check knowledge base]]>
+    </Text>
+
+    <Text ID="_Disk_Free_">
+      <![CDATA[%s, remaining %s]]>
+    </Text>
+
+    <Text ID="Remote_Control_Machine">
+      <![CDATA[Remote control of (%s) PC:]]>
+    </Text>
+
+    <Text ID="App_Locked">
+      <![CDATA[App has been locked!]]>
+    </Text>
+
+    <Text ID="Network_Init_Failed">
+      <![CDATA[Remote server module network initialization failed (Code% d). Check the network configuration.]]>
+    </Text>
+
+    <Text ID="Remote_Module">
+      <![CDATA[Remote module]]>
+    </Text>
+
+    <Text ID="Multi_Remote_Controller_Notify">
+      <![CDATA[Currently there are %d remote controllers]]>
+    </Text>
+
+    <Text ID="Text_Chat_Closed">
+      <![CDATA[%s has closed text conversation.]]>
+    </Text>
+
+    <Text ID="Text_Chat_Closed_2">
+      <![CDATA[%s(%s) has closed text conversation.]]>
+    </Text>
+
+    <Text ID="App_Locked_Need_Unlock">
+      <![CDATA[APP locked, enter the unlock code:]]>
+    </Text>
+
+    <Text ID="Input_Password_">
+      <![CDATA[Enter your password!]]>
+    </Text>
+
+    <Text ID="Input_Password_Error">
+      <![CDATA[Password error!]]>
+    </Text>
+
+    <Text ID="Open_Clipboard_Failed">
+      <![CDATA[Failed to open the clipboard!]]>
+    </Text>
+
+    <Text ID="Opt_Clipboard_Failed">
+      <![CDATA[Failed to operate the clipboard!]]>
+    </Text>
+
+    <!-- MsgBox module -->
+    <Text ID="User_Already_Add_You_As_Contactor">
+      <![CDATA[%s(%s) has added you as a contact.]]>
+    </Text>
+
+    <Text ID="User_Already_Add_You_As_Contactor_2">
+      <![CDATA[%s has added you as a contact.]]>
+    </Text>
+
+    <Text ID="Error_Frequently_Is_High">
+      <![CDATA[Add failed. Your add operation is too frequent.]]>
+    </Text>
+
+    <Text ID="Error_Max_Contactor_Limit">
+      <![CDATA[Add failed. You have exceeded the max. contact limit.]]>
+    </Text>
+
+    <Text ID="Error_User_Not_Exists">
+      <![CDATA[Add failed. The contact you want to add does not exist.]]>
+    </Text>
+
+    <Text ID="Error_Unknown">
+      <![CDATA[Add failed for an unknown reason.]]>
+    </Text>
+
+    <Text ID="Auto_Replay_">
+      <![CDATA[[Auto reply] ]]>
+    </Text>
+
+    <Text ID="Survey">
+      <![CDATA[Questionnaire]]>
+    </Text>
+
+    <!-- Notify module -->
+
+    <Text ID="App_Locked_Denied">
+      <![CDATA[Remote PC is locked and can not accept the invitation]]>
+    </Text>
+
+    <Text ID="Denied">
+      <![CDATA[Remote control invitation is refused]]>
+    </Text>
+
+    <Text ID="State_Notify_Online">
+      <![CDATA[%s PC is online]]>
+    </Text>
+
+    <Text ID="State_Notify_Offline">
+      <![CDATA[%s PC is offline]]>
+    </Text>
+
+    <Text ID="User_Say">
+      <![CDATA[%s says:]]>
+    </Text>
+    <Text ID="User_Say_2">
+      <![CDATA[%s(%s) say:]]>
+    </Text>
+
+    <!--Queue module-->
+    <Text ID="ID">
+      <![CDATA[ID]]>
+    </Text>
+
+    <Text ID="Name">
+      <![CDATA[Name]]>
+    </Text>
+
+    <Text ID="Group">
+      <![CDATA[Group]]>
+    </Text>
+
+    <Text ID="Queue_Time">
+      <![CDATA[Queue time]]>
+    </Text>
+
+    <Text ID="Select_Valid_Agent">
+      <![CDATA[Select a valid Agent.]]>
+    </Text>
+
+    <Text ID="Agent_Accepted">
+      <![CDATA[Agent accepted]]>
+    </Text>
+
+    <Text ID="User_Request">
+      <![CDATA[User %s (%s) requests to access.]]>
+    </Text>
+
+    <!-- Remote module -->
+    <Text ID="Ask_Disconnect_Remote_Control">
+      <![CDATA[Need to disconnect the control of remote PC?]]>
+    </Text>
+
+    <Text ID="Connecting">
+      <![CDATA[Connecting...]]>
+    </Text>
+
+    <Text ID="Viewer_Only_No_Control">
+      <![CDATA[View only, no control]]>
+    </Text>
+
+    <Text ID="Password_Can_Not_Be_Empty">
+      <![CDATA[Password can not be empty!]]>
+    </Text>
+
+    <Text ID="Password_Can_Not_Too_Long">
+      <![CDATA[Password can not exceed 32 bytes!]]>
+    </Text>
+
+    <Text ID="Time_Limit_Auto_Close">
+      <![CDATA[Time limit is reached. It will be auto closed]]>
+    </Text>
+
+    <Text ID="Channel_Limit_Time_Left">
+      <![CDATA[Channel auth limit has been reached. Only %s left]]>
+    </Text>
+
+    <Text ID="Remote_Control_Connect_Config">
+      <![CDATA[Remote connection settings]]>
+    </Text>
+
+    <Text ID="Network_Error_Use_Relay">
+      <![CDATA[Network error. Try to connect using relay...]]>
+    </Text>
+
+    <Text ID="Network_Error_Use_TCP_Relay">
+      <![CDATA[Network error. Try to connect using TCP...]]>
+    </Text>
+
+    <Text ID="Auth_Accept_Connecting">
+      <![CDATA[Auth accepted. Connecting...]]>
+    </Text>
+
+    <Text ID="Wait_For_Accept">
+      <![CDATA[Wait for accepting!]]>
+    </Text>
+
+    <Text ID="Start_Remote_Control_Failed">
+      <![CDATA[Remote control request failed]]>
+    </Text>
+
+    <Text ID="User_Offline_Remote_Control_Failed">
+      <![CDATA[User client is not online. Remote control request failed!]]>
+    </Text>
+
+    <Text ID="User_Disconnect_RC">
+      <![CDATA[%s has disconnected RC.]]>
+    </Text>
+
+    <Text ID="Other_Users">
+      <![CDATA[Other users]]>
+    </Text>
+
+    <Text ID="User_Invite_Remote_Control">
+      <![CDATA[%s invites you to remotely control its PC. Accept?]]>
+    </Text>
+
+    <Text ID="User_Invite_Remote_Control_2">
+      <![CDATA[%s(%s)invites you to remotely control its PC. Accept?]]>
+    </Text>
+
+    <Text ID="User_Requet_Remote_Control">
+      <![CDATA[%s requests remote control of your computer. Accept?]]>
+    </Text>
+
+    <Text ID="User_Requet_Remote_Control_2">
+      <![CDATA[%s(%s) requests remote control of your computer. Accept?]]>
+    </Text>
+
+    <Text ID="_Connected_">
+      <![CDATA[%s has connected to %s]]>
+    </Text>
+
+    <!-- RemoteFile -->
+
+    <Text ID="My_Computer">
+      <![CDATA[My computer]]>
+    </Text>
+
+    <Text ID="My_Documents">
+      <![CDATA[My documents]]>
+    </Text>
+
+    <Text ID="File_Tips">
+      <![CDATA[%s \r\n Type: %s \r\n Size: %s \r\n Date modified: %s]]>
+    </Text>
+
+    <Text ID="File_Type_Unknown">
+      <![CDATA[Unknown]]>
+    </Text>
+
+    <Text ID="File_Type_Disk">
+      <![CDATA[Disk]]>
+    </Text>
+
+    <Text ID="File_Type_CDROM">
+      <![CDATA[CDROM]]>
+    </Text>
+
+    <Text ID="File_Type_File">
+      <![CDATA[File]]>
+    </Text>
+
+    <Text ID="File_Type_Folder">
+      <![CDATA[Folder]]>
+    </Text>
+
+    <Text ID="Error_Unable_To_Rename">
+      <![CDATA[Unable to rename "%s" as there may be a file being used. \r\n Close any program that may be using this file and try again]]>
+    </Text>
+
+    <Text ID="Error_Rename">
+      <![CDATA[An error occurred while renaming file or folder]]>
+    </Text>
+
+    <Text ID="Upload">
+      <![CDATA[Upload]]>
+    </Text>
+
+    <Text ID="Delete">
+      <![CDATA[Delete]]>
+    </Text>
+
+    <Text ID="Rename">
+      <![CDATA[Rename]]>
+    </Text>
+
+    <Text ID="New_Folder">
+      <![CDATA[New folder]]>
+    </Text>
+
+    <Text ID="Refresh">
+      <![CDATA[Refresh]]>
+    </Text>
+
+    <Text ID="Confirm_Overwrite">
+      <![CDATA[File with same name already exists in remote PC. Overwrite it?]]>
+    </Text>
+
+    <Text ID="User_Offline_Auto_Close">
+      <![CDATA[Use is offline. File management window will be closed.]]>
+    </Text>
+
+    <Text ID="Notify">
+      <![CDATA[Tips]]>
+    </Text>
+
+    <Text ID="Remote_Execute">
+      <![CDATA[Remotely execute the file]]>
+    </Text>
+
+    <Text ID="Not_Executeable">
+      <![CDATA[Not an executable file. Can not be executed remotely!]]>
+    </Text>
+
+    <Text ID="Rename_Error_Auth">
+      <![CDATA[Auth code verification failed. Click OK to exit remote file management window and re-verify auth code.]]>
+    </Text>
+
+    <Text ID="Rename_Error_Exists">
+      <![CDATA[Can not rename the file or folder as it does not exist. Click "OK" to refresh the directory.]]>
+    </Text>
+
+    <Text ID="Rename_Error_Shared">
+      <![CDATA[Can not rename the file or folder as it may be used by other applications.]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Succeed">
+      <![CDATA[Remote program has started.]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error_Auth">
+      <![CDATA[Auto code verification failed. Click OK to exit remote file management window and re-verify.]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error_Exists">
+      <![CDATA[Can not execute the file as it does not exist. Click "OK" to refresh the directory.]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error_Permission">
+      <![CDATA[Do not have permission to execute the command.]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error">
+      <![CDATA[Execution error]]>
+    </Text>
+
+    <Text ID="Delete_Error">
+      <![CDATA[Deletion error]]>
+    </Text>
+
+    <Text ID="Delete_Error_Auth">
+      <![CDATA[Auto code verification failed. Click OK to exit remote file management window and re-verify.]]>
+    </Text>
+
+    <Text ID="Delete_Error_Exists">
+      <![CDATA[Can not rename the file or folder as it does not exist. Click "OK" to refresh the directory.]]>
+    </Text>
+
+    <Text ID="Delete_Error_Share">
+      <![CDATA[Can not delete the file or folder as it may be used by other programs.]]>
+    </Text>
+
+    <Text ID="New_Folder_Error">
+      <![CDATA[New folder error]]>
+    </Text>
+
+    <Text ID="New_Folder_Error_Auth">
+      <![CDATA[Auto code verification failed. Click OK to exit remote file management window and re-verify.]]>
+    </Text>
+
+    <Text ID="New_Folder_Error_Exists">
+      <![CDATA[Can not create a new folder as the current path does not exist. Click "OK" to go back to the parent directory!]]>
+    </Text>
+
+    <Text ID="New_Folder_Error_Cannot">
+      <![CDATA[Can not create a new folder as the current path does not exist. Click "OK" to go back to the parent directory!]]>
+    </Text>
+
+    <Text ID="Open_Folder_Error">
+      <![CDATA[Open directory error]]>
+    </Text>
+
+    <Text ID="Open_Folder_Error_Auth">
+      <![CDATA[Auto code verification failed. Click OK to exit remote file management window and re-verify.]]>
+    </Text>
+
+    <Text ID="Open_Folder_Error_Exists">
+      <![CDATA[Folder directory info can not be obtained as the path does not exist!]]>
+    </Text>
+
+    <Text ID="Move_Error_Exists">
+      <![CDATA[Folder directory info can not be obtained as the path does not exist!]]>
+    </Text>
+
+    <Text ID="User_Remote_Manager_File_Notify">
+      <![CDATA[%s is remotely managing files in your PC.]]>
+    </Text>
+
+    <Text ID="User_Remote_Manager_File_Notify_2">
+      <![CDATA[%s(%s) is remotely managing files in your PC.]]>
+    </Text>
+
+    <Text ID="User_Stop_Manager_File_Notify">
+      <![CDATA[%s stopped remote file management.]]>
+    </Text>
+
+    <Text ID="User_Stop_Manager_File_Notify_2">
+      <![CDATA[%s(%s) stopped remote file management.]]>
+    </Text>
+
+    <Text ID="User_Remote_Execute_File_Notify">
+      <![CDATA[%s run %s program.]]>
+    </Text>
+
+    <Text ID="User_Remote_Execute_File_Notify_2">
+      <![CDATA[%s(%s) run %s program.]]>
+    </Text>
+
+    <Text ID="User_Request_File_Manager">
+      <![CDATA[%s requests to manage your files. Accept?]]>
+    </Text>
+
+    <Text ID="User_File_Manager_Notify">
+      <![CDATA[%s is remotely managing files in your PC.]]>
+    </Text>
+
+    <Text ID="User_Exit_File_Manager_Notify">
+      <![CDATA[%s stopped remote file management.]]>
+    </Text>
+
+    <!-- Setting -->
+
+    <Text ID="Setting_Unbind">
+      <![CDATA[Unbind]]>
+    </Text>
+
+    <Text ID="Setting_Bind">
+      <![CDATA[Binding deploy code]]>
+    </Text>
+
+    <Text ID="Setting_Select_Folder">
+      <![CDATA[Please select folder]]>
+    </Text>
+
+    <Text ID="Password_Char_Unvalid">
+      <![CDATA[Can not use this string as a password. Please choose another string.]]>
+    </Text>
+
+    <Text ID="Receive_New_Settings">
+      <![CDATA[Has received new settings. Need to close the current window to update the settings.]]>
+    </Text>
+
+    <Text ID="Lock_Settings_Caption">
+      <![CDATA[Settings - Enabled automatic synchronization of settings. Some options can not be changed. Please contact your service personnel.]]>
+    </Text>
+
+    <Text ID="Setting_Dlg_State_Online">
+      <![CDATA[Status: Successfully connected communication network]]>
+    </Text>
+    <Text ID="Setting_Dlg_State_Offline">
+      <![CDATA[Status: Connection failed, please check your network settings]]>
+    </Text>
+    <Text ID="Setting_Dlg_State_Away">
+      <![CDATA[Status: away]]>
+    </Text>
+    <Text ID="Setting_Dlg_State_DND">
+      <![CDATA[Status: busy]]>
+    </Text>
+
+    <Text ID="Msg_Setting_Pwd_Needed">
+      <![CDATA[Setting password needed.]]>
+    </Text>
+    <Text ID="Msg_Setting_Pwd_Short">
+      <![CDATA[Setting password can not be less than 6 characters.]]>
+    </Text>
+    <Text ID="Msg_Setting_Pwd_Long">
+      <![CDATA[Setting password can not be more than 32 characters.]]>
+    </Text>
+
+    <Text ID="Msg_App_Lock_Pwd_Needed">
+      <![CDATA[Unlock password needed.]]>
+    </Text>
+    <Text ID="Msg_App_Lock_Pwd_Short">
+      <![CDATA[Unlock password can not be less than 6 characters.]]>
+    </Text>
+    <Text ID="Msg_App_Lock_Pwd_Long">
+      <![CDATA[Unlock password can not be more than 32 characters.]]>
+    </Text>
+
+    <Text ID="Proxy_Type_IE">
+      <![CDATA[Use IE browser settings]]>
+    </Text>
+    <Text ID="Proxy_Type_HTTP">
+      <![CDATA[HTTP proxy]]>
+    </Text>
+    <Text ID="Proxy_Type_SOCKS">
+      <![CDATA[SOCKS5 proxy]]>
+    </Text>
+
+    <Text ID="Msg_Input_Valid_Proxy_Srv">
+      <![CDATA[Enter valid proxy server info.]]>
+    </Text>
+    <Text ID="Msg_Input_Valid_Proxy_Auth_Info">
+      <![CDATA[Enter valid proxy server authentication info.]]>
+    </Text>
+
+    <Text ID="Msg_Input_Corp_Bind_ID">
+      <![CDATA[Enter corporate service code!]]>
+    </Text>
+    <Text ID="Msg_Corp_Binding">
+      <![CDATA[Binding corporate services. Close the window after binding!]]>
+    </Text>
+    <Text ID="Msg_Binding_Please_Wait">
+      <![CDATA[Binding. Please wait...]]>
+    </Text>
+    <Text ID="Msg_Corp_Bind_Succeed">
+      <![CDATA[Corporate binding succeeded.\r\nClick the Close button to close the window.]]>
+    </Text>
+    <Text ID="Msg_Corp_Bind_Error">
+      <![CDATA[Corporate binding failed. (Error: %d)]]>
+    </Text>
+
+    <Text ID="Msg_Corp_Unbinding">
+      <![CDATA[Unbinding…Close the window after unbinding!]]>
+    </Text>
+    <Text ID="Msg_Unbinding_Please_Wait">
+      <![CDATA[Unbinding corporate services. Please wait...]]>
+    </Text>
+    <Text ID="Msg_Corp_Unbind_Succeed">
+      <![CDATA[Unbinding succeeded.\r\nClick the Close button to close the window.]]>
+    </Text>
+    <Text ID="Msg_Corp_Unbind_Error">
+      <![CDATA[Corporate unbinding failed. (Error: %d)]]>
+    </Text>
+
+    <Text ID="Setting_Locked_Need_Pwd">
+      <![CDATA[Software settings locked. Enter the unlock code to unlock.]]>
+    </Text>
+
+    <Text ID="Setting_Error_Service_Install_Error">
+      <![CDATA[An error occurred, failed to properly set up! Probably corresponding service is not installed correctly.]]>
+    </Text>
+    <Text ID="Setting_Error_Install_Service">
+      <![CDATA[An error occurred, failed to install service!]]>
+    </Text>
+
+    <Text ID="Input_IE_Proxy_Auth">
+      <![CDATA[Enter authentication info of proxy server %s. Click OK if authentication is not required.]]>
+    </Text>
+
+    <Text ID="Settings_Affect_Restart">
+      <![CDATA[Settings will take affect after application restart]]>
+    </Text>
+
+    <!-- History -->
+    <Text ID="No_Chat_Record">
+      <![CDATA[No chat record]]>
+    </Text>
+    <Text ID="Confirm_Delete_User_Chat_Record">
+      <![CDATA[Delete chat history of %s? Please confirm.]]>
+    </Text>
+
+    <!-- Auth -->
+    <Text ID="Auth_Overtime">
+      <![CDATA[Auth code verification overtime]]>
+    </Text>
+
+    <Text ID="Auth_Succeed">
+      <![CDATA[Verified]]>
+    </Text>
+
+    <Text ID="Auth_Machine_Locked">
+      <![CDATA[Remote PC software locked.]]>
+    </Text>
+
+    <Text ID="Auth_Password_Error">
+      <![CDATA[Auth code error.]]>
+    </Text>
+
+    <Text ID="Auth_Protocol_Error">
+      <![CDATA[Protocol error]]>
+    </Text>
+
+    <Text ID="Auth_Error_Unknown">
+      <![CDATA[Unknown error!]]>
+    </Text>
+
+    <Text ID="Auth_Passed_Connecting">
+      <![CDATA[Auth passed. Connecting…]]>
+    </Text>
+
+    <Text ID="Auth_Processing">
+      <![CDATA[Auth processing]]>
+    </Text>
+
+    <Text ID="Auth_Overtime">
+      <![CDATA[Auth overtim]]>
+    </Text>
+
+    <Text ID="Auth_Error">
+      <![CDATA[Auth error]]>
+    </Text>
+
+    <!-- Update -->
+    <Text ID="Version_Newest">
+      <![CDATA[You are already using the latest version]]>
+    </Text>
+
+    <Text ID="Update_to_version">
+      <![CDATA[Update version:]]>
+    </Text>
+    <Text ID="Update_date">
+      <![CDATA[Release date:]]>
+    </Text>
+    <Text ID="Update_content">
+      <![CDATA[Update contents:]]>
+    </Text>
+    <Text ID="Update_now_">
+      <![CDATA[Upgrade now (%d)]]>
+    </Text>
+
+    <Text ID="Update_Downloading">
+      <![CDATA[XT800 is downloading upgrade program. Please wait...]]>
+    </Text>
+    <Text ID="Update_Downloading_Progress">
+      <![CDATA[XT800 is downloading upgrade program. Please wait... %s/%s]]>
+    </Text>
+    <Text ID="Update_Downloading_Progess_2">
+      <![CDATA[XT800 is downloading upgrade program. Downloaded %2.2f%%]]>
+    </Text>
+    <Text ID="Update_Download_Complete_Checking">
+      <![CDATA[Update download is completed. Checking...]]>
+    </Text>
+    <Text ID="Update_Download_Failed">
+      <![CDATA[Download failed. Please try again later.]]>
+    </Text>
+
+    <Text ID="Update_Checking">
+      <![CDATA[Update checking...]]>
+    </Text>
+    <Text ID="Update_Checking_Succeed">
+      <![CDATA[Update checking succeeded. Upgrade will soon be started...]]>
+    </Text>
+    <Text ID="Update_Checking_Failed">
+      <![CDATA[Update checking failed. Please contact Agent.]]>
+    </Text>
+
+    <Text ID="Update_Downloading_Wait_To_Close">
+      <![CDATA[Stop update downloading before you close the window.]]>
+    </Text>
+
+    <Text ID="Update_Delay">
+      <![CDATA[Update delay (%d seconds)]]>
+    </Text>
+
+    <Text ID="Update_Force_In_30_Sec">
+      <![CDATA[Mandatory upgrade will begin in 30 sec.]]>
+    </Text>
+    <Text ID="Update_Force_Download_In_30_Sec">
+      <![CDATA[Update download will begin in 30 sec.]]>
+    </Text>
+    <Text ID="Update_Need_Confirm">
+      <![CDATA[XT800 needs to be upgraded, waiting for confirmation...]]>
+    </Text>
+    <Text ID="Update_Dowloading_to_execute">
+      <![CDATA[Update downloading. Update will start after download is completed.]]>
+    </Text>
+
+    <Text ID="Update_Will_In_30_Sec">
+      <![CDATA[XT800 needs to be upgraded. Download will begin in 30 sec.]]>
+    </Text>
+
+    <Text ID="Update_Will_Download_In_">
+      <![CDATA[Update download will start in %d sec...]]>
+    </Text>
+
+    <!-- XTUI -->
+    <Text ID="Application_Exit">
+      <![CDATA[XT800 program has exited!]]>
+    </Text>
+
+    <!-- SysInfo -->
+    <Text ID="User_Check_Process">
+      <![CDATA[%s is viewing your computer's current process list]]>
+    </Text>
+    <Text ID="User_Check_Software">
+      <![CDATA[%s is viewing your computer's software installation list]]>
+    </Text>
+    <Text ID="User_Check_Windows">
+      <![CDATA[%s is viewing your computer's current window]]>
+    </Text>
+    <Text ID="User_Check_Service">
+      <![CDATA[%s is viewing your computer's list of services]]>
+    </Text>
+    <Text ID="User_Check_Event_Application">
+      <![CDATA[%s is viewing your computer's application events]]>
+    </Text>
+    <Text ID="User_Check_Event_Security">
+      <![CDATA[%s is viewing your computer's security events]]>
+    </Text>
+    <Text ID="User_Check_Event_System">
+      <![CDATA[%s is viewing your computer's system events]]>
+    </Text>
+    <Text ID="User_Cmd_Shutdown">
+      <![CDATA[%s is trying to remotely shut down your PC]]>
+    </Text>
+    <Text ID="User_Cmd_Reboot">
+      <![CDATA[%s is trying to remotely reboot your PC]]>
+    </Text>
+    <Text ID="User_Cmd_Terminate_Process">
+      <![CDATA[%s is trying to remotely terminate your %s process]]>
+    </Text>
+
+    <Text ID="User_Request_Process">
+      <![CDATA[%s requests to view your computer’s list of current processes. Accept?]]>
+    </Text>
+    <Text ID="User_Request_Software">
+      <![CDATA[%s requests to view your computer’s software installation list. Accept?]]>
+    </Text>
+    <Text ID="User_Request_Windows">
+      <![CDATA[%s requests to view your computer’s current window. Accept?]]>
+    </Text>
+    <Text ID="User_Request_Service">
+      <![CDATA[%s requests to view your PC’s list of services. Accept?]]>
+    </Text>
+    <Text ID="User_Request_Event_Application">
+      <![CDATA[%s requests to view your PC’s application events. Accept?]]>
+    </Text>
+    <Text ID="User_Request_Event_System">
+      <![CDATA[%s requests to view your PC’s system events. Accept?]]>
+    </Text>
+    <Text ID="User_Request_Event_Security">
+      <![CDATA[%s requests to view your PC’s security events. Accept?]]>
+    </Text>
+
+    <Text ID="Shutdown_Error_User_Offline">
+      <![CDATA[Shutdown error. User offline!]]>
+    </Text>
+    <Text ID="Reboot_Error_User_Offline">
+      <![CDATA[Reboot error. User offline!]]>
+    </Text>
+    <Text ID="Terminate_Error_User_Offline">
+      <![CDATA[Process termination error. User offline!]]>
+    </Text>
+
+    <!-- Dialog resources -->
+    <Text ID="xDlgRes_SG001"><![CDATA[Startup settings]]></Text>
+    <Text ID="xDlgRes_SG002"><![CDATA[Personal property]]></Text>
+    <Text ID="xDlgRes_SG004"><![CDATA[Auto run when computer is booted]]></Text>
+    <Text ID="xDlgRes_SG006"><![CDATA[Run in tray mode after startup (not displayed in main interface)]]></Text>
+    <Text ID="xDlgRes_SG007"><![CDATA[Auto locked after startup]]></Text>
+    <Text ID="xDlgRes_SG008"><![CDATA[Lock settings]]></Text>
+    <Text ID="xDlgRes_SG003"><![CDATA[Your display name / nickname:]]></Text>
+    <Text ID="xDlgRes_SG009"><![CDATA[ID and password settings]]></Text>
+    <Text ID="xDlgRes_SG005"><![CDATA[Software runs as a system service (suggested in unattended mode)]]></Text>
+
+    <Text ID="xDlgRes_SAFETY_002"><![CDATA[Allow others to control my computer]]></Text>
+    <Text ID="xDlgRes_SAFETY_003"><![CDATA[Using a random auth code (randomly generated each time you start the software)]]></Text>
+    <Text ID="xDlgRes_SAFETY_004"><![CDATA[Set private auth code:]]></Text>
+
+    <Text ID="xDlgRes_SAFETY_007"><![CDATA[Whitelist manager]]></Text>
+    <Text ID="xDlgRes_SAFETY_008"><![CDATA[Add]]></Text>
+    <Text ID="xDlgRes_SAFETY_009"><![CDATA[Delete]]></Text>
+    <Text ID="xDlgRes_SAFETY_011"><![CDATA[Enable software setting protection]]></Text>
+    <Text ID="xDlgRes_SAFETY_012"><![CDATA[Protection config]]></Text>
+    <Text ID="xDlgRes_SAFETY_015"><![CDATA[Blacklist manager]]></Text>
+    <Text ID="xDlgRes_SAFETY_016"><![CDATA[Allow only users in the contact list to send me messages and connection requests. ]]></Text>
+    <Text ID="xDlgRes_SAFETY_006"><![CDATA[Allow only following users in the security list to access and control my computer. ]]></Text>
+    <Text ID="xDlgRes_SAFETY_014"><![CDATA[Contacts]]></Text>
+    <Text ID="xDlgRes_SAFETY_001"><![CDATA[Remote]]></Text>
+    <Text ID="xDlgRes_SAFETY_010"><![CDATA[Protect]]></Text>
+    <Text ID="xDlgRes_SAFETY_005"><![CDATA[Re-enter the auth code:]]></Text>
+    <Text ID="xDlgRes_SAFETY_013"><![CDATA[Setting lock to prevent software exit]]></Text>
+
+    <Text ID="xDlgRes_FILE_001"><![CDATA[Receive files]]></Text>
+    <Text ID="xDlgRes_FILE_002"><![CDATA[All users need to confirm]]></Text>
+    <Text ID="xDlgRes_FILE_004"><![CDATA[% users in the contacts do not need to confirm]]></Text>
+    <Text ID="xDlgRes_FILE_003"><![CDATA[No user needs to confirm]]></Text>
+    <Text ID="xDlgRes_FILE_005"><![CDATA[Files]]></Text>
+    <Text ID="xDlgRes_FILE_006"><![CDATA[Default save path:]]></Text>
+    <Text ID="xDlgRes_FILE_007"><![CDATA[Browse]]></Text>
+
+    <Text ID="xDlgRes_SAFETY_017"><![CDATA[Info security]]></Text>
+    <Text ID="xDlgRes_SAFETY_018"><![CDATA[Auto delete all chat records when exits KDT]]></Text>
+    <Text ID="xDlgRes_SAFETY_019"><![CDATA[Allow only users in the contact list to send me messages and connection requests.]]></Text>
+    <Text ID="xDlgRes_SAFETY_020"><![CDATA[Blacklist manager]]></Text>
+    <Text ID="xDlgRes_SAFETY_022"><![CDATA[Add]]></Text>
+    <Text ID="xDlgRes_SAFETY_023"><![CDATA[Remove]]></Text>
+    <Text ID="xDlgRes_SAFETY_021"><![CDATA[Blacklist users will not be able to view your online status or send you any info or connection request]]></Text>
+
+    <Text ID="xDlgRes_RESP_003"><![CDATA[Enable auto answering when it is locked:]]></Text>
+    <Text ID="xDlgRes_RESP_004"><![CDATA[Edit auto responder contents. The program will auto reply in the locked state (240 bytes or less)]]></Text>
+    <Text ID="xDlgRes_RESP_001"><![CDATA[Set unlock password (Required):]]></Text>
+    <Text ID="xDlgRes_RESP_002"><![CDATA[Show characters]]></Text>
+
+    <Text ID="xDlgRes_VF_001"><![CDATA[Select all / cancel]]></Text>
+    <Text ID="xDlgRes_DLG_AF_001"><![CDATA[Enter contact ID you want to add:]]></Text>
+
+    <Text ID="xDlgRes_DEL_001"><![CDATA[Delete the contact?]]></Text>
+    <Text ID="xDlgRes_DEL_002"><![CDATA[and move to blacklist]]></Text>
+    <Text ID="xDlgRes_UL_001"><![CDATA[Software locked. Enter the unlock code:]]></Text>
+
+    <Text ID="xDlgRes_PROXY_008"><![CDATA[Proxy server requires auth]]></Text>
+    <Text ID="xDlgRes_PROXY_004"><![CDATA[Use proxy access]]></Text>
+    <Text ID="xDlgRes_PROXY_001"><![CDATA[Network settings]]></Text>
+    <Text ID="xDlgRes_PROXY_005"><![CDATA[Proxy type:]]></Text>
+    <Text ID="xDlgRes_PROXY_006"><![CDATA[Address:]]></Text>
+    <Text ID="xDlgRes_PROXY_007"><![CDATA[Port:]]></Text>
+    <Text ID="xDlgRes_PROXY_002"><![CDATA[ID auth]]></Text>
+    <Text ID="xDlgRes_PROXY_009"><![CDATA[Username:]]></Text>
+    <Text ID="xDlgRes_PROXY_010"><![CDATA[Password:]]></Text>
+    <Text ID="xDlgRes_PROXY_003"><![CDATA[Advanced settings]]></Text>
+    <Text ID="xDlgRes_PROXY_011"><![CDATA[Mandatory TCP for data transfer (only in case of network error)]]]></Text>
+
+    <Text ID="xDlgRes_IC_001"><![CDATA[Please enter the contact ID:]]></Text>
+
+    <Text ID="xDlgRes_BL_001"><![CDATA[Blacklist management]]></Text>
+
+    <Text ID="xDlgRes_BL_002"><![CDATA[Blacklist users will not be able to view your online status or send you any info or connection request.]]></Text>
+    <Text ID="xDlgRes_BL_003"><![CDATA[Add this ID to blacklist:]]></Text>
+
+    <Text ID="xDlgRes_PRCY_001"><![CDATA[Message reminding]]></Text>
+    <Text ID="xDlgRes_PRCY_003"><![CDATA[Close the following message notify box to keep the program is silent:]]></Text>
+    <Text ID="xDlgRes_PRCY_004"><![CDATA[Turn off remote control notify.]]></Text>
+    <Text ID="xDlgRes_PRCY_005"><![CDATA[Turn off remote file management notify.]]></Text>
+    <Text ID="xDlgRes_PRCY_006"><![CDATA[Close contact adding notify. ]]></Text>
+    <Text ID="xDlgRes_PRCY_002"><![CDATA[Other settings]]></Text>
+    <Text ID="xDlgRes_PRCY_009"><![CDATA[Auto delete all chat logs when exit the program.]]></Text>
+    <Text ID="xDlgRes_PRCY_007"><![CDATA[Turn off remote process status query notify. ]]></Text>
+    <Text ID="xDlgRes_PRCY_008"><![CDATA[Turn off remote computer online notify.]]></Text>
+
+    <Text ID="xDlgRes_WS_001"><![CDATA[Whitelist manager]]></Text>
+    <Text ID="xDlgRes_WS_002"><![CDATA[Whitelist users will be able to access and control your computer. ]]></Text>
+    <Text ID="xDlgRes_WS_003"><![CDATA[Add this number to the whitelist:]]></Text>
+
+    <Text ID="xDlgRes_STATE_001"><![CDATA[Basic info]]></Text>
+    <Text ID="xDlgRes_STATE_002"><![CDATA[You are currently using windows remote desktop. XT800 has started setting mode. ]]></Text>
+    <Text ID="xDlgRes_STATE_003"><![CDATA[Please record the following account info and set your auth code. ]]></Text>
+    <Text ID="xDlgRes_STATE_004"><![CDATA[Your computer number:]]></Text>
+    <Text ID="xDlgRes_STATE_005"><![CDATA[Auth code:]]></Text>
+
+    <Text ID="xDlgRes_STATE_006"><![CDATA[Current status: Online]]></Text>
+    <Text ID="xDlgRes_DLG_QUYER_HELP"><![CDATA[Request for remote help]]></Text>
+    <Text ID="xDlgRes_DLG_SET_CORP"><![CDATA[Bind deploy code]]></Text>
+    <Text ID="xDlgRes_CROP_009"><![CDATA[Bind]]></Text>    
+    <Text ID="xDlgRes_CROP_008"><![CDATA[Enter your deployment code. Contact technical support company to obtain]]></Text>
+    <Text ID="xDlgRes_DLG_UNSET_CROP"><![CDATA[Cancel corporate binding]]></Text>
+    <Text ID="xDlgRes_CROP_010"><![CDATA[Corporate binding being canceled, please wait...]]></Text>
+    <Text ID="xDlgRes_CROP_011"><![CDATA[Cancel]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE"><![CDATA[XT800 upgrade reminder]]></Text>
+    <Text ID="xDlgRes_UPD_001"><![CDATA[XT800 detected a new version available. It is recommended that you upgrade:]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE_PROGRESS"><![CDATA[XT800 is downloading the upgrade program]]></Text>
+    <Text ID="xDlgRes_UPD_PROG_001"><![CDATA[XT800 upgrade program is being downloaded, please wait...]]></Text>
+    <Text ID="xDlgRes_DLG_COMMET"><![CDATA[Modify remark name]]></Text>
+    <Text ID="xDlgRes_COMMIT_001"><![CDATA[Please enter a remark name (32 words or less):]]></Text>
+    <Text ID="xDlgRes_VNC_002"><![CDATA[Auto detect screen update.(Improve screen refresh, required high bandwidth)]]></Text>
+    <Text ID="xDlgRes_VNC_003"><![CDATA[Software simulate Ctrl + Alt + Del combination.(For VISTA and above)]]></Text>
+    <Text ID="xDlgRes_VNC_004"><![CDATA[Allow host to shield current computer screen.(For Windows 2003 and XP)]]></Text>
+    <Text ID="xDlgRes_VNC_005"><![CDATA[Remove desktop background under remote control]]></Text>
+    <Text ID="xDlgRes_VNC_006"><![CDATA[Remove Areo effect under remote control (For VISTA and above)]]></Text>
+    <Text ID="xDlgRes_VNC_007"><![CDATA[Do not show window contents when dragging the window]]></Text>
+    <Text ID="xDlgRes_VNC_008"><![CDATA[Quick mode (low CPU utilization, but high bandwidth consumption)]]></Text>
+    <Text ID="xDlgRes_VNC_016"><![CDATA[Select this option to avoid cursor flicker when local computer is being monitored, but the host does not show translucent window in remote viewer.]]></Text>
+    <Text ID="xDlgRes_VNC_015"><![CDATA[Do not intercept remote machine’s translucent window]]></Text>
+    <Text ID="xDlgRes_VNC_001"><![CDATA[Server settings]]></Text>
+    <Text ID="xDlgRes_VNC_014"><![CDATA[Monitor]]></Text>
+    <Text ID="xDlgRes_VNC_012"><![CDATA[Poll foreground window]]></Text>
+    <Text ID="xDlgRes_VNC_013"><![CDATA[Poll console window only]]></Text>
+    <Text ID="xDlgRes_VNC_010"><![CDATA[Poll window under cursor]]></Text>
+    <Text ID="xDlgRes_VNC_011"><![CDATA[Poll on event only]]></Text>
+    <Text ID="xDlgRes_VNC_009"><![CDATA[Advanced settings]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET"><![CDATA[Color and screen]]></Text>
+    <Text ID="xDlgRes_VIE_001"><![CDATA[Remote desktop color depth]]></Text>
+    <Text ID="xDlgRes_VIE_002"><![CDATA[Highest (full color)]]></Text>
+    <Text ID="xDlgRes_VIE_003"><![CDATA[High (256-bit color)]]></Text>
+    <Text ID="xDlgRes_VIE_004"><![CDATA[General (64-bit color)]]></Text>
+    <Text ID="xDlgRes_VIE_005"><![CDATA[Low (8-bit color)]]></Text>
+    <Text ID="xDlgRes_VIE_006"><![CDATA[Enable local frame cache (may effectively save bandwidth, but may cause blurred screen)]]]></Text>
+    <Text ID="xDlgRes_VIE_007"><![CDATA[Enable picture data compression (the greater the value is the more to save bandwidth, but CPU occupation will increase)]]></Text>
+    <Text ID="xDlgRes_VIE_008"><![CDATA[Image picture quality (the larger the value is the higher the image quality but bandwidth consumption will increase)]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET_2"><![CDATA[Color and code]]></Text>
+    <Text ID="xDlgRes_VIE2_002"><![CDATA[Code]]></Text>
+    <Text ID="xDlgRes_VIE2_003"><![CDATA[Color]]></Text>
+    <Text ID="xDlgRes_VIE2_004"><![CDATA[Full color]]></Text>
+    <Text ID="xDlgRes_VIE2_004"><![CDATA[256-bit color]]></Text>
+    <Text ID="xDlgRes_VIE2_005"><![CDATA[64-bit color]]></Text>
+    <Text ID="xDlgRes_VIE2_006"><![CDATA[8-bit color]]></Text>
+    <Text ID="xDlgRes_VIE2_007"><![CDATA[Use cache]]></Text>
+    <Text ID="xDlgRes_VIE2_008"><![CDATA[Using picture compression (only for Tight coding)]]></Text>
+    <Text ID="xDlgRes_VIE2_009"><![CDATA[Using JPEG image compression (only for Tight coding)]]></Text>
+    <Text ID="xDlgRes_VIE2_001"><![CDATA[Using adaptive coding and colors]]></Text>
+    <Text ID="xDlgRes_DLG_LOCK"><![CDATA[Software setting protection]]></Text>
+    <Text ID="xDlgRes_LOCK_001"><![CDATA[Set setting protection password:]]></Text>
+    <Text ID="xDlgRes_LOCK_002"><![CDATA[Show character]]></Text>
+    <Text ID="xDlgRes_DLG_NOTIFY"><![CDATA[Tips]]></Text>
+    <Text ID="xDlgRes_NTY_001"><![CDATA[XT800 remote service component not installed or started and unable to accept your current request.]]></Text>
+    <Text ID="xDlgRes_DLG_INVITE_USER"><![CDATA[Invite others to use XT800]]></Text>
+    <Text ID="xDlgRes_IU_001"><![CDATA[You may send the following text to the other side:]]></Text>
+    <Text ID="xDlgRes_DLG_REMOTE_EXECUTE"><![CDATA[Perform remote program]]></Text>
+    <Text ID="xDlgRes_RE_001"><![CDATA[You are trying to remotely execute the application. Enter execution parameters (optional):]]></Text>
+    <Text ID="xDlgRes_CROP_001"><![CDATA[Corporate]]></Text>
+    <Text ID="xDlgRes_CROP_002"><![CDATA[Set your support company info follows:]]></Text>
+    <Text ID="xDlgRes_CROP_004"><![CDATA[Company code:]]></Text>
+    <Text ID="xDlgRes_CROP_003"><![CDATA[Company name:]]></Text>
+    <Text ID="xDlgRes_CROP_005"><![CDATA[Bind deploy code]]></Text>
+    <Text ID="xDlgRes_CROP_006"><![CDATA[Contact your remote technical support company to obtain deploy code.]]></Text>
+    <Text ID="xDlgRes_CROP_007"><![CDATA[May get quick help and remote supports after binding deploy code.]]></Text>
+    <Text ID="xDlgRes_DLG_NET_CHK"><![CDATA[Network connection failed]]></Text>
+    <Text ID="xDlgRes_NC_001"><![CDATA[Check your Internet connection]]></Text>
+    <Text ID="xDlgRes_NC_002"><![CDATA[Generally you may use a proxy server. You need to enter the correct info in the Options dialog box.]]></Text>
+    <Text ID="xDlgRes_DLG_IEAUTH"><![CDATA[Proxy auth]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[Username:]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[Password:]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[Please enter the proxy server auth info. Directly click OK if auto is not needed.]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[Save auth info]]></Text>
+    <Text ID="xDlgRes_DLG_CLIENT_LIST"><![CDATA[No access to customer list]]></Text>
+    <Text ID="xDlgRes_CL_001"><![CDATA[Select customer access in the list for service]]></Text>
+    <Text ID="xDlgRes_ABOUT_COPYRIGHT"><![CDATA[(C)2013 XTong Technology Co., Ltd.]]></Text>
+
+    <Text ID="xDlgRes_DLG_REPSONSION"><![CDATA[Lock settings]]></Text>
+    <Text ID="xDlgRes_DLG_VIST_FRIEND"><![CDATA[Please select contacts]]></Text>
+    <Text ID="xDlgRes_DLG_ADD_FRIEND"><![CDATA[Add contactor]]></Text>
+    <Text ID="xDlgRes_DLG_AF_001"><![CDATA[Enter contact ID you want to add:]]></Text>
+    <Text ID="xDlgRes_DLG_DEL_FRIEND"><![CDATA[Delete contact]]></Text>
+    <Text ID="xDlgRes_DLG_UNLOCK"><![CDATA[Unlock]]></Text>
+    <Text ID="xDlgRes_DLG_INPUT_CONTACTOR"><![CDATA[Enter contact ID]]></Text>
+    <Text ID="xDlgRes_DLG_BLACK_SET"><![CDATA[Blacklist manager]]></Text>
+    <Text ID="xDlgRes_DLG_WHITE_SET"><![CDATA[Whitelist manager]]></Text>
+    <Text ID="xDlgRes_DLG_QUYER_HELP"><![CDATA[Request for remote help]]></Text>
+    <Text ID="xDlgRes_DLG_SET_CORP"><![CDATA[Bind deploy code]]></Text>
+    <Text ID="xDlgRes_DLG_UNSET_CROP"><![CDATA[Cancel corporate binding]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE"><![CDATA[XT800 upgrade reminder]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE_PROGRESS"><![CDATA[XT800 is downloading the upgrade program]]></Text>
+    <Text ID="xDlgRes_DLG_COMMET"><![CDATA[Modify remark name]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET"><![CDATA[Color and screen]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET_2"><![CDATA[Color and code]]></Text>
+    <Text ID="xDlgRes_DLG_LOCK"><![CDATA[Software setting protection]]></Text>
+    <Text ID="xDlgRes_DLG_NOTIFY"><![CDATA[Tips]]></Text>
+    <Text ID="xDlgRes_DLG_INVITE_USER"><![CDATA[Invite others to use XT800]]></Text>
+    <Text ID="xDlgRes_DLG_REMOTE_EXECUTE"><![CDATA[Perform remote program]]></Text>
+    <Text ID="xDlgRes_DLG_NET_CHK"><![CDATA[Network connection failed]]></Text>
+    <Text ID="xDlgRes_DLG_IEAUTH"><![CDATA[Proxy auth]]></Text>
+    <Text ID="xDlgRes_DLG_CLIENT_LIST"><![CDATA[Not accessed to customer list]]></Text>
+    <Text ID="xDlgRes_DLG_ABOUT"><![CDATA[About]]></Text>
+    
+    <Text ID="xDlgRes_TAB_VNC"><![CDATA[Remote connection]]></Text>
+    <Text ID="xDlgRes_TAB_CROP"><![CDATA[Corporate services]]></Text>
+    <Text ID="xDlgRes_TAB_GENERAL"><![CDATA[General settings]]></Text>
+    <Text ID="xDlgRes_TAB_SAFETY_POLICY"><![CDATA[Security policy]]></Text>
+    <Text ID="xDlgRes_TAB_FILE"><![CDATA[File transfer]]></Text>
+    <Text ID="xDlgRes_TAB_SAFETY"><![CDATA[Security]]></Text>
+    <Text ID="xDlgRes_TAB_PROXY"><![CDATA[Network settings]]></Text>
+    <Text ID="xDlgRes_TAB_PRIVACY"><![CDATA[Privacy settings]]></Text>
+    <Text ID="xDlgRes_TAB_STATE"><![CDATA[Basic info]]></Text>
+    
+    <Text ID="xDlgRes_BTN_OK"><![CDATA[OK]]></Text>
+    <Text ID="xDlgRes_BTN_NEXT"><![CDATA[Next]]></Text>
+    <Text ID="xDlgRes_BTN_CANCEL"><![CDATA[Cancel]]></Text>
+    <Text ID="xDlgRes_BTN_LOCK"><![CDATA[Lock now]]></Text>
+    <Text ID="xDlgRes_BTN_UNLOCK"><![CDATA[Unlock]]></Text>
+    <Text ID="xDlgRes_BTN_CLOSE"><![CDATA[Close]]></Text>
+    <Text ID="xDlgRes_BTN_SEL_CONTACTOR"><![CDATA[Select contacts]]></Text>
+    <Text ID="xDlgRes_BTN_REMOTE"><![CDATA[Remove]]></Text>
+    <Text ID="xDlgRes_BTN_ADD"><![CDATA[Add]]></Text>
+    <Text ID="xDlgRes_BTN_START_CHAT"><![CDATA[Initiate text chat]]></Text>
+    <Text ID="xDlgRes_BTN_INVITE_RC"><![CDATA[Query for help]]></Text>
+    <Text ID="xDlgRes_BTN_UPDATE"><![CDATA[Upgrade now]]></Text>
+    <Text ID="xDlgRes_BTN_DELAY_UPDATE"><![CDATA[Upgrade later]]></Text>
+    <Text ID="xDlgRes_BTN_SKIP_UPDATE"><![CDATA[Skip this version]]></Text>
+    <Text ID="xDlgRes_BTN_RESTART_APP"><![CDATA[Immediately restart software]]></Text>
+    <Text ID="xDlgRes_BTN_UPD_NOTIFY"><![CDATA[Remind the other side to install and start the component]]></Text>
+    <Text ID="xDlgRes_BTN_COPY_CLIP"><![CDATA[Copy to clipboard]]></Text>
+    <Text ID="xDlgRes_BTN_EXECUTE"><![CDATA[Execute]]></Text>
+    <Text ID="xDlgRes_BTN_SET_PROXY"><![CDATA[Set proxy]]></Text>
+    <Text ID="xDlgRes_BTN_RETRY"><![CDATA[Retry]]></Text>
+    <Text ID="xDlgRes_BTN_ACCEPT"><![CDATA[Access]]></Text>
+
+    <!-- Menu res -->
+    <Text ID="xMenuRes_M_SHOW_ALL"><![CDATA[Show all]]></Text>
+    <Text ID="xMenuRes_M_SHOW_RUNNING"><![CDATA[Show running tasks]]></Text>
+    <Text ID="xMenuRes_M_SHOW_FINISH"><![CDATA[Show finish tasks]]></Text>
+    <Text ID="xMenuRes_M_SHOW_RECV"><![CDATA[Show receviced tasks]]></Text>
+    <Text ID="xMenuRes_M_SHOW_SEND"><![CDATA[Show sent tasks]]></Text>
+    <Text ID="xMenuRes_M_HELP"><![CDATA[Help]]></Text>
+    <Text ID="xMenuRes_M_ABOUT"><![CDATA[About]]></Text>
+    <Text ID="xMenuRes_M_HOMEPAGE"><![CDATA[Visit XT800 homepage]]></Text>
+    <Text ID="xMenuRes_M_TOVIP"><![CDATA[Upgrade to VIP]]></Text>
+    <Text ID="xMenuRes_M_EXIT"><![CDATA[Exit]]></Text>
+    <Text ID="xMenuRes_M_CHECKUPDATE"><![CDATA[]]></Text>
+    <Text ID="xMenuRes_M_LANGUAGE"><![CDATA[Language]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS"><![CDATA[Configuration]]></Text>
+    <Text ID="xMenuRes_M_FILE_TRANS_LOG"><![CDATA[File transfer log]]></Text>
+    <Text ID="xMenuRes_M_CHAT_LOG"><![CDATA[Chat log]]></Text>
+    <Text ID="xMenuRes_M_STATE"><![CDATA[State]]></Text>
+    <Text ID="xMenuRes_M_STATE_ONLINE"><![CDATA[Online]]></Text>
+    <Text ID="xMenuRes_M_STATE_AWAY"><![CDATA[Away]]></Text>
+    <Text ID="xMenuRes_M_STATE_DND"><![CDATA[Busy]]></Text>
+    <Text ID="xMenuRes_M_LOCK"><![CDATA[Lock]]></Text>
+    <Text ID="xMenuRes_M_MAINWND"><![CDATA[Show main window]]></Text>
+    <Text ID="xMenuRes_M_CLIENT_LIST"><![CDATA[Show customer list]]></Text>
+    <Text ID="xMenuRes_M_LOGOUT"><![CDATA[Logout]]></Text>
+    <Text ID="xMenuRes_M_CONTACTOR_WND"><![CDATA[Show contactor panel]]></Text>
+    <Text ID="xMenuRes_M_MENU"><![CDATA[Menu]]></Text>
+    <Text ID="xMenuRes_M_NEW"><![CDATA[New]]></Text>
+    <Text ID="xMenuRes_M_CONTACTOR"><![CDATA[Contactor]]></Text>
+    <Text ID="xMenuRes_M_FOLDER_SHARE"><![CDATA[Folder share]]></Text>
+    <Text ID="xMenuRes_M_CHECK"><![CDATA[Check]]></Text>
+    <Text ID="xMenuRes_M_SERVICE_LOG"><![CDATA[Service log]]></Text>
+    <Text ID="xMenuRes_M_CHECK_CONTACTOR"><![CDATA[Show contactor]]></Text>
+    <Text ID="xMenuRes_M_BY_GROUP"><![CDATA[By group]]></Text>
+    <Text ID="xMenuRes_M_BY_NAME"><![CDATA[By name]]></Text>
+    <Text ID="xMenuRes_M_BY_ID"><![CDATA[By ID]]></Text>
+    <Text ID="xMenuRes_M_GENNAL_SETTINGS"><![CDATA[General settings]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_002"><![CDATA[Security policy]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_003"><![CDATA[Privacy settings]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_004"><![CDATA[File transfer]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_005"><![CDATA[Remote control]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_006"><![CDATA[Network settings]]></Text>
+    <Text ID="xMenuRes_M_CHECK_SERVICE_LOG"><![CDATA[Check service log]]></Text>
+    <Text ID="xMenuRes_M_CHECK_FILE_TRANS_LOG"><![CDATA[Check transfer log]]></Text>
+    <Text ID="xMenuRes_M_START_CHAT"><![CDATA[Start chat]]></Text>
+    <Text ID="xMenuRes_M_SENDFILE"><![CDATA[Send file]]></Text>
+    <Text ID="xMenuRes_M_SENDFOLDER"><![CDATA[Send folder]]></Text>
+    <Text ID="xMenuRes_M_DISCONNECT_RC"><![CDATA[Disconnect remote control]]></Text>
+    <Text ID="xMenuRes_M_GRAPH_SPEED"><![CDATA[Quality/Speed]]></Text>
+    <Text ID="xMenuRes_M_AUTO"><![CDATA[Auto]]></Text>
+    <Text ID="xMenuRes_M_SPEED"><![CDATA[Speed]]></Text>
+    <Text ID="xMenuRes_M_QUALITY"><![CDATA[Quality]]></Text>
+    <Text ID="xMenuRes_M_CUSTOM"><![CDATA[Custom]]></Text>
+    <Text ID="xMenuRes_M_CUSTOM_CFG"><![CDATA[Custom settings]]></Text>
+    <Text ID="xMenuRes_M_SHOW_FPS"><![CDATA[Show FPS]]></Text>
+    <Text ID="xMenuRes_M_ZOOM"><![CDATA[Zoom]]></Text>
+    <Text ID="xMenuRes_M_REFRESH"><![CDATA[Refresh]]></Text>
+    <Text ID="xMenuRes_M_ENABLE_CONTROL"><![CDATA[Enable remote control]]></Text>
+    <Text ID="xMenuRes_M_FORBID_LOCAL_INPUT"><![CDATA[Disable local input]]></Text>
+    <Text ID="xMenuRes_M_NO_ALPHA"><![CDATA[No capture alpha window]]></Text>
+    <Text ID="xMenuRes_M_SHOW_REMOTE_CURSOR"><![CDATA[Show remote cursor]]></Text>
+    <Text ID="xMenuRes_M_SWITCH_SCREEN"><![CDATA[Switch screen]]></Text>
+    <Text ID="xMenuRes_M_SEND_CAD"><![CDATA[Send Ctrl+Alt+Del]]></Text>
+    <Text ID="xMenuRes_M_RC_SHUTDOWN"><![CDATA[Shutdown remote computer]]></Text>
+    <Text ID="xMenuRes_M_RC_REBOOT"><![CDATA[Reboot remote computer]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_FILEMGR"><![CDATA[Remote file manager]]></Text>
+    <Text ID="xMenuRes_M_INVITE_RC"><![CDATA[Invite to control my computer]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_CONTROL"><![CDATA[Control remote computer]]></Text>
+    <Text ID="xMenuRes_M_USE_PWD"><![CDATA[By password]]></Text>
+    <Text ID="xMenuRes_M_RC_REQUEST"><![CDATA[Send request]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_MONITOR"><![CDATA[View only by authorization code]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_FILEMGR"><![CDATA[Remote file manager]]></Text>
+    <Text ID="xMenuRes_M_CHECK_CHAT_LOG"><![CDATA[Check chat log]]></Text>
+    <Text ID="xMenuRes_M_ADD_TO_CONTACTOR"><![CDATA[Add to contactor]]></Text>
+    <Text ID="xMenuRes_M_ADD_TO_BLACKLIST"><![CDATA[Add to blacklist]]></Text>
+    <Text ID="xMenuRes_M_DEL_CONTACTOR"><![CDATA[Delete contactor]]></Text>
+    <Text ID="xMenuRes_M_SEND_SCREENSHOT"><![CDATA[Send screen shot]]></Text>
+    <Text ID="xMenuRes_M_SEND_SURVARY"><![CDATA[Send survey]]></Text>
+    <Text ID="xMenuRes_M_Switch_Account"><![CDATA[Switch account]]></Text>
+    
+  </Texts>
+</XResources>

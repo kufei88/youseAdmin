@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XUIProperty ID="XTContactorTree">
+    <!-- TreeProperty -->
+    <XProperty ID="TreeProperty" BackgroundColor="#FFFFFF" TextColor="#000000|#8C8C8C" SelTextColor="#000000|#8C8C8C" SelItemBGColor="#E3F0FC" ItemHeight="22" StateIcon="DefStateIcon" />
+</XUIProperty>

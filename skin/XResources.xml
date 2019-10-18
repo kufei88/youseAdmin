@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XResources>
+  <!-- 图片资源定义 -->
+  <Images AlwaysLoad="True">
+    <!-- Sample
+    <Image ID="DefCommonWndBG" SrcWidth="reserved" SrcHeight="reserved" MD5Hex="reserved">
+      <File><![CDATA[Images\Common\Common_Wnd_BG.png]]></File>
+    </Image>
+    -->
+    <Image ID="DefCommonWndBG">
+      <File><![CDATA[Images\Common\Common_Wnd_BG.png]]></File>
+    </Image>
+    <Image ID="DefStateIcon">
+      <File><![CDATA[Images\Common\Usrstate_round.png]]></File>
+    </Image>
+  </Images>
+
+  <!-- Style资源定义 -->
+  <Styles AlwaysLoad="True">
+
+    <!-- Sample
+    <Style ID="DefImagePanel">
+      <XImagePanel Anchor="Left|Top">
+        <Image ResID="DefBackground"></Image>
+      </XImagePanel>
+    </Style>
+    -->
+    
+    <!-- Menu Defines -->
+    <Style ID="DefMenuBar">
+      <XUIMenuBar ItemStyle="DefMenuBarItem" PopupMenuStyle="DefPopupMenu" ItemMinWidth="28" ItemMargin="8">
+        
+      </XUIMenuBar>
+    </Style>
+    <Style ID="DefMenuBarItem">
+      <XUIMenuBarItem Bounds="0, 0, 28, 23"  StateCount="5">
+        <Image Fill="XTitle"><![CDATA[Images\Menu\Menu_btn.png]]></Image>
+        <Text Bounds="4, 4, 24, 19" Anchor="All" Color="#D9E4F4" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Center"></Text>
+      </XUIMenuBarItem>
+    </Style>
+    <Style ID="DefPopupMenu">
+      <XUIPopupMenu IconSize="18,18" MarginWidth="3" ItemDefHeight="25" HighlightTextColor="#FFFFFF" CheckIcon="103" Region="0,3|3,0|W - 3,0|W,3|W,H - 4|W - 3,H|3,H|0,H - 4|0,3">
+        <Image Type="Background"><![CDATA[Images\Menu\Menu_bg.png]]></Image>
+        <Image Type="Separator"><![CDATA[Images\Menu\Menu_Separator.png]]></Image>
+        <Image Type="Select"><![CDATA[Images\Menu\Menu_Select.png]]></Image>
+      </XUIPopupMenu>
+    </Style>
+    
+    <!-- Font Defines -->
+    <Style ID="DefTextSimSunBold">
+      <XTextPanel FontName="新宋体" FontHeight="9" Style="Bold" AlignV="Center">
+      </XTextPanel>
+    </Style>
+    <Style ID="DefTextSimSun">
+      <XTextPanel FontName="新宋体" FontHeight="9" AlignV="Center">
+      </XTextPanel>
+    </Style>
+
+    <!--按钮-->
+    <Style ID="DefRemoteHeaderBtn">
+      <XUIButton StateCount="5">
+        <Image Fill="XTitle"><![CDATA[Images\Window\Icon_btn.png]]></Image>
+        <Text Bounds="1, 3, W - 2, H - 4" Anchor="All" Color="#000000" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center"></Text>
+      </XUIButton>
+    </Style>
+
+    <!--超链接按钮-->
+    <Style ID="DefHyperLink">
+      <XUIHyperLink Anchor="Top|Left">
+        <Text Bounds="0, 0, W, H" Dock="Fill" Color="#E2EDFD" ColorHL="#E2EDFD" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Center">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+
+    <Style ID="DefHyperLink2">
+      <XUIHyperLink Anchor="Top|Left">
+        <Text Bounds="0, 0, W, H" Dock="Fill" Color="#FFFFFF" ColorHL="#003399" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Center">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+
+    <Style ID="DefHyperLink3">
+      <XUIHyperLink Anchor="Top|Left">
+        <Text Bounds="0, 0, W, H" Dock="Fill" Color="#0066CC" ColorHL="#0066CC" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Center">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+
+    <Style ID="DefHyperLinkNotify">
+      <XUIHyperLink Anchor="Top|Left">
+        <Text Color="#1478C8" ColorHL="#1478C8" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Near" MultiLine="True">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+    <Style ID="DefHyperLinkNotifyContent">
+      <XUIHyperLink Anchor="Top|Left" Cursor="Arrow">
+        <Text Color="#000000" ColorHL="#000000" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Near" MultiLine="True">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+    <Style ID="DefHyperLinkNotifyTextMsg">
+      <XUIHyperLink Anchor="Top|Left" Cursor="Hand" ID="NotifyContent" ElemID="NotifyContent">
+        <Text Color="#000000" ColorHL="#000000" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Near" MultiLine="True" StyleHL="Underline">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+
+    <Style ID="DefHyperLinkLogin">
+      <XUIHyperLink Anchor="Top|Left">
+        <Text Bounds="0, 0, W, H" Dock="Fill" Color="#AFB6C2" Style="Underline" ColorHL="#AFB6C2" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Center">
+        </Text>
+      </XUIHyperLink>
+    </Style>
+
+    <!--　Main Tab Button -->
+    <Style ID="DefMainWndTabButton1">
+      <XUITabButton Bounds="0, 0, 94, 36" Anchor="Left|Top" Margin="2, 0, 2, 0" DCBuffer="False" FastBit="False" >
+        <XUIButton ID="TabButton" Bounds="0, 0, W, H" Anchor="Left|Top" StateCount="5" Margin="2, 0, 2, 0" ElemID="TabButton" DCBuffer="False" FastBit="False">          
+          <EventCall Event="eLButtonClick" Call="TabButtonClick" />
+        </XUIButton>
+        <XTextPanel ID="TabCaptionActive" Anchor="Left|Top" Bounds="2, 8, W, H - 10" Color="#000000" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center" DCBuffer="True" Transparent="True" Style="Bold">
+          <![CDATA[Undefined]]>
+        </XTextPanel>
+        <XTextPanel ID="TabCaptionDeactive" Anchor="Left|Top" Bounds="2, 8, W, H - 10" Color="#FFFFFF" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center" DCBuffer="False" Transparent="True" Visible="False">
+          <![CDATA[Undefined]]>
+        </XTextPanel>
+        <XTextPanel ID="TabCaptionDown" Anchor="Left|Top" Bounds="2, 8, W, H - 10" Color="#000000" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center" DCBuffer="False" Transparent="True" Visible="False">
+          <![CDATA[Undefined]]>
+        </XTextPanel>
+      </XUITabButton>
+    </Style>
+    <Style ID="DefMainWndTabButton2">
+      <XUITabButton Bounds="0, 0, 105, 45" Anchor="Left|Top" Margin="0, 0, 0, 0" DCBuffer="False" >
+        <XUIButton ID="TabButton" Bounds="0, 0, W, H" Anchor="Left|Top" StateCount="5" Margin="0, 0, 0, 0" ElemID="TabButton" DCBuffer="False">
+          <Image Fill="XTitle"><![CDATA[Images\Window\Main_tab2.png]]></Image>
+          <EventCall Event="eLButtonClick" Call="TabButtonClick" />
+        </XUIButton>
+        <XTextPanel ID="TabCaptionActive" Anchor="Left|Top" Bounds="2, 8, W, H - 10" Color="#000000" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center" DCBuffer="True" Transparent="True" Style="Bold">
+          <![CDATA[Undefined]]>
+        </XTextPanel>
+        <XTextPanel ID="TabCaptionDeactive" Anchor="Left|Top" Bounds="2, 8, W, H - 10" Color="#FFFFFF" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center" DCBuffer="False" Transparent="True" Visible="False">
+          <![CDATA[Undefined]]>
+        </XTextPanel>
+        <XTextPanel ID="TabCaptionDown" Anchor="Left|Top" Bounds="2, 8, W, H - 10" Color="#000000" FontName="新宋体" FontHeight="9" Align="Center" AlignV="Center" DCBuffer="False" Transparent="True" Visible="False">
+          <![CDATA[Undefined]]>
+        </XTextPanel>
+      </XUITabButton>
+    </Style>
+
+    <!-- 窗体容器 -->
+    <Style ID="DefMainPageWndObject">
+      <XUIWndObject Bounds="1, 0, W - 2, H" Anchor="All">
+      </XUIWndObject>
+    </Style>
+
+   </Styles>
+</XResources>

@@ -1,0 +1,2166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XResources>
+  <!-- 文字资源定义 -->
+  <Texts AlwaysLoad="True">
+
+    <!-- XSkin资源开始 -->
+    <Text ID="xString_SYS_CLOSE"><![CDATA[关闭]]></Text>
+    <Text ID="xString_SYS_MIN"><![CDATA[最小化]]></Text>
+    <Text ID="xString_SYS_MAX"><![CDATA[最大化]]></Text>
+    <Text ID="xString_SYS_RESTORE"><![CDATA[还原]]></Text>
+    <Text ID="xString_CHAT_001"><![CDATA[XT800 远程助手]]></Text>
+    <Text ID="xString_CHAT_002"><![CDATA[请求协助]]></Text>
+    <Text ID="xString_CHAT_003"><![CDATA[文件]]></Text>
+    <Text ID="xString_CHAT_004"><![CDATA[截屏]]></Text>
+    <Text ID="xString_CHAT_005"><![CDATA[更多]]></Text>
+    <Text ID="xString_SLWTITLE"><![CDATA[帐号绑定]]></Text>
+    <Text ID="xString_SLW001"><![CDATA[请输入您要绑定的帐号：]]></Text>
+    <Text ID="xString_SLW002"><![CDATA[密码：]]></Text>
+    <Text ID="xString_RVFTITLE"><![CDATA[XT800 远程控制]]></Text>
+    <Text ID="xString_RVF001"><![CDATA[XT800 远程控制]]></Text>
+    <Text ID="xString_RSTATTITLE"><![CDATA[远程控制]]></Text>
+    <Text ID="xString_RSTAT001"><![CDATA[当前状态：]]></Text>
+    <Text ID="xString_RSTAT002"><![CDATA[请输入远端计算机的访问授权码：]]></Text>
+    <Text ID="xString_RREQTITLE"><![CDATA[授权码验证]]></Text>
+    <Text ID="xString_RREQ001"><![CDATA[请输入远程设备的授权码：]]></Text>
+    <Text ID="xString_RLMTTITLE"><![CDATA[远程控制]]></Text>
+    <Text ID="xString_RLMT001"><![CDATA[远程控制连接超出时间限制，已自动关闭。\r\n出现该提示是由于您远程控制的计算机总数量已超出免费版限制。]]></Text>
+    <Text ID="xString_RLMT002"><![CDATA[了解更多]]></Text>
+    <Text ID="xString_RHW001"><![CDATA[会话]]></Text>
+    <Text ID="xString_RHW002"><![CDATA[文件]]></Text>
+    <Text ID="xString_RHW003"><![CDATA[控制选项]]></Text>
+    <Text ID="xString_RHW004"><![CDATA[全屏]]></Text>
+    <Text ID="xString_RHW005"><![CDATA[退出全屏]]></Text>
+    <Text ID="xString_RHW006"><![CDATA[锁定工具条]]></Text>
+    <Text ID="xString_RHW007"><![CDATA[取消锁定工具条]]></Text>
+    <Text ID="xString_RHW008"><![CDATA[关闭远程控制]]></Text>
+    <Text ID="xString_RFMTITLE"><![CDATA[远程文件管理]]></Text>
+    <Text ID="xString_RFM001"><![CDATA[文件共享]]></Text>
+    <Text ID="xString_RLW001"><![CDATA[远程计算机：]]></Text>
+    <Text ID="xString_RLW002"><![CDATA[刷新]]></Text>
+    <Text ID="xString_RLW003"><![CDATA[删除]]></Text>
+    <Text ID="xString_RLW004"><![CDATA[新建文件夹]]></Text>
+    <Text ID="xString_RLW005"><![CDATA[向上]]></Text>
+    <Text ID="xString_RLW006"><![CDATA[回到桌面]]></Text>
+    <Text ID="xString_QSTITLE"><![CDATA[等待服务]]></Text>
+    <Text ID="xString_QS001"><![CDATA[正在请求客服...]]></Text>
+    <Text ID="xString_QS002"><![CDATA[您也可以通过      进行自助服务。]]></Text>
+    <Text ID="xString_QS003"><![CDATA[知识库]]></Text>
+    <Text ID="xString_NWTITLE"><![CDATA[提示消息]]></Text>
+    <Text ID="xString_NW001"><![CDATA[提示消息]]></Text>
+    <Text ID="xString_NW002"><![CDATA[接受]]></Text>
+    <Text ID="xString_NW003"><![CDATA[续传]]></Text>
+    <Text ID="xString_NW004"><![CDATA[另存为]]></Text>
+    <Text ID="xString_NW005"><![CDATA[拒绝]]></Text>
+    <Text ID="xString_NW006"><![CDATA[添加到我的联系人]]></Text>
+    <Text ID="xString_TITL001"><![CDATA[XT800 远程助手]]></Text>
+    <Text ID="xString_SYS_SETTINGS"><![CDATA[设置]]></Text>
+    <Text ID="xString_LW001"><![CDATA[查询知识库]]></Text>
+    <Text ID="xString_LW002"><![CDATA[断开当前的远程控制连接]]></Text>
+    <Text ID="xString_LW003"><![CDATA[重新登录到XT]]></Text>
+    <Text ID="xString_LW004"><![CDATA[向服务人员发起协助请求]]></Text>
+    <Text ID="xString_LW005"><![CDATA[修改授权码]]></Text>
+    <Text ID="xString_LW006"><![CDATA[重新登录]]></Text>
+    <Text ID="xString_LW007"><![CDATA[欢迎使用XT800远程助手，正在启动...]]></Text>
+    <Text ID="xString_LW008"><![CDATA[请求协助]]></Text>
+    <Text ID="xString_LW009"><![CDATA[断开连接]]></Text>
+    <Text ID="xString_LW010"><![CDATA[已经连接...]]></Text>
+    <Text ID="xString_LFLW001"><![CDATA[刷新]]></Text>
+    <Text ID="xString_LFLW002"><![CDATA[删除]]></Text>
+    <Text ID="xString_LFLW003"><![CDATA[新建文件夹]]></Text>
+    <Text ID="xString_LFLW004"><![CDATA[向上]]></Text>
+    <Text ID="xString_LFLW005"><![CDATA[回到桌面]]></Text>
+    <Text ID="xString_HIS001"><![CDATA[历史记录]]></Text>    
+    <Text ID="xString_HIS002"><![CDATA[搜索]]></Text>    
+    <Text ID="xString_HIS003"><![CDATA[刷新]]></Text>    
+    <Text ID="xString_HIS005"><![CDATA[删除]]></Text>
+    <Text ID="xString_HIS006"><![CDATA[联系人]]></Text>
+    <Text ID="xString_FS001"><![CDATA[文件共享]]></Text>
+    <Text ID="xString_FS001"><![CDATA[返回根目录]]></Text>
+    <Text ID="xString_FS002"><![CDATA[后退]]></Text>
+    <Text ID="xString_FS003"><![CDATA[前进]]></Text>
+    <Text ID="xString_FS004"><![CDATA[向上]]></Text>
+    <Text ID="xString_FS005"><![CDATA[下载]]></Text>
+    <Text ID="xString_FS006"><![CDATA[刷新]]></Text>
+    <Text ID="xString_FS007"><![CDATA[显示方式]]></Text>
+    <Text ID="xString_FS008"><![CDATA[类型：未知    大小：未知    修改日期：未知]]></Text>
+    <Text ID="xString_FTU001"><![CDATA[文件传输管理]]></Text>
+    <Text ID="xString_FTU002"><![CDATA[文件传输管理]]></Text>
+    <Text ID="xString_FTU003"><![CDATA[开始]]></Text>
+    <Text ID="xString_FTU004"><![CDATA[删除]]></Text>
+    <Text ID="xString_CON001"><![CDATA[悬浮]]></Text>
+    <Text ID="xString_CON002"><![CDATA[靠边]]></Text>
+    <Text ID="xString_CON003"><![CDATA[添加联系人]]></Text>
+    <Text ID="xString_CON004"><![CDATA[开始文本会话]]></Text>
+    <Text ID="xString_CON005"><![CDATA[发送文件]]></Text>
+    <Text ID="xString_CON006"><![CDATA[查看共享文件]]></Text>
+    <Text ID="xString_CON007"><![CDATA[开始远程控制]]></Text>
+    <Text ID="xString_COL001"><![CDATA[添加联系人]]></Text>
+    <Text ID="xString_COL002"><![CDATA[您的联系人添加数量已超出免费版限制。]]></Text>
+    <Text ID="xString_COL003"><![CDATA[了解更多]]></Text>
+    <Text ID="xString_AUTH001"><![CDATA[授权码验证]]></Text>
+    <Text ID="xString_AUTH002"><![CDATA[请输入远程设备的授权码：]]></Text>
+    <Text ID="xString_VIPNWTITLE"><![CDATA[系统提示]]></Text>
+    <Text ID="xString_APN_001"><![CDATA[您没有可请求协助的服务人员，]]></Text>
+    <Text ID="xString_APN_002"><![CDATA[请点击添加]]></Text>
+    <Text ID="xString_MYID"><![CDATA[我的账号:]]></Text>
+    <Text ID="xString_MYPWD"><![CDATA[授权码:]]></Text>
+    <Text ID="xString_M_MENU"><![CDATA[菜单]]></Text>
+    <Text ID="xString_M_CHECK"><![CDATA[查看]]></Text>
+    <Text ID="xString_M_SETTINGS"><![CDATA[设置]]></Text>
+    <Text ID="xString_M_HELP"><![CDATA[帮助]]></Text>
+    
+    <!-- XSkin资源结束 -->
+
+    <Text ID="XT800">
+      <![CDATA[XT800 个人版]]>
+    </Text>
+
+    <!--登录状态描述-->
+    <Text ID="Login_State_Welcome">
+      <![CDATA[欢迎使用XT800，请登录]]>
+    </Text>
+    <Text ID="Login_State_Logining">
+      <![CDATA[正在登录...]]>
+    </Text>
+    <Text ID="Login_State_Logined">
+      <![CDATA[登录成功]]>
+    </Text>
+    <Text ID="Login_State_Get_Info">
+      <![CDATA[获取信息...]]>
+    </Text>
+    <Text ID="Login_State_Loginout">
+      <![CDATA[用户已登出]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin">
+      <![CDATA[网络中断，\r\n将在%s后自动重新登录...]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin_Timeout">
+      <![CDATA[登录超时，\r\n将在%s后自动重新登录...]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin_MREG">
+      <![CDATA[注册出错，\r\n将在%s后自动重新注册...]]>
+    </Text>
+    <Text ID="Login_State_AutoRelogin_NAS">
+      <![CDATA[登录出错，\r\n将在%s后自动重新登录...]]>
+    </Text>
+
+    <Text ID="Login_Remote_State_Invited">
+      <![CDATA[已经邀请%s控制您的计算机，正在等待对方确认...]]>
+    </Text>
+    <Text ID="Login_Remote_State_Accept">
+      <![CDATA[已通过认证，正在尝试连接...]]>
+    </Text>
+
+    <Text ID="MREG_Login_Register">
+      <![CDATA[正在注册机器...]]>
+    </Text>
+    <Text ID="MREG_Login_Register_Succeed">
+      <![CDATA[机器注册成功]]>
+    </Text>
+
+    <Text ID="NAS_Login_State_Getting">
+      <![CDATA[获取服务器地址...]]>
+    </Text>
+    <Text ID="NAS_Login_State_Ping">
+      <![CDATA[测试服务器速度...]]>
+    </Text>
+    <Text ID="NAS_Login_State_Complete">
+      <![CDATA[登录XT800服务器...]]>
+    </Text>
+    <Text ID="Error_License">
+      <![CDATA[授权错误]]>
+    </Text>
+    <Text ID="Login_Error_License_Error">
+      <![CDATA[软件未获得有效授权或授权已过期，请联系服务提供商]]>
+    </Text>
+    <Text ID="Login_Error_Bind_Address_Error">
+      <![CDATA[该帐号不允许在当前计算机上登录，若有疑问请咨询服务提供商。]]>
+    </Text>
+
+    <Text ID="State_Online">
+      <![CDATA[在线]]>
+    </Text>
+    <Text ID="State_Away">
+      <![CDATA[离开]]>
+    </Text>
+    <Text ID="State_Busy">
+      <![CDATA[忙碌]]>
+    </Text>
+    <Text ID="State_Offline">
+      <![CDATA[离线]]>
+    </Text>
+    <Text ID="State_Locked">
+      <![CDATA[锁定]]>
+    </Text>
+
+    <!--登录错误描述-->
+    <Text ID="Login_Error">
+      <![CDATA[登录发生错误！]]>
+    </Text>
+    <Text ID="Login_Error_Input_ID">
+      <![CDATA[请输入登录ID]]>
+    </Text>
+    <Text ID="Login_Error_Input_ID_Error">
+      <![CDATA[输入登录ID格式错误]]>
+    </Text>
+    <Text ID="Login_Error_Input_PWD">
+      <![CDATA[请输入登录密码]]>
+    </Text>
+
+    <Text ID="Login_Error_Hostunreach">
+      <![CDATA[网络不可用，请确认网络是否可用。]]>
+    </Text>
+    <Text ID="Login_Error_Timeout">
+      <![CDATA[登录超时]]>
+    </Text>
+    <Text ID="Login_Error_Unauthorized">
+      <![CDATA[身份认证错误]]>
+    </Text>
+    <Text ID="Login_Error_Unauthorized2">
+      <![CDATA[ 身份认证错误，请重新输入。]]>
+    </Text>
+    <Text ID="Login_Error_ConnectAbout">
+      <![CDATA[连接中断]]>
+    </Text>
+    <Text ID="Login_Error_Kick">
+      <![CDATA[被踢下线]]>
+    </Text>
+    <Text ID="Login_Error_Kick_MsgBox">
+      <![CDATA[当前帐号在另外一台计算机上登录。]]>
+    </Text>
+
+    <Text ID="NAS_Login_Error_Decrypt">
+      <![CDATA[NAS解析失败]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Invalid">
+      <![CDATA[NAS数据无效]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Srv_Invalid">
+      <![CDATA[NAS返回服务器地址无效]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Retry_Limit">
+      <![CDATA[NAS连接失败]]>
+    </Text>
+    <Text ID="NAS_Login_Error_Connect_Failed">
+      <![CDATA[NAS服务器连接失败]]>
+    </Text>
+    <Text ID="Login_Error_Setting_File">
+      <![CDATA[配置文件出错，请重新安装软件。]]>
+    </Text>
+
+    <Text ID="MREG_ERROR_ECRYPT_FAILED">
+      <![CDATA[网络初始化错误(-1)，请稍后重启软件。]]>
+    </Text>
+    <Text ID="MREG_ERROR_DATA_INVALID">
+      <![CDATA[网络初始化错误(-2)，请稍后重启软件。]]>
+    </Text>
+    <Text ID="MREG_ERROR_USR_DATA_INVALID">
+      <![CDATA[网络初始化错误(-3)，请稍后重启软件。]]>
+    </Text>
+    <Text ID="MREG_ERROR_RET_ERROR">
+      <![CDATA[网络初始化错误(0)，请稍后重启软件。]]>
+    </Text>
+    <Text ID="MREG_ERROR_RETRY_LIMIT">
+      <![CDATA[注册达到重试次数]]>
+    </Text>
+    <Text ID="MREG_ERROR_CONNECT_FAILED">
+      <![CDATA[网络初始化错误(1)，请检查网络是否连接。]]>
+    </Text>
+
+    <!--远程控制-->
+    <Text ID="XTRemote">
+      <![CDATA[远程控制]]>
+    </Text>
+    <Text ID="RemoteControlNotify">
+      <![CDATA[%s正在访问您的计算机，可按Ctrl+Alt+Esc组合键关闭当前连接。]]>
+    </Text>
+    <Text ID="Remote_Query_Control">
+      <![CDATA[通过授权码控制对方计算机]]>
+    </Text>
+    <Text ID="Remote_Query_Monitor">
+      <![CDATA[通过授权码查看对方计算机]]>
+    </Text>
+    <Text ID="Remote_Query_Control_Device">
+      <![CDATA[通过授权码控制远程设备]]>
+    </Text>
+    <Text ID="Remote_Query_Control_Device_Menu">
+      <![CDATA[通过授权码]]>
+    </Text>
+    <Text ID="Remote_Query_Monitor_Device">
+      <![CDATA[通过授权码查看远程设备]]>
+    </Text>
+    <Text ID="Remote_Share_Desktop">
+      <![CDATA[邀请对方控制我的计算机]]>
+    </Text>
+    <Text ID="Remote_File_Mgr">
+      <![CDATA[文件传输及管理]]>
+    </Text>
+    <Text ID="Remote_Browser_Share_File">
+      <![CDATA[浏览对方共享文件]]>
+    </Text>
+    <Text ID="Remote_Start_Connect">
+      <![CDATA[开始连接]]>
+    </Text>
+    <Text ID="Remote_Connect_Permission">
+      <![CDATA[允许他人控制我的计算机]]>
+    </Text>
+    <Text ID="Remote_Operator_Sep">
+      <![CDATA[--------------]]>
+    </Text>
+    <Text ID="Remote_Operator_Clear_History">
+      <![CDATA[清理历史记录]]>
+    </Text>
+    <Text ID="Remote_Control_Release">
+      <![CDATA[远程控制已结束]]>
+    </Text>
+    <Text ID="Remote_Control_Noanwser">
+      <![CDATA[对方目前无法应答，请求自动取消，请稍后重试。]]>
+    </Text>
+    <Text ID="Remote_Control_Confirm">
+      <![CDATA[确定邀请对方访问并控制您的计算机吗？]]>
+    </Text>
+    <Text ID="Remote_Already_Start">
+      <![CDATA[您当前已处于远程连接状态，如需多点同时远程连接，请升级为VIP用户。]]>
+    </Text>
+    <Text ID="Remote_Control_Disconnect">
+      <![CDATA[远程控制连接中断。]]>
+    </Text>
+    <Text ID="Remote_Control_Session_End">
+      <![CDATA[Windows会话中断，请稍后再连接。]]>
+    </Text>
+    <Text ID="Remote_Control_Usr_Disconnect">
+      <![CDATA[对方断开了远程控制连接。]]>
+    </Text>
+    <Text ID="Remote_Input_Contactor_UID">
+      <![CDATA[请输入对方的帐号]]>
+    </Text>
+
+    <Text ID="Remote_Error_Invalid_Password">
+      <![CDATA[密码错误，无法访问！]]>
+    </Text>
+    <Text ID="Remote_Error_Unauthorized">
+      <![CDATA[未被授权，无法访问！]]>
+    </Text>
+    <Text ID="Remote_Error_Maxconnect">
+      <![CDATA[对方当前已处于远程连接状态，如需多点同时远程连接，对方需是VIP用户，请联系对方升级。]]>
+    </Text>
+    <Text ID="Remote_Error_RDP_Exists">
+      <![CDATA[对方电脑正处于Windows远程桌面登录状态%s，请先注销并断开其Windows远程桌面连接，再尝试使用XT800进行远程控制。]]>
+    </Text>
+    <Text ID="Remote_Error_No_Console">
+      <![CDATA[由于远程Windows没有有效的桌面会话，远程控制会话已结束。请尝试再次连接。]]>
+    </Text>
+    <Text ID="Remote_Error_Session_Zero_Disconnect">
+      <![CDATA[由于远程Windows桌面会话已断开，远程控制会话已结束。请尝试再次连接。]]>
+    </Text>
+    <Text ID="Remote_Error_Session_Zero_Disconnect_0">
+      <![CDATA[远程控制会话已结束。另一个用户已使用Windows远程桌面连接此计算机，因此您的连接已丢失。请尝试再次连接。]]>
+    </Text>
+    <Text ID="Remote_Error_Forbid">
+      <![CDATA[对方计算机禁止访问！]]>
+    </Text>
+    <Text ID="Remote_Error_Server_Locked">
+      <![CDATA[对方软件已锁定！]]>
+    </Text>
+    <Text ID="Remote_Request_Denied">
+      <![CDATA[请求被拒绝！]]>
+    </Text>
+    <Text ID="Remote_Connection_Limited">
+      <![CDATA[连接受限！]]>
+    </Text>
+    <Text ID="Remote_Connection_Overtime">
+      <![CDATA[超时，连接中断！]]>
+    </Text>
+
+    <Text ID="Remote_Limit_Default_Msg">
+      <![CDATA[远程控制连接超出时间限制，已自动关闭。\r\n出现该提示是由于您远程控制的计算机总数量已超出免费版限制。]]>
+    </Text>
+
+    <Text ID="Remote_Disconnect_Default_Msg">
+      <![CDATA[这是由协之通XT800提供的免费远程控制。\r\n只能用于非商业用途。\r\n想要体验快速、无限制的远程控制，请升级为VIP。\r\n  \r\n感谢您的支持！]]>
+    </Text>
+
+    <Text ID="Idel_Auto_Disconnect">
+      <![CDATA[闲置时间过长，远程连接中断]]>
+    </Text>
+
+    <Text ID="User_Identify">
+      <![CDATA[（用户身份：]]>
+    </Text>
+
+    <Text ID="Cannot_Be_Acessed">
+      <![CDATA[无法访问！]]>
+    </Text>
+
+    <!--Chat-->
+    <Text ID="Chat_Default_Input_Text">
+      <![CDATA[请按回车键发送消息]]>
+    </Text>
+
+    <Text ID="Msg_Multi_Send">
+      <![CDATA[[消息群发]：]]>
+    </Text>
+
+    <Text ID="Service_Divert_Msg_Wait_Confirm">
+      <![CDATA[已将%s|%s|%s|%s|的服务请求转接给%s，等待确认...]]>
+    </Text>
+
+    <Text ID="Service_Divert_Msg_Notify">
+      <![CDATA[%s(%s)将%s|%s|%s|%s|的服务请求转接给您，请选择%s|%s|%s|接受|，或%s|%s|%s|拒绝|。]]>
+    </Text>
+
+    <Text ID="Agent_Will_Be_Service_Notify">
+      <![CDATA[客服%s|%s|%s|%s|将会为您服务。点击%s|%s|%s|这里|请求协助]]>
+    </Text>
+
+    <Text ID="Service_Divert_Request_Notify">
+      <![CDATA[接受对%s|%s|%s|%s|的服务转接请求。]]>
+    </Text>
+
+    <Text ID="Agent_Accept_Service_Divert_Notify">
+      <![CDATA[%s已经接受对%s|%s|%s|%s|的服务转接请求。]]>
+    </Text>
+
+    <Text ID="Service_Divert_Accepted_Notify">
+      <![CDATA[您好，%s|%s|%s|%s|已将您的客服请求转接给我，我将继续为您提供服务。]]>
+    </Text>
+
+    <Text ID="Deny_Service_Divert_Request">
+      <![CDATA[拒绝对%s|%s|%s|%s|的服务转接请求。]]>
+    </Text>
+
+    <Text ID="Service_Divert_Request_Denied_Notify">
+      <![CDATA[%s拒绝接受对%s|%s|%s|%s|的服务转接请求。]]>
+    </Text>
+
+    <Text ID="Missing_ScreenShot_Part">
+      <![CDATA[截图程序丢失，无法完成截图功能，请重新安装软件。]]>
+    </Text>
+
+    <Text ID="Same_Task_Exists">
+      <![CDATA[同样的任务正在请求队列中，无法添加相同任务]]>
+    </Text>
+
+    <!--通用错误-->
+    <Text ID="Error_No_Contactor">
+      <![CDATA[请输入需要连接的帐号。]]>
+    </Text>
+    <Text ID="Error_No_Self_Opt">
+      <![CDATA[不能对本机进行远程操作。]]>
+    </Text>
+    <Text ID="Error_Share_No_Access">
+      <![CDATA[您尚未选择“授权用户”或未设置“未授权用户访问密码”，所有用户都无法访问此共享文件夹。]]>
+    </Text>
+    <Text ID="Error_Nick_Over_Size">
+      <![CDATA[您设置的昵称太长，请不要超过30个字。]]>
+    </Text>
+    <Text ID="Error_Visit_No_Access">
+      <![CDATA[您尚未选择“授权用户”，所有用户都无法远程连接此计算机。]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Must_Confirm">
+      <![CDATA[您两次输入的授权码不一致，请重新输入]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Empty">
+      <![CDATA[私有授权码不能为空]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Short">
+      <![CDATA[私有授权码不能小于6个字符]]>
+    </Text>
+    <Text ID="Error_Visit_Pwd_Long">
+      <![CDATA[私有授权码不能大于24个字符]]>
+    </Text>
+
+    <Text ID="Error_Low_Ver_For_Shutdown">
+      <![CDATA[对方XT程序版本太低，不支持远程关机的指令。请升级对方XT程序到最新版。]]>
+    </Text>
+    <Text ID="Error_Low_Ver_For_Reboot">
+      <![CDATA[对方XT程序版本太低，不支持远程重启的指令。请升级对方XT程序到最新版。]]>
+    </Text>
+    <Text ID="Error_Low_Ver_For_Terminate">
+      <![CDATA[对方XT程序版本太低，不支持远程终止进程的指令。请升级对方XT程序到最新版。]]>
+    </Text>
+
+    <Text ID="Error_Corp_SN_Bind_Limit">
+      <![CDATA[已达到免费版限制，无法绑定企业配置信息。]]>
+    </Text>
+
+
+    <!--通用提示-->
+    <Text ID="Notify_Clear_Remote_Con_History">
+      <![CDATA[确定要清除历史记录吗？]]>
+    </Text>
+    <Text ID="Notify_Add_Friend_Msg_Send">
+      <![CDATA[已向对方发送添加联系人请求]]>
+    </Text>
+    <Text ID="Notify_No_Unlock_Password">
+      <![CDATA[您还未设置解锁密码，点击确定设置解锁密码。]]>
+    </Text>
+
+    <!--FolderShare提示-->
+    <Text ID="Folder_Share_Error_Same_Name">
+      <![CDATA[同名共享文件夹已经存在，请使用另外的共享名称。]]>
+    </Text>
+    <Text ID="Folder_Share_Error_Path_Exists">
+      <![CDATA[该文件夹已经被共享，请选择其他的文件夹。]]>
+    </Text>
+
+    <!--对应的链接-->
+    <!--访问网站-->
+    <Text ID="Link_Help_HomePage">
+      <![CDATA[/rd?pid=1]]>
+    </Text>
+
+    <!--注册用户-->
+    <Text ID="Link_Register">
+      <![CDATA[http://api.xt800.cn/api/rd?pid=2]]>
+    </Text>
+
+    <!--密码设置-->
+    <Text ID="Link_Account_PWD">
+      <![CDATA[/rd?pid=3]]>
+    </Text>
+
+    <!--忘记密码-->
+    <Text ID="Link_Forget_PWD">
+      <![CDATA[http://api.xt800.cn/api/rd?pid=4]]>
+    </Text>
+
+    <!--账户信息-->
+    <Text ID="Link_Account_Info">
+      <![CDATA[/rd?pid=5]]>
+    </Text>
+
+    <!--帐号及密码设置-->
+    <Text ID="Link_Account_Setting">
+      <![CDATA[/rd?pid=6]]>
+    </Text>
+
+    <!--目录和索引-->
+    <Text ID="Link_Help_Index">
+      <![CDATA[/rd?pid=10]]>
+    </Text>
+
+    <!--问题反馈-->
+    <Text ID="Link_Help_Feedback">
+      <![CDATA[/rd?pid=11]]>
+    </Text>
+
+    <!--管理后台-->
+    <Text ID="Link_Help_Mgr">
+      <![CDATA[/rd?pid=16]]>
+    </Text>
+
+    <!--添加联系人达到上限，了解更多-->
+    <Text ID="Link_Contactor_Limit_Know_More">
+      <![CDATA[/rd?pid=12]]>
+    </Text>
+
+    <!--远程连接界面上的“了解更多”-->
+    <Text ID="Line_Remote_Know_More">
+      <![CDATA[/rd?pid=13]]>
+    </Text>
+
+    <!--远程连接达到时间限制，自动关闭以后，相关帮助-->
+    <Text ID="Line_Remote_Limit_Know_More">
+      <![CDATA[/rd?pid=14]]>
+    </Text>
+
+    <!--文件共享达到限制后，相关帮助-->
+    <Text ID="Line_FolderShare_Limit_Know_More">
+      <![CDATA[/rd?pid=15]]>
+    </Text>
+
+    <!-- 远程服务协助记录 -->
+    <Text ID="Link_Assist_History">
+      <![CDATA[/rd?pid=16]]>
+    </Text>
+
+    <!-- 远程服务协助记录 -->
+    <Text ID="Link_Shortcut_Setting">
+      <![CDATA[/rd?pid=17]]>
+    </Text>
+
+    <!-- 购买企业VIP服务 -->
+    <Text ID="Link_VIP_Buy">
+      <![CDATA[/rd?pid=12]]>
+    </Text>
+
+    <!-- 帐号管理 -->
+    <Text ID="Link_Acount_Mgr">
+      <![CDATA[/rd?pid=20]]>
+    </Text>
+
+    <!--分组管理-->
+    <Text ID="Link_Group_Mgr">
+      <![CDATA[/rd?pid=21]]>
+    </Text>
+
+    <!--客服关系设置-->
+    <Text ID="Link_Client_Service_Mgr">
+      <![CDATA[/rd?pid=22]]>
+    </Text>
+
+    <!--快速部署-->
+    <Text ID="Link_Q_Deploy">
+      <![CDATA[/rd?pid=23]]>
+    </Text>
+
+    <!--发送消息广播-->
+    <Text ID="Link_Broadcast">
+      <![CDATA[/rd?pid=24]]>
+    </Text>
+
+    <!-- 查看远程计算机Process即时信息 -->
+    <Text ID="Link_SysInfo_Process">
+      <![CDATA[/rd?pid=25]]>
+    </Text>
+
+    <!-- 查看远程计算机Install即时信息 -->
+    <Text ID="Link_SysInfo_Install">
+      <![CDATA[/rd?pid=26]]>
+    </Text>
+
+    <!-- 查看远程计算机Window即时信息 -->
+    <Text ID="Link_SysInfo_Window">
+      <![CDATA[/rd?pid=27]]>
+    </Text>
+
+    <!-- 快速部署网页 -->
+    <Text ID="Link_Quick_Deploy">
+      <![CDATA[/rd?pid=28]]>
+    </Text>
+
+    <!-- Personal注册 -->
+    <Text ID="Link_P_REG">
+      <![CDATA[/rd?pid=29]]>
+    </Text>
+
+    <!-- Personal忘记 -->
+    <Text ID="Link_P_RETRIEVAL">
+      <![CDATA[/rd?pid=30]]>
+    </Text>
+
+    <!-- 我的账号 -->
+    <Text ID="Link_My_Account">
+      <![CDATA[/rd?pid=31]]>
+    </Text>
+
+    <!--对应链接End-->
+
+    <Text ID="Remote_File_Ftp">
+      <![CDATA[远程文件管理]]>
+    </Text>
+
+    <!--删除文件和文件夹-->
+    <Text ID="Affirm_Del_File">
+      <![CDATA[您确认要删除文件 “%s” 吗？]]>
+    </Text>
+
+    <Text ID="Affirm_Del_Msg_Prompt">
+      <![CDATA[确认删除]]>
+    </Text>
+
+    <Text ID="Affirm_Del_Folder">
+      <![CDATA[您确认要删除文件夹 “%s” 及其文件夹下面的所有内容吗？]]>
+    </Text>
+
+    <Text ID="Del_File_Folder_Error">
+      <![CDATA[无法删除 “%s” ，文件正在被另一个人或程序使用，%s请关闭任何可能正在使用这个文件的程序，重新试一次]]>
+    </Text>
+
+    <Text ID="Del_File_Folder_Msg_Prompt">
+      <![CDATA[删除文件或文件夹时出错]]>
+    </Text>
+
+    <Text ID="Rename_File_Error">
+      <![CDATA[无法重命名“%s”，文件正在被另一个人或程序使用，%s请关闭任何可能正在使用这个文件的程序，重新试一次]]>
+    </Text>
+
+    <Text ID="Rename_File_Error_Msg_Prompt">
+      <![CDATA[重命名文件或文件夹时出错]]>
+    </Text>
+
+    <!-- 远程文件管理 -->
+    <Text ID="Remote_File_Up">
+      <![CDATA[上传>>]]>
+    </Text>
+
+    <Text ID="Remote_File_Down">
+      <![CDATA[下载<<]]>
+    </Text>
+
+    <Text ID="Remote_File_Window_title">
+      <![CDATA[远程文件管理]]>
+    </Text>
+
+    <Text ID="Remote_File_ATTR_name">
+      <![CDATA[名称]]>
+    </Text>
+
+    <Text ID="Remote_File_ATTR_size">
+      <![CDATA[大小]]>
+    </Text>
+
+    <Text ID="Remote_File_ATTR_type">
+      <![CDATA[类型]]>
+    </Text>
+
+    <!-- 升级 -->
+    <Text ID="Update_Tray_Text">
+      <![CDATA[XT800升级]]>
+    </Text>
+
+    <!--Common Info-->
+    <Text ID="Common_Invite_User">
+      <![CDATA[您好，\r\n请下载并启动远程协助工具XT800免费版：\r\nhttp://www.xt800.cn/download/latest?t=p&l=c\r\n\r\n----\r\nwww.xt800.cn 远程访问和协助就是如此轻松！]]>
+    </Text>
+
+    <!-- AD -->
+    <Text ID="Default_AD_Text">
+      <![CDATA[欢迎使用协通XT800远程服务...]]>
+    </Text>
+    <Text ID="Default_AD_Link">
+      <![CDATA[http://www.xt800.cn]]>
+    </Text>
+
+    <!-- 其他文案 -->
+    <Text ID="Input_Valid_UID">
+      <![CDATA[请输入有效的联系人ID。]]>
+    </Text>
+
+    <Text ID="User_Already_In_Black_List">
+      <![CDATA[该联系人已经存在于黑名单中。]]>
+    </Text>
+
+    <Text ID="User_Already_In_White_List">
+      <![CDATA[该联系人已经存在于白名单中。]]>
+    </Text>
+
+    <Text ID="Remote_Control">
+      <![CDATA[远程控制]]>
+    </Text>
+
+    <Text ID="Remote_Assist">
+      <![CDATA[远程协作]]>
+    </Text>
+
+    <Text ID="Sheet_Caption_Settings">
+      <![CDATA[配置]]>
+    </Text>
+
+    <Text ID="Input_Add_Computer">
+      <![CDATA[请输入您要添加的计算机号码:]]>
+    </Text>
+
+    <Text ID="Input_Add_Contactor">
+      <![CDATA[请输入您要添加的联系人帐号:]]>
+    </Text>
+
+    <Text ID="Please_Input_Corret_MID">
+      <![CDATA[请正确输入对方计算机的号码（非用户名）！]]>
+    </Text>
+
+    <Text ID="Error_Number_Exists">
+      <![CDATA[该号码已在您的列表中，不能重复添加！]]>
+    </Text>
+
+    <Text ID="Error_User_Exists">
+      <![CDATA[该用户已是您的联系人，不能重复添加！]]>
+    </Text>
+
+    <Text ID="Error_Black_Contactor">
+      <![CDATA[该用户是黑名单用户，不能添加！]]>
+    </Text>
+
+    <Text ID="Error_Self_Contactor">
+      <![CDATA[不能添加自己为联系人！]]>
+    </Text>
+
+    <Text ID="Contactor_Limit_Notify_VIP">
+      <![CDATA[您的联系人添加数量已超出免费版限制，如需不限制联系人数量，请升级为VIP用户。]]>
+    </Text>
+
+    <Text ID="File_Locked_Retry">
+      <![CDATA[文件被锁定，无法读取。请关闭相关程序后再试。]]>
+    </Text>
+
+    <Text ID="Same_Task_In_Quere">
+      <![CDATA[同样的任务正在请求队列中，无法添加相同任务]]>
+    </Text>
+
+    <Text ID="Select_Folder_to_Send">
+      <![CDATA[请选择需要发送的文件夹]]>
+    </Text>
+
+    <Text ID="File_Share_">
+      <![CDATA[文件共享 ]]>
+    </Text>
+
+    <Text ID="Confirm_Add_to_Blacklist">
+      <![CDATA[确定要将该联系人加入黑名单吗？]]>
+    </Text>
+
+    <Text ID="Not_Auth_to_Survey">
+      <![CDATA[没有授权发起满意度调查。]]>
+    </Text>
+
+    <Text ID="s_Share_Folder">
+      <![CDATA[的共享目录]]>
+    </Text>
+
+    <Text ID="Pic_Transfering">
+      <![CDATA[[图片正在传输...]]]>
+    </Text>
+
+    <Text ID="Setting_Mode">
+      <![CDATA[(设置模式)]]>
+    </Text>
+
+    <Text ID="Error_Can_not_Shutdown_Windows">
+      <![CDATA[无法关闭Windows!(Error Code:%d)]]>
+    </Text>
+
+    <Text ID="Error_Key_Modual_Missing_Request_Failed">
+      <![CDATA[关键程序模块丢失，发起请求失败！"]]>
+    </Text>
+
+    <Text ID="Continue_Add">
+      <![CDATA[继续添加]]>
+    </Text>
+
+    <Text ID="Next_Step">
+      <![CDATA[下一步]]>
+    </Text>
+
+    <Text ID="Finish">
+      <![CDATA[完成]]>
+    </Text>
+
+    <Text ID="Cancel">
+      <![CDATA[取消]]>
+    </Text>
+
+    <Text ID="Confirm">
+      <![CDATA[确定]]>
+    </Text>
+
+    <Text ID="Close">
+      <![CDATA[关闭]]>
+    </Text>
+
+    <Text ID="Confirm_">
+      <![CDATA[确 定]]>
+    </Text>
+
+    <Text ID="Exit_">
+      <![CDATA[退 出]]>
+    </Text>
+
+    <Text ID="Cancel_">
+      <![CDATA[取 消]]>
+    </Text>
+
+    <Text ID="Close_">
+      <![CDATA[关 闭]]>
+    </Text>
+
+    <Text ID="New_Folder">
+      <![CDATA[新建文件夹]]>
+    </Text>
+
+    <Text ID="_File">
+      <![CDATA[ 文件]]>
+    </Text>
+
+    <Text ID="All_Files_Filter">
+      <![CDATA[所有文件 (*.*)|*.*||]]>
+    </Text>
+
+    <Text ID="Upgrade_to_VIP">
+      <![CDATA[升级为VIP]]>
+    </Text>
+
+    <Text ID="Menu_Cut">
+      <![CDATA[剪切(&T)]]>
+    </Text>
+
+    <Text ID="Menu_Copy">
+      <![CDATA[复制(&C)]]>
+    </Text>
+
+    <Text ID="Menu_Paste">
+      <![CDATA[粘贴(&P)]]>
+    </Text>
+
+    <Text ID="Menu_Sel_All">
+      <![CDATA[全部选择(&A)]]>
+    </Text>
+
+    <Text ID="Menu_Clear">
+      <![CDATA[清屏(&S)]]>
+    </Text>
+
+    <Text ID="Menu_Reference">
+      <![CDATA[引用(&R)]]>
+    </Text>
+
+    <Text ID="Msg_Notify">
+      <![CDATA[消息提示]]>
+    </Text>
+
+    <Text ID="Zero_Second">
+      <![CDATA[0秒]]>
+    </Text>
+
+    <Text ID="Time_Format_HMS">
+      <![CDATA[%d小时%d分%d秒]]>
+    </Text>
+
+    <Text ID="Time_Format_MS">
+      <![CDATA[%d分%d秒]]>
+    </Text>
+
+    <Text ID="Time_Format_S">
+      <![CDATA[%d秒]]>
+    </Text>
+
+    <!-- Main 模块文字 -->
+    <Text ID="Error_Commet_Too_Long">
+      <![CDATA[备注名不能大于32个字。]]>
+    </Text>
+
+    <Text ID="Input_Login_ID">
+      <![CDATA[请输入登录帐号]]>
+    </Text>
+
+    <Text ID="Input_Passowrd">
+      <![CDATA[请输入密码]]>
+    </Text>
+
+    <Text ID="Remember_My_Login_State">
+      <![CDATA[记住我的登录状态]]>
+    </Text>
+
+    <Text ID="Save_Password">
+      <![CDATA[保存密码]]>
+    </Text>
+
+    <Text ID="Auto_login">
+      <![CDATA[自动登录]]>
+    </Text>
+
+    <Text ID="Input_Valid_ID_PWD">
+      <![CDATA[请输入有效的账号和密码]]>
+    </Text>
+
+    <Text ID="Msg_Invited">
+      <![CDATA[%s(已邀请)]]>
+    </Text>
+
+    <Text ID="Msg_My_Machine">
+      <![CDATA[(本计算机)]]>
+    </Text>
+
+    <Text ID="Unknow_Version">
+      <![CDATA[未知版本]]>
+    </Text>
+
+    <Text ID="Ver_Enterprise">
+      <![CDATA[企业版]]>
+    </Text>
+
+    <Text ID="Ver_Service">
+      <![CDATA[服务版]]>
+    </Text>
+
+    <Text ID="Ver_Mini">
+      <![CDATA[远程助手]]>
+    </Text>
+
+    <Text ID="Ver_Mini_Mon">
+      <![CDATA[远程助手（监控版）]]>
+    </Text>
+
+    <Text ID="Ver_Personal">
+      <![CDATA[个人版]]>
+    </Text>
+
+    <Text ID="Ver_Web">
+      <![CDATA[网页版]]>
+    </Text>
+
+    <Text ID="Ver_Android">
+      <![CDATA[Android系统]]>
+    </Text>
+
+    <Text ID="Unknow_Type">
+      <![CDATA[未知类型]]>
+    </Text>
+
+    <Text ID="Unknow_Res">
+      <![CDATA[未知类型(%s)]]>
+    </Text>
+
+    <Text ID="Ver">
+      <![CDATA[版本:]]>
+    </Text>
+
+    <Text ID="Type">
+      <![CDATA[类型:]]>
+    </Text>
+
+    <Text ID="State_Auto_DND">
+      <![CDATA[远控时切换为忙碌]]>
+    </Text>
+
+    <Text ID="State_Auto_Chat_DND">
+      <![CDATA[文本会话时切换为忙碌]]>
+    </Text>
+
+    <Text ID="Search_Contactor">
+      <![CDATA[查找联系人]]>
+    </Text>
+
+    <Text ID="Logout">
+      <![CDATA[注销]]>
+    </Text>
+
+    <Text ID="My_ID">
+      <![CDATA[我的账号]]>
+    </Text>
+
+    <Text ID="No_Connection">
+      <![CDATA[没有连接]]>
+    </Text>
+
+    <Text ID="User_In_Control">
+      <![CDATA[%s 正在远程控制您的计算机。\r\n点击断开连接中断远程控制。]]>
+    </Text>
+
+    <Text ID="User_In_Control_2">
+      <![CDATA[%s(%s) 正在远程控制您的计算机。\r\n点击断开连接中断远程控制。]]>
+    </Text>
+
+    <Text ID="Remote_Connect_Succeed">
+      <![CDATA[远程控制连接成功]]>
+    </Text>
+
+    <Text ID="Connectino_Elapse">
+      <![CDATA[已连接 %s]]>
+    </Text>
+
+    <Text ID="Multi_Connection_Disconnect">
+      <![CDATA[多个用户正在远程控制您的计算机。\r\n点击断开连接中断所有远程控制。]]>
+    </Text>
+
+    <Text ID="Remote_Control_Estabished">
+      <![CDATA[远程控制连接成功]]>
+    </Text>
+
+    <Text ID="Cancel_Request">
+      <![CDATA[取消请求]]>
+    </Text>
+
+    <Text ID="Disconnect">
+      <![CDATA[断开连接]]>
+    </Text>
+
+    <Text ID="Input_Info_And_Bind">
+      <![CDATA[请输入帐号和密码进行绑定。]]>
+    </Text>
+
+    <Text ID="Cancel_Bind_Exit_Confirm">
+      <![CDATA[您确定要取消绑定操作，并退出程序吗？]]>
+    </Text>
+
+    <Text ID="Cancel_Bind_Exit_Confirm_2">
+      <![CDATA[您确定要取消绑定操作，并退出程序吗？\r\n这将保持现有的帐号，下次启动时自动登陆。]]>
+    </Text>
+
+    <Text ID="Msg_Notify">
+      <![CDATA[信息提示]]>
+    </Text>
+
+    <Text ID="My_Share">
+      <![CDATA[我的共享]]>
+    </Text>
+
+    <Text ID="Contactor_out">
+      <![CDATA[联系人>>]]>
+    </Text>
+
+    <Text ID="Contactor_in">
+      <![CDATA[联系人<<]]>
+    </Text>
+
+    <Text ID="Update_Check">
+      <![CDATA[检测更新]]>
+    </Text>
+
+    <Text ID="Update_Valiable">
+      <![CDATA[获取到升级信息，点击进行升级]]>
+    </Text>
+
+    <Text ID="Update_Downloading">
+      <![CDATA[正在下载升级程序...]]>
+    </Text>
+
+    <Text ID="Check_KBS">
+      <![CDATA[查询知识库]]>
+    </Text> 
+    <Text ID="_Disk_Free_">
+      <![CDATA[%s, 剩余 %s]]>
+    </Text>
+
+    <Text ID="Remote_Control_Machine">
+      <![CDATA[远程控制(%s)的计算机：]]>
+    </Text>
+
+    <Text ID="App_Locked">
+      <![CDATA[软件已锁定！]]>
+    </Text>
+
+    <Text ID="Network_Init_Failed">
+      <![CDATA[远程服务器组件网络初始化失败（Code %d），请检查网络配置。]]>
+    </Text>
+
+    <Text ID="Remote_Module">
+      <![CDATA[远控组件]]>
+    </Text>
+
+    <Text ID="Multi_Remote_Controller_Notify">
+      <![CDATA[当前还有%d个用户正在远程控制您的计算机]]>
+    </Text>
+
+    <Text ID="Text_Chat_Closed">
+      <![CDATA[%s已关闭文本会话。]]>
+    </Text>
+
+    <Text ID="Text_Chat_Closed_2">
+      <![CDATA[%s(%s)已关闭文本会话。]]>
+    </Text>
+
+    <Text ID="App_Locked_Need_Unlock">
+      <![CDATA[软件已锁定，请输入解锁密码：]]>
+    </Text>
+
+    <Text ID="Input_Password_">
+      <![CDATA[请输入密码！]]>
+    </Text>
+
+    <Text ID="Input_Password_Error">
+      <![CDATA[输入密码错误！]]>
+    </Text>
+
+    <Text ID="Open_Clipboard_Failed">
+      <![CDATA[打开剪切板失败！]]>
+    </Text>
+
+    <Text ID="Opt_Clipboard_Failed">
+      <![CDATA[操作剪切板失败！]]>
+    </Text>
+
+    <!-- MsgBox 模块 -->
+    <Text ID="User_Already_Add_You_As_Contactor">
+      <![CDATA[%s(%s)已添加您为联系人。]]>
+    </Text>
+
+    <Text ID="User_Already_Add_You_As_Contactor_2">
+      <![CDATA[%s已添加您为联系人。]]>
+    </Text>
+
+    <Text ID="Error_Frequently_Is_High">
+      <![CDATA[添加失败，您添加好友操作太过频繁。]]>
+    </Text>
+
+    <Text ID="Error_Max_Contactor_Limit">
+      <![CDATA[添加失败，您当前帐号的联系人数量已达到最大限制。]]>
+    </Text>
+
+    <Text ID="Error_User_Not_Exists">
+      <![CDATA[添加失败，您要添加的联系人不存在。]]>
+    </Text>
+
+    <Text ID="Error_Unknown">
+      <![CDATA[添加失败，原因未知。]]>
+    </Text>
+
+    <Text ID="Auto_Replay_">
+      <![CDATA[[自动回复] ]]>
+    </Text>
+
+    <Text ID="Survey">
+      <![CDATA[问卷调查]]>
+    </Text>
+
+    <!-- Notify 模块 -->
+
+    <Text ID="App_Locked_Denied">
+      <![CDATA[对方处于锁定状态，无法接受邀请]]>
+    </Text>
+
+    <Text ID="Denied">
+      <![CDATA[对方拒绝了远程控制的邀请]]>
+    </Text>
+
+    <Text ID="State_Notify_Online">
+      <![CDATA[%s的计算机已上线]]>
+    </Text>
+
+    <Text ID="State_Notify_Offline">
+      <![CDATA[%s的计算机已离线]]>
+    </Text>
+
+    <Text ID="User_Say">
+      <![CDATA[%s说：]]>
+    </Text>
+    <Text ID="User_Say_2">
+      <![CDATA[%s(%s)说：]]>
+    </Text>
+
+    <!--Queue 模块-->
+    <Text ID="ID">
+      <![CDATA[ID]]>
+    </Text>
+
+    <Text ID="Name">
+      <![CDATA[名称]]>
+    </Text>
+
+    <Text ID="Group">
+      <![CDATA[所属分组]]>
+    </Text>
+
+    <Text ID="Queue_Time">
+      <![CDATA[请求服务时间]]>
+    </Text>
+
+    <Text ID="Select_Valid_Agent">
+      <![CDATA[请选择有效客户进行接入。]]>
+    </Text>
+
+    <Text ID="Agent_Accepted">
+      <![CDATA[客服已接入]]>
+    </Text>
+
+    <Text ID="User_Request">
+      <![CDATA[用户%s(%s)请求接入。]]>
+    </Text>
+
+    <!-- Remote 模块 -->
+    <Text ID="Ask_Disconnect_Remote_Control">
+      <![CDATA[需要断开对方计算机上正在进行的远程控制吗？]]>
+    </Text>
+
+    <Text ID="Connecting">
+      <![CDATA[正在连接...]]>
+    </Text>
+
+    <Text ID="Viewer_Only_No_Control">
+      <![CDATA[仅查看，不控制]]>
+    </Text>
+
+    <Text ID="Password_Can_Not_Be_Empty">
+      <![CDATA[密码不能为空！]]>
+    </Text>
+
+    <Text ID="Password_Can_Not_Too_Long">
+      <![CDATA[密码长度不能操作32个字节！]]>
+    </Text>
+
+    <Text ID="Time_Limit_Auto_Close">
+      <![CDATA[连接达到时间限制，将会自动关闭]]>
+    </Text>
+
+    <Text ID="Channel_Limit_Time_Left">
+      <![CDATA[已达到通道授权限制，当前连接剩余时间 %s]]>
+    </Text>
+
+    <Text ID="Remote_Control_Connect_Config">
+      <![CDATA[远程连接设定]]>
+    </Text>
+
+    <Text ID="Network_Error_Use_Relay">
+      <![CDATA[网络异常，尝试使用数据中转进行连接...]]>
+    </Text>
+
+    <Text ID="Network_Error_Use_TCP_Relay">
+      <![CDATA[网络异常，尝试使用强制TCP中转进行连接...]]>
+    </Text>
+
+    <Text ID="Auth_Accept_Connecting">
+      <![CDATA[已通过认证，正在尝试连接...]]>
+    </Text>
+
+    <Text ID="Wait_For_Accept">
+      <![CDATA[请稍等，等待对方确认！]]>
+    </Text>
+
+    <Text ID="Start_Remote_Control_Failed">
+      <![CDATA[发起远控请求失败]]>
+    </Text>
+
+    <Text ID="User_Offline_Remote_Control_Failed">
+      <![CDATA[用户客户端不在线，发起远控请求失败！]]>
+    </Text>
+
+    <Text ID="User_Disconnect_RC">
+      <![CDATA[%s已结束远程控制。]]>
+    </Text>
+
+    <Text ID="Other_Users">
+      <![CDATA[其他用户]]>
+    </Text>
+
+    <Text ID="User_Invite_Remote_Control">
+      <![CDATA[%s邀请您远程控制其计算机，您是否接受？]]>
+    </Text>
+
+    <Text ID="User_Invite_Remote_Control_2">
+      <![CDATA[%s(%s)邀请您远程控制其计算机，您是否接受？]]>
+    </Text>
+
+    <Text ID="User_Requet_Remote_Control">
+      <![CDATA[%s请求远程控制您的计算机，您是否接受？]]>
+    </Text>
+
+    <Text ID="User_Requet_Remote_Control_2">
+      <![CDATA[%s(%s)请求远程控制您的计算机，您是否接受？]]>
+    </Text>
+
+    <Text ID="_Connected_">
+      <![CDATA[%s已连接%s]]>
+    </Text>
+
+    <!-- RemoteFile -->
+
+    <Text ID="My_Computer">
+      <![CDATA[我的电脑]]>
+    </Text>
+
+    <Text ID="My_Documents">
+      <![CDATA[我的文档]]>
+    </Text>
+
+    <Text ID="File_Tips">
+      <![CDATA[%s \r\n类型：%s \r\n大小：%s \r\n修改日期：%s]]>
+    </Text>
+
+    <Text ID="File_Type_Unknown">
+      <![CDATA[未知]]>
+    </Text>
+
+    <Text ID="File_Type_Disk">
+      <![CDATA[磁盘]]>
+    </Text>
+
+    <Text ID="File_Type_CDROM">
+      <![CDATA[光驱]]>
+    </Text>
+
+    <Text ID="File_Type_File">
+      <![CDATA[文件]]>
+    </Text>
+
+    <Text ID="File_Type_Folder">
+      <![CDATA[文件夹]]>
+    </Text>
+
+    <Text ID="Error_Unable_To_Rename">
+      <![CDATA[无法重命名“%s”，文件夹下可能有文件正在被另一个人或程序使用，\r\n请关闭任何可能正在使用这个文件的程序，重新试一次]]>
+    </Text>
+
+    <Text ID="Error_Rename">
+      <![CDATA[重命名文件或文件夹出错]]>
+    </Text>
+
+    <Text ID="Upload">
+      <![CDATA[上传]]>
+    </Text>
+
+    <Text ID="Delete">
+      <![CDATA[删除]]>
+    </Text>
+
+    <Text ID="Rename">
+      <![CDATA[重命名]]>
+    </Text>
+
+    <Text ID="New_Folder">
+      <![CDATA[新建文件夹]]>
+    </Text>
+
+    <Text ID="Refresh">
+      <![CDATA[刷新]]>
+    </Text>
+
+    <Text ID="Confirm_Overwrite">
+      <![CDATA[远端同名文件已经存在，是否覆盖？]]>
+    </Text>
+
+    <Text ID="User_Offline_Auto_Close">
+      <![CDATA[用户离线，文件管理窗体将关闭。]]>
+    </Text>
+
+    <Text ID="Notify">
+      <![CDATA[提示]]>
+    </Text>
+
+    <Text ID="Remote_Execute">
+      <![CDATA[远程执行该文件]]>
+    </Text>
+
+    <Text ID="Not_Executeable">
+      <![CDATA[不是可执行文件，不能远程执行！]]>
+    </Text>
+
+    <Text ID="Rename_Error_Auth">
+      <![CDATA[授权码认证失败，请点确定后退出远程文件管理窗口，重新验证授权码。]]>
+    </Text>
+
+    <Text ID="Rename_Error_Exists">
+      <![CDATA[不能重命名此文件或文件夹，此文件或文件夹不存在，点“确定”后将刷新目录。]]>
+    </Text>
+
+    <Text ID="Rename_Error_Shared">
+      <![CDATA[不能重命名此文件或文件夹，可能有其他应用程序正在使用此文件或文件夹。]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Succeed">
+      <![CDATA[远端程序已启动。]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error_Auth">
+      <![CDATA[授权码认证失败，请点确定后退出远程文件管理窗口，重新验证授权码。]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error_Exists">
+      <![CDATA[不能执行该文件，此文件不存在，点“确定”后将刷新目录。]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error_Permission">
+      <![CDATA[没有权限执行该命令。]]>
+    </Text>
+
+    <Text ID="Remote_Execute_Error">
+      <![CDATA[执行出错]]>
+    </Text>
+
+    <Text ID="Delete_Error">
+      <![CDATA[删除文件出错]]>
+    </Text>
+
+    <Text ID="Delete_Error_Auth">
+      <![CDATA[授权码认证失败，请点确定后退出远程文件管理窗口，重新验证授权码。]]>
+    </Text>
+
+    <Text ID="Delete_Error_Exists">
+      <![CDATA[不能重命名此文件或文件夹，此文件或文件夹不存在，点“确定”后将刷新目录。]]>
+    </Text>
+
+    <Text ID="Delete_Error_Share">
+      <![CDATA[不能删除此文件或文件夹，可能有其他应用程序正在使用此文件或文件夹]]>
+    </Text>
+
+    <Text ID="New_Folder_Error">
+      <![CDATA[新建文件夹出错]]>
+    </Text>
+
+    <Text ID="New_Folder_Error_Auth">
+      <![CDATA[授权码认证失败，请点确定后退出远程文件管理窗口，重新验证授权码。]]>
+    </Text>
+
+    <Text ID="New_Folder_Error_Exists">
+      <![CDATA[不能创建新文件夹，当前路径不存在，点“确定”后将刷新到上级目录！]]>
+    </Text>
+
+    <Text ID="New_Folder_Error_Cannot">
+      <![CDATA[不能创建新文件夹，当前路径不存在，点“确定”后将刷新到上级目录！]]>
+    </Text>
+
+    <Text ID="Open_Folder_Error">
+      <![CDATA[打开目录出错]]>
+    </Text>
+
+    <Text ID="Open_Folder_Error_Auth">
+      <![CDATA[授权码认证失败，请点确定后退出远程文件管理窗口，重新验证授权码。]]>
+    </Text>
+
+    <Text ID="Open_Folder_Error_Exists">
+      <![CDATA[不能获得文件夹目录信息，路径不存在！]]>
+    </Text>
+
+    <Text ID="Move_Error_Exists">
+      <![CDATA[不能获得文件夹目录信息，路径不存在！]]>
+    </Text>
+
+    <Text ID="User_Remote_Manager_File_Notify">
+      <![CDATA[%s 正在对您的电脑文件进行远程管理。]]>
+    </Text>
+
+    <Text ID="User_Remote_Manager_File_Notify_2">
+      <![CDATA[%s(%s) 正在对您的电脑文件进行远程管理。]]>
+    </Text>
+
+    <Text ID="User_Stop_Manager_File_Notify">
+      <![CDATA[%s 退出了远程文件管理。]]>
+    </Text>
+
+    <Text ID="User_Stop_Manager_File_Notify_2">
+      <![CDATA[%s(%s) 退出了远程文件管理。]]>
+    </Text>
+
+    <Text ID="User_Remote_Execute_File_Notify">
+      <![CDATA[%s 运行了 %s 程序。]]>
+    </Text>
+
+    <Text ID="User_Remote_Execute_File_Notify_2">
+      <![CDATA[%s(%s) 运行了 %s 程序。]]>
+    </Text>
+
+    <Text ID="User_Request_File_Manager">
+      <![CDATA[%s请求管理你的文件，是否接受？]]>
+    </Text>
+
+    <Text ID="User_File_Manager_Notify">
+      <![CDATA[%s正在对您的电脑文件进行远程管理。]]>
+    </Text>
+
+    <Text ID="User_Exit_File_Manager_Notify">
+      <![CDATA[%s退出了远程文件管理。]]>
+    </Text>
+
+    <!-- Setting -->
+
+    <Text ID="Setting_Unbind">
+      <![CDATA[取消绑定]]>
+    </Text>
+
+    <Text ID="Setting_Bind">
+      <![CDATA[绑定部署代码]]>
+    </Text>
+
+    <Text ID="Setting_Select_Folder">
+      <![CDATA[请选择目录]]>
+    </Text>
+
+    <Text ID="Password_Char_Unvalid">
+      <![CDATA[不可以该字符串作为密码，请选择其他字符串。]]>
+    </Text>
+
+    <Text ID="Receive_New_Settings">
+      <![CDATA[已接收到新的配置，需关闭当前窗口以更新配置信息。]]>
+    </Text>
+
+    <Text ID="Lock_Settings_Caption">
+      <![CDATA[配置 - 已启用配置自动同步，部分选项无法更改，请联系您的服务人员。]]>
+    </Text>
+
+    <Text ID="Setting_Dlg_State_Online">
+      <![CDATA[状态：已成功连接通讯网络]]>
+    </Text>
+    <Text ID="Setting_Dlg_State_Offline">
+      <![CDATA[状态：连接失败，请检查您的网络设置]]>
+    </Text>
+    <Text ID="Setting_Dlg_State_Away">
+      <![CDATA[状态：离开]]>
+    </Text>
+    <Text ID="Setting_Dlg_State_DND">
+      <![CDATA[状态：忙碌]]>
+    </Text>
+
+    <Text ID="Msg_Setting_Pwd_Needed">
+      <![CDATA[您必须设置软件设定保护密码，否则软件设定保护功能将不可用。]]>
+    </Text>
+    <Text ID="Msg_Setting_Pwd_Short">
+      <![CDATA[软件设定保护密码长度不能少于6个字。]]>
+    </Text>
+    <Text ID="Msg_Setting_Pwd_Long">
+      <![CDATA[软件设定保护密码长度不能超过32个字。]]>
+    </Text>
+
+    <Text ID="Msg_App_Lock_Pwd_Needed">
+      <![CDATA[您必须设置软件解锁密码，否则软件锁定功能将不可用。]]>
+    </Text>
+    <Text ID="Msg_App_Lock_Pwd_Short">
+      <![CDATA[软件解锁密码长度不能少于6个字。]]>
+    </Text>
+    <Text ID="Msg_App_Lock_Pwd_Long">
+      <![CDATA[软件解锁密码长度不能超过32个字。]]>
+    </Text>
+
+    <Text ID="Proxy_Type_IE">
+      <![CDATA[使用IE浏览器设置]]>
+    </Text>
+    <Text ID="Proxy_Type_HTTP">
+      <![CDATA[HTTP代理]]>
+    </Text>
+    <Text ID="Proxy_Type_SOCKS">
+      <![CDATA[SOCKS5代理]]>
+    </Text>
+
+    <Text ID="Msg_Input_Valid_Proxy_Srv">
+      <![CDATA[请输入有效的代理服务器信息。]]>
+    </Text>
+    <Text ID="Msg_Input_Valid_Proxy_Auth_Info">
+      <![CDATA[请输入有效的代理服务器认证信息。]]>
+    </Text>
+
+    <Text ID="Msg_Input_Corp_Bind_ID">
+      <![CDATA[请输入企业服务代码！]]>
+    </Text>
+    <Text ID="Msg_Corp_Binding">
+      <![CDATA[正在绑定企业服务，请绑定完毕后再关闭窗口！]]>
+    </Text>
+    <Text ID="Msg_Binding_Please_Wait">
+      <![CDATA[正在进行绑定，请稍候...]]>
+    </Text>
+    <Text ID="Msg_Corp_Bind_Succeed">
+      <![CDATA[企业绑定成功。\r\n点击关闭按钮关闭窗口。]]>
+    </Text>
+    <Text ID="Msg_Corp_Bind_Error">
+      <![CDATA[企业绑定失败。（Error: %d）]]>
+    </Text>
+
+    <Text ID="Msg_Corp_Unbinding">
+      <![CDATA[正在进行取消绑定企业服务，请动作完毕后再关闭窗口！]]>
+    </Text>
+    <Text ID="Msg_Unbinding_Please_Wait">
+      <![CDATA[正在取消绑定企业服务，请稍候...]]>
+    </Text>
+    <Text ID="Msg_Corp_Unbind_Succeed">
+      <![CDATA[取消绑定成功。\r\n点击关闭按钮关闭窗口。]]>
+    </Text>
+    <Text ID="Msg_Corp_Unbind_Error">
+      <![CDATA[取消企业绑定失败。（Error: %d）]]>
+    </Text>
+
+    <Text ID="Setting_Locked_Need_Pwd">
+      <![CDATA[软件设置已经锁定，请输入解锁密码解锁。]]>
+    </Text>
+
+    <Text ID="Setting_Error_Service_Install_Error">
+      <![CDATA[发生错误，未能正确进行设置！可能是对应服务没有正确安装。]]>
+    </Text>
+    <Text ID="Setting_Error_Install_Service">
+      <![CDATA[发生错误，未能安装服务！]]>
+    </Text>
+
+    <Text ID="Input_IE_Proxy_Auth">
+      <![CDATA[请输入代理服务器%s的认证信息。若不需要认证，请直接点击确定。]]>
+    </Text>
+
+    <Text ID="Settings_Affect_Restart">
+      <![CDATA[设置将在下次程序启动后生效]]>
+    </Text>
+
+    <!-- History -->
+    <Text ID="No_Chat_Record">
+      <![CDATA[没有聊天记录]]>
+    </Text>
+    <Text ID="Confirm_Delete_User_Chat_Record">
+      <![CDATA[确定要删除%s的聊天记录吗]]>
+    </Text>
+
+    <!-- Auth -->
+    <Text ID="Auth_Overtime">
+      <![CDATA[授权码认证超时]]>
+    </Text>
+
+    <Text ID="Auth_Succeed">
+      <![CDATA[认证通过]]>
+    </Text>
+
+    <Text ID="Auth_Machine_Locked">
+      <![CDATA[对方软件已锁定。]]>
+    </Text>
+
+    <Text ID="Auth_Password_Error">
+      <![CDATA[授权码错误。]]>
+    </Text>
+
+    <Text ID="Auth_Protocol_Error">
+      <![CDATA[协议不支持。]]>
+    </Text>
+
+    <Text ID="Auth_Error_Unknown">
+      <![CDATA[未知错误，无法连接！]]>
+    </Text>
+
+    <Text ID="Auth_Passed_Connecting">
+      <![CDATA[已通过认证，正在尝试连接...]]>
+    </Text>
+
+    <Text ID="Auth_Processing">
+      <![CDATA[正在进行认证...]]>
+    </Text>
+
+    <Text ID="Auth_Overtime">
+      <![CDATA[认证超时]]>
+    </Text>
+
+    <Text ID="Auth_Error">
+      <![CDATA[认证发生错误]]>
+    </Text>
+
+    <!-- Update -->
+    <Text ID="Version_Newest">
+      <![CDATA[您使用的已经是最新版本]]>
+    </Text>
+
+    <Text ID="Update_to_version">
+      <![CDATA[更新版本：]]>
+    </Text>
+    <Text ID="Update_date">
+      <![CDATA[发布时间：]]>
+    </Text>
+    <Text ID="Update_content">
+      <![CDATA[更新内容：]]>
+    </Text>
+    <Text ID="Update_now_">
+      <![CDATA[立即升级(%d)]]>
+    </Text>
+
+    <Text ID="Update_Downloading">
+      <![CDATA[协通XT800正在下载升级程序，请稍候...]]>
+    </Text>
+    <Text ID="Update_Downloading_Progress">
+      <![CDATA[协通XT800正在下载升级程序，请稍候... %s/%s]]>
+    </Text>
+    <Text ID="Update_Downloading_Progess_2">
+      <![CDATA[XT800正在下载升级程序，已下载%2.2f%%]]>
+    </Text>
+    <Text ID="Update_Download_Complete_Checking">
+      <![CDATA[协通XT800已完成下载操作，将执行升级校验动作...]]>
+    </Text>
+    <Text ID="Update_Download_Failed">
+      <![CDATA[下载失败，请稍后再试。]]>
+    </Text>
+
+    <Text ID="Update_Checking">
+      <![CDATA[协通XT800正在校验升级程序...]]>
+    </Text>
+    <Text ID="Update_Checking_Succeed">
+      <![CDATA[协通XT800已完成升级校验，即将执行升级动作...]]>
+    </Text>
+    <Text ID="Update_Checking_Failed">
+      <![CDATA[升级程序校验失败，请联系客服。]]>
+    </Text>
+
+    <Text ID="Update_Downloading_Wait_To_Close">
+      <![CDATA[正在下载升级程序，请停止下载以后再关闭窗口。]]>
+    </Text>
+
+    <Text ID="Update_Delay">
+      <![CDATA[稍后升级(%d秒)]]>
+    </Text>
+
+    <Text ID="Update_Force_In_30_Sec">
+      <![CDATA[XT800需要进行强制升级，升级将在30秒后开始进行。]]>
+    </Text>
+    <Text ID="Update_Force_Download_In_30_Sec">
+      <![CDATA[XT800将在30秒后开始下载升级程序。]]>
+    </Text>
+    <Text ID="Update_Need_Confirm">
+      <![CDATA[XT800需要进行升级，正在等待确认...]]>
+    </Text>
+    <Text ID="Update_Dowloading_to_execute">
+      <![CDATA[XT800正在下载升级程序，下载完毕后将会开始执行升级程序。]]>
+    </Text>
+
+    <Text ID="Update_Will_In_30_Sec">
+      <![CDATA[XT800需要进行升级，升级将在30秒后开始进行。]]>
+    </Text>
+
+    <Text ID="Update_Will_Download_In_">
+      <![CDATA[XT800将在%d秒后开始下载升级程序...]]>
+    </Text>
+
+    <!-- XTUI -->
+    <Text ID="Application_Exit">
+      <![CDATA[XT800程序已退出！]]>
+    </Text>
+
+    <!-- SysInfo -->
+    <Text ID="User_Check_Process">
+      <![CDATA[%s正在查看您计算机当前的进程列表]]>
+    </Text>
+    <Text ID="User_Check_Software">
+      <![CDATA[%s正在查看您计算机软件安装列表]]>
+    </Text>
+    <Text ID="User_Check_Windows">
+      <![CDATA[%s正在查看您计算机当前的窗口]]>
+    </Text>
+    <Text ID="User_Check_Service">
+      <![CDATA[%s正在查看您计算机的服务列表]]>
+    </Text>
+    <Text ID="User_Check_Event_Application">
+      <![CDATA[%s正在查看您计算机的应用程序事件]]>
+    </Text>
+    <Text ID="User_Check_Event_Security">
+      <![CDATA[%s正在查看您计算机的安全事件]]>
+    </Text>
+    <Text ID="User_Check_Event_System">
+      <![CDATA[%s正在查看您计算机的系统事件]]>
+    </Text>
+    <Text ID="User_Cmd_Shutdown">
+      <![CDATA[%s正在远程关闭您的计算机]]>
+    </Text>
+    <Text ID="User_Cmd_Reboot">
+      <![CDATA[%s正在远程重启您的计算机]]>
+    </Text>
+    <Text ID="User_Cmd_Terminate_Process">
+      <![CDATA[%s正在远程终止您的%s进程]]>
+    </Text>
+
+    <Text ID="User_Request_Process">
+      <![CDATA[%s请求查看您计算机当前的进程列表，是否接受？]]>
+    </Text>
+    <Text ID="User_Request_Software">
+      <![CDATA[%s请求查看您计算机软件安装列表，是否接受？]]>
+    </Text>
+    <Text ID="User_Request_Windows">
+      <![CDATA[%s请求查看您计算机当前的窗口，是否接受？]]>
+    </Text>
+    <Text ID="User_Request_Service">
+      <![CDATA[%s请求查看您计算机的服务列表，是否接受？]]>
+    </Text>
+    <Text ID="User_Request_Event_Application">
+      <![CDATA[%s请求查看您计算机的应用程序事件，是否接受？]]>
+    </Text>
+    <Text ID="User_Request_Event_System">
+      <![CDATA[%s请求查看您计算机的系统事件，是否接受？]]>
+    </Text>
+    <Text ID="User_Request_Event_Security">
+      <![CDATA[%s请求查看您计算机的安全事件，是否接受？]]>
+    </Text>
+
+    <Text ID="Shutdown_Error_User_Offline">
+      <![CDATA[用户客户端不在线，发起远程关闭计算机请求失败！]]>
+    </Text>
+    <Text ID="Reboot_Error_User_Offline">
+      <![CDATA[用户客户端不在线，发起远程重启计算机请求失败！]]>
+    </Text>
+    <Text ID="Terminate_Error_User_Offline">
+      <![CDATA[用户客户端不在线，终止远程计算机进程失败！]]>
+    </Text>
+
+    <!-- 对话框资源 -->
+    <Text ID="xDlgRes_SG001"><![CDATA[启动设置]]></Text>
+    <Text ID="xDlgRes_SG002"><![CDATA[个人属性]]></Text>
+    <Text ID="xDlgRes_SG004"><![CDATA[当计算机启动后自动运行]]></Text>
+    <Text ID="xDlgRes_SG006"><![CDATA[启动时自动以托盘模式运行（不显示主界面）]]></Text>
+    <Text ID="xDlgRes_SG007"><![CDATA[启动后自动锁定软件]]></Text>
+    <Text ID="xDlgRes_SG008"><![CDATA[锁定功能设置]]></Text>
+    <Text ID="xDlgRes_SG003"><![CDATA[您的显示名称/昵称：]]></Text>
+    <Text ID="xDlgRes_SG009"><![CDATA[帐号及密码设置]]></Text>
+    <Text ID="xDlgRes_SG005"><![CDATA[软件以系统服务方式运行(建议仅作为无人值守模式运行时开启)]]></Text>
+
+    <Text ID="xDlgRes_SAFETY_002"><![CDATA[允许他人控制我的计算机]]></Text>
+    <Text ID="xDlgRes_SAFETY_003"><![CDATA[使用随机授权码（在每次启动软件时随机生成）]]></Text>
+    <Text ID="xDlgRes_SAFETY_004"><![CDATA[设置私密授权码：]]></Text>
+
+    <Text ID="xDlgRes_SAFETY_007"><![CDATA[白名单管理]]></Text>
+    <Text ID="xDlgRes_SAFETY_008"><![CDATA[添加]]></Text>
+    <Text ID="xDlgRes_SAFETY_009"><![CDATA[删除]]></Text>
+    <Text ID="xDlgRes_SAFETY_011"><![CDATA[启动软件设置保护功能]]></Text>
+    <Text ID="xDlgRes_SAFETY_012"><![CDATA[设置保护功能设定]]></Text>
+    <Text ID="xDlgRes_SAFETY_015"><![CDATA[黑名单管理]]></Text>
+    <Text ID="xDlgRes_SAFETY_016"><![CDATA[只允许在联系人列表中的用户给我发送消息和连接请求。]]></Text>
+    <Text ID="xDlgRes_SAFETY_006"><![CDATA[仅允许以下安全列表中的用户访问和控制我的计算机。]]></Text>
+    <Text ID="xDlgRes_SAFETY_014"><![CDATA[联系人管理]]></Text>
+    <Text ID="xDlgRes_SAFETY_001"><![CDATA[访问控制]]></Text>
+    <Text ID="xDlgRes_SAFETY_010"><![CDATA[设置保护]]></Text>
+    <Text ID="xDlgRes_SAFETY_005"><![CDATA[请再次输入授权码：]]></Text>
+    <Text ID="xDlgRes_SAFETY_013"><![CDATA[设置锁定时防止软件退出]]></Text>
+
+    <Text ID="xDlgRes_FILE_001"><![CDATA[用户向我发文件时]]></Text>
+    <Text ID="xDlgRes_FILE_002"><![CDATA[所有的用户都需要确认]]></Text>
+    <Text ID="xDlgRes_FILE_004"><![CDATA[%在联系人中的用户不需要确认]]></Text>
+    <Text ID="xDlgRes_FILE_003"><![CDATA[所有的用户都不需要确认]]></Text>
+    <Text ID="xDlgRes_FILE_005"><![CDATA[保存路径]]></Text>
+    <Text ID="xDlgRes_FILE_006"><![CDATA[文件的默认保存目录：]]></Text>
+    <Text ID="xDlgRes_FILE_007"><![CDATA[浏览]]></Text>
+
+    <Text ID="xDlgRes_SAFETY_017"><![CDATA[信息安全]]></Text>
+    <Text ID="xDlgRes_SAFETY_018"><![CDATA[退出KDT时自动删除所有聊天记录]]></Text>
+    <Text ID="xDlgRes_SAFETY_019"><![CDATA[只允许在联系人列表中的用户给我发送消息和连接请求。]]></Text>
+    <Text ID="xDlgRes_SAFETY_020"><![CDATA[黑名单管理]]></Text>
+    <Text ID="xDlgRes_SAFETY_022"><![CDATA[添加]]></Text>
+    <Text ID="xDlgRes_SAFETY_023"><![CDATA[移除]]></Text>
+    <Text ID="xDlgRes_SAFETY_021"><![CDATA[黑名单用户将无法查看您的在线状态或向您发送任何信息及连接请求]]></Text>
+
+    <Text ID="xDlgRes_RESP_003"><![CDATA[启用锁定时自动应答功能：]]></Text>
+    <Text ID="xDlgRes_RESP_004"><![CDATA[编辑自动应答内容，程序将在锁定状态下自动回复对方（240字节以内）]]></Text>
+    <Text ID="xDlgRes_RESP_001"><![CDATA[设置解锁密码（必须）：]]></Text>
+    <Text ID="xDlgRes_RESP_002"><![CDATA[显示字符]]></Text>
+
+    <Text ID="xDlgRes_VF_001"><![CDATA[全选/取消]]></Text>
+    <Text ID="xDlgRes_DLG_AF_001"><![CDATA[请输入您要添加的联系人帐号:]]></Text>
+
+    <Text ID="xDlgRes_DEL_001"><![CDATA[确定删除该联系人？]]></Text>
+    <Text ID="xDlgRes_DEL_002"><![CDATA[同时列入黑名单]]></Text>
+    <Text ID="xDlgRes_UL_001"><![CDATA[软件已经锁定，请输入解锁密码解锁：]]></Text>
+
+    <Text ID="xDlgRes_PROXY_008"><![CDATA[代理服务器需要身份验证]]></Text>
+    <Text ID="xDlgRes_PROXY_004"><![CDATA[使用代理上网]]></Text>
+    <Text ID="xDlgRes_PROXY_001"><![CDATA[网络设置]]></Text>
+    <Text ID="xDlgRes_PROXY_005"><![CDATA[代理类型：]]></Text>
+    <Text ID="xDlgRes_PROXY_006"><![CDATA[地址：]]></Text>
+    <Text ID="xDlgRes_PROXY_007"><![CDATA[端口：]]></Text>
+    <Text ID="xDlgRes_PROXY_002"><![CDATA[身份验证]]></Text>
+    <Text ID="xDlgRes_PROXY_009"><![CDATA[用户名：]]></Text>
+    <Text ID="xDlgRes_PROXY_010"><![CDATA[密码：]]></Text>
+    <Text ID="xDlgRes_PROXY_003"><![CDATA[高级设置]]></Text>
+    <Text ID="xDlgRes_PROXY_011"><![CDATA[强制使用TCP进行数据传输（仅在网络使用异常的情况下使用）]]></Text>
+
+    <Text ID="xDlgRes_IC_001"><![CDATA[请输入联系人帐号：]]></Text>
+
+    <Text ID="xDlgRes_BL_001"><![CDATA[黑名单管理]]></Text>
+
+    <Text ID="xDlgRes_BL_002"><![CDATA[黑名单用户将无法查看您的在线状态或向您发送任何信息及连接请求。]]></Text>
+    <Text ID="xDlgRes_BL_003"><![CDATA[添加这个号码到黑名单列表：]]></Text>
+
+    <Text ID="xDlgRes_PRCY_001"><![CDATA[消息提醒]]></Text>
+    <Text ID="xDlgRes_PRCY_003"><![CDATA[您可以设置关闭以下消息提醒框，让程序处于静默工作状态：]]></Text>
+    <Text ID="xDlgRes_PRCY_004"><![CDATA[关闭远程控制提示信息。]]></Text>
+    <Text ID="xDlgRes_PRCY_005"><![CDATA[关闭远程文件管理提醒信息。]]></Text>
+    <Text ID="xDlgRes_PRCY_006"><![CDATA[关闭添加联系人提醒信息。]]></Text>
+    <Text ID="xDlgRes_PRCY_002"><![CDATA[其它设置]]></Text>
+    <Text ID="xDlgRes_PRCY_009"><![CDATA[退出程序时自动删除所有聊天记录。]]></Text>
+    <Text ID="xDlgRes_PRCY_007"><![CDATA[关闭远程进程状态查询提醒信息。]]></Text>
+    <Text ID="xDlgRes_PRCY_008"><![CDATA[关闭远程计算机在线状态提醒。]]></Text>
+
+    <Text ID="xDlgRes_WS_001"><![CDATA[白名单管理]]></Text>
+    <Text ID="xDlgRes_WS_002"><![CDATA[白名单列表中的用户将可以访问和控制您的计算机。]]></Text>
+    <Text ID="xDlgRes_WS_003"><![CDATA[添加这个号码到白名单列表：]]></Text>
+
+    <Text ID="xDlgRes_STATE_001"><![CDATA[基本信息]]></Text>
+    <Text ID="xDlgRes_STATE_002"><![CDATA[当前您正采用windows远程桌面连接，XT800已为您启动设置模式。]]></Text>
+    <Text ID="xDlgRes_STATE_003"><![CDATA[请记录以下帐号信息和设置您的授权码。]]></Text>
+    <Text ID="xDlgRes_STATE_004"><![CDATA[本机号码：]]></Text>
+    <Text ID="xDlgRes_STATE_005"><![CDATA[授权码：]]></Text>
+
+    <Text ID="xDlgRes_STATE_006"><![CDATA[当前状态：在线]]></Text>
+    <Text ID="xDlgRes_DLG_QUYER_HELP"><![CDATA[请求远程协助]]></Text>
+    <Text ID="xDlgRes_DLG_SET_CORP"><![CDATA[绑定部署代码]]></Text>
+    <Text ID="xDlgRes_CROP_009"><![CDATA[绑定]]></Text>    
+    <Text ID="xDlgRes_CROP_008"><![CDATA[请输入您的部署代码，可联系技术支持公司获取]]></Text>
+    <Text ID="xDlgRes_DLG_UNSET_CROP"><![CDATA[取消企业绑定]]></Text>
+    <Text ID="xDlgRes_CROP_010"><![CDATA[正在取消企业绑定服务，请稍候...]]></Text>
+    <Text ID="xDlgRes_CROP_011"><![CDATA[取消]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE"><![CDATA[XT800 升级提醒]]></Text>
+    <Text ID="xDlgRes_UPD_001"><![CDATA[XT800 检测到一个新的可用版本，推荐您升级：]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE_PROGRESS"><![CDATA[XT800 下载升级程序]]></Text>
+    <Text ID="xDlgRes_UPD_PROG_001"><![CDATA[XT800 正在下载升级程序，请稍候...]]></Text>
+    <Text ID="xDlgRes_DLG_COMMET"><![CDATA[修改备注名]]></Text>
+    <Text ID="xDlgRes_COMMIT_001"><![CDATA[请输入备注名（32个字以内）：]]></Text>
+    <Text ID="xDlgRes_VNC_002"><![CDATA[自动检测屏幕更新（可改善花屏/或画面更新慢的问题，占用带宽稍高）]]></Text>
+    <Text ID="xDlgRes_VNC_003"><![CDATA[允许软件模拟发送Ctrl + Alt + Del组合键(Windows VISTA以上有效)]]></Text>
+    <Text ID="xDlgRes_VNC_004"><![CDATA[允许主控端在远控过程中屏蔽当前计算机的屏幕。(仅Windows 2003，XP有效）]]></Text>
+    <Text ID="xDlgRes_VNC_005"><![CDATA[被远控时自动移除桌面背景]]></Text>
+    <Text ID="xDlgRes_VNC_006"><![CDATA[被远控时自动移除Areo特效（针对Windows VISTA，Windows 7有效）]]></Text>
+    <Text ID="xDlgRes_VNC_007"><![CDATA[被远控时拖动窗口不显示窗口内容]]></Text>
+    <Text ID="xDlgRes_VNC_008"><![CDATA[快速模式（低CPU占用，但是带宽消耗比较大）]]></Text>
+    <Text ID="xDlgRes_VNC_016"><![CDATA[选中该选项可以避免远端机器在被监视时鼠标闪烁的问题，但是主控端不能显示对方桌面的半透明窗体。]]></Text>
+    <Text ID="xDlgRes_VNC_015"><![CDATA[监视时不截取远端机器半透明窗体]]></Text>
+    <Text ID="xDlgRes_VNC_001"><![CDATA[服务端设置]]></Text>
+    <Text ID="xDlgRes_VNC_014"><![CDATA[监视设置]]></Text>
+    <Text ID="xDlgRes_VNC_012"><![CDATA[推送前台窗体数据]]></Text>
+    <Text ID="xDlgRes_VNC_013"><![CDATA[只推送控制台数据]]></Text>
+    <Text ID="xDlgRes_VNC_010"><![CDATA[推送当前鼠标所在窗体数据]]></Text>
+    <Text ID="xDlgRes_VNC_011"><![CDATA[只推送有事件变化的窗体]]></Text>
+    <Text ID="xDlgRes_VNC_009"><![CDATA[高级设置]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET"><![CDATA[颜色和画面]]></Text>
+    <Text ID="xDlgRes_VIE_001"><![CDATA[远程桌面颜色深度]]></Text>
+    <Text ID="xDlgRes_VIE_002"><![CDATA[最高质量（全彩色）]]></Text>
+    <Text ID="xDlgRes_VIE_003"><![CDATA[高质量（256色）]]></Text>
+    <Text ID="xDlgRes_VIE_004"><![CDATA[一般质量（64色）]]></Text>
+    <Text ID="xDlgRes_VIE_005"><![CDATA[低质量（8色）]]></Text>
+    <Text ID="xDlgRes_VIE_006"><![CDATA[启用本地画面缓存（可有效节省带宽，但有可能会引起花屏）]]></Text>
+    <Text ID="xDlgRes_VIE_007"><![CDATA[启用画面数据压缩（数值越大，越节省带宽，CPU开销会相应增加）]]></Text>
+    <Text ID="xDlgRes_VIE_008"><![CDATA[图像画面质量（数值越大，画面质量越高，带宽消耗会相应增加）]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET_2"><![CDATA[颜色和编码]]></Text>
+    <Text ID="xDlgRes_VIE2_002"><![CDATA[编码]]></Text>
+    <Text ID="xDlgRes_VIE2_003"><![CDATA[颜色]]></Text>
+    <Text ID="xDlgRes_VIE2_004"><![CDATA[全彩色]]></Text>
+    <Text ID="xDlgRes_VIE2_004"><![CDATA[256位色]]></Text>
+    <Text ID="xDlgRes_VIE2_005"><![CDATA[64位色]]></Text>
+    <Text ID="xDlgRes_VIE2_006"><![CDATA[8位色]]></Text>
+    <Text ID="xDlgRes_VIE2_007"><![CDATA[使用Cache]]></Text>
+    <Text ID="xDlgRes_VIE2_008"><![CDATA[使用画面压缩（针对Tight编码才有效）]]></Text>
+    <Text ID="xDlgRes_VIE2_009"><![CDATA[使用JPEG图像压缩（针对Tight编码才有效）]]></Text>
+    <Text ID="xDlgRes_VIE2_001"><![CDATA[使用自适应编码和颜色]]></Text>
+    <Text ID="xDlgRes_DLG_LOCK"><![CDATA[软件设置保护]]></Text>
+    <Text ID="xDlgRes_LOCK_001"><![CDATA[设置设定保护密码：]]></Text>
+    <Text ID="xDlgRes_LOCK_002"><![CDATA[显示字符]]></Text>
+    <Text ID="xDlgRes_DLG_NOTIFY"><![CDATA[提示]]></Text>
+    <Text ID="xDlgRes_NTY_001"><![CDATA[对方未安装或未启动XT800远程服务组件，暂无法接受您当前请求。]]></Text>
+    <Text ID="xDlgRes_DLG_INVITE_USER"><![CDATA[邀请他人使用XT800]]></Text>
+    <Text ID="xDlgRes_IU_001"><![CDATA[您可以将下面的文本发送给对方：]]></Text>
+    <Text ID="xDlgRes_DLG_REMOTE_EXECUTE"><![CDATA[执行远程程序]]></Text>
+    <Text ID="xDlgRes_RE_001"><![CDATA[您正要远程执行该应用程序，请输入执行参数（可选）：]]></Text>
+    <Text ID="xDlgRes_CROP_001"><![CDATA[企业服务]]></Text>
+    <Text ID="xDlgRes_CROP_002"><![CDATA[您当前定向的远程技术支持公司信息如下：]]></Text>
+    <Text ID="xDlgRes_CROP_004"><![CDATA[公司代码：]]></Text>
+    <Text ID="xDlgRes_CROP_003"><![CDATA[公司名称：]]></Text>
+    <Text ID="xDlgRes_CROP_005"><![CDATA[绑定部署代码]]></Text>
+    <Text ID="xDlgRes_CROP_006"><![CDATA[部署代码请联系您的远程技术支持公司获取]]></Text>
+    <Text ID="xDlgRes_CROP_007"><![CDATA[绑定部署代码后，可快速求助和获得远程支持]]></Text>
+    <Text ID="xDlgRes_DLG_NET_CHK"><![CDATA[网络连接失败]]></Text>
+    <Text ID="xDlgRes_NC_001"><![CDATA[请检查您的互联网连接]]></Text>
+    <Text ID="xDlgRes_NC_002"><![CDATA[一般情况下您会使用代理服务器，您需要在选项对话框中输入正确的信息。]]></Text>
+    <Text ID="xDlgRes_DLG_IEAUTH"><![CDATA[代理服务器身份认证]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[用户名：]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[密码：]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[请输入代理服务器的认证信息。若不需要认证，请直接点击确定。]]></Text>
+    <Text ID="xDlgRes_PROXY_AUTH_001"><![CDATA[保存认证信息]]></Text>
+    <Text ID="xDlgRes_DLG_CLIENT_LIST"><![CDATA[未接入客户列表]]></Text>
+    <Text ID="xDlgRes_CL_001"><![CDATA[选择列表中的客户接入进行服务]]></Text>
+    <Text ID="xDlgRes_ABOUT_COPYRIGHT"><![CDATA[(C)2011 广州协之通信息技术有限公司. All Rights Reserved]]></Text>
+
+    <Text ID="xDlgRes_DLG_REPSONSION"><![CDATA[锁定功能设置]]></Text>
+    <Text ID="xDlgRes_DLG_VIST_FRIEND"><![CDATA[请选择联系人]]></Text>
+    <Text ID="xDlgRes_DLG_ADD_FRIEND"><![CDATA[添加联系人]]></Text>
+    <Text ID="xDlgRes_DLG_AF_001"><![CDATA[请输入您要添加的联系人帐号:]]></Text>
+    <Text ID="xDlgRes_DLG_DEL_FRIEND"><![CDATA[删除联系人]]></Text>
+    <Text ID="xDlgRes_DLG_UNLOCK"><![CDATA[解锁]]></Text>
+    <Text ID="xDlgRes_DLG_INPUT_CONTACTOR"><![CDATA[输入联系人帐号]]></Text>
+    <Text ID="xDlgRes_DLG_BLACK_SET"><![CDATA[黑名单管理]]></Text>
+    <Text ID="xDlgRes_DLG_WHITE_SET"><![CDATA[白名单管理]]></Text>
+    <Text ID="xDlgRes_DLG_QUYER_HELP"><![CDATA[请求远程协助]]></Text>
+    <Text ID="xDlgRes_DLG_SET_CORP"><![CDATA[绑定部署代码]]></Text>
+    <Text ID="xDlgRes_DLG_UNSET_CROP"><![CDATA[取消企业绑定]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE"><![CDATA[XT800 升级提醒]]></Text>
+    <Text ID="xDlgRes_DLG_UPDATE_PROGRESS"><![CDATA[XT800 下载升级程序]]></Text>
+    <Text ID="xDlgRes_DLG_COMMET"><![CDATA[修改备注名]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET"><![CDATA[颜色和画面]]></Text>
+    <Text ID="xDlgRes_DLG_VIEWER_SET_2"><![CDATA[颜色和编码]]></Text>
+    <Text ID="xDlgRes_DLG_LOCK"><![CDATA[软件设置保护]]></Text>
+    <Text ID="xDlgRes_DLG_NOTIFY"><![CDATA[提示]]></Text>
+    <Text ID="xDlgRes_DLG_INVITE_USER"><![CDATA[邀请他人使用XT800]]></Text>
+    <Text ID="xDlgRes_DLG_REMOTE_EXECUTE"><![CDATA[执行远程程序]]></Text>
+    <Text ID="xDlgRes_DLG_NET_CHK"><![CDATA[网络连接失败]]></Text>
+    <Text ID="xDlgRes_DLG_IEAUTH"><![CDATA[代理服务器身份认证]]></Text>
+    <Text ID="xDlgRes_DLG_CLIENT_LIST"><![CDATA[未接入客户列表]]></Text>
+    <Text ID="xDlgRes_DLG_ABOUT"><![CDATA[关于]]></Text>
+
+    <Text ID="xDlgRes_TAB_VNC"><![CDATA[远程连接]]></Text>
+    <Text ID="xDlgRes_TAB_CROP"><![CDATA[企业服务]]></Text>
+    <Text ID="xDlgRes_TAB_GENERAL"><![CDATA[常规设置]]></Text>
+    <Text ID="xDlgRes_TAB_SAFETY_POLICY"><![CDATA[安全策略]]></Text>
+    <Text ID="xDlgRes_TAB_FILE"><![CDATA[文件传输]]></Text>
+    <Text ID="xDlgRes_TAB_SAFETY"><![CDATA[安全]]></Text>
+    <Text ID="xDlgRes_TAB_PROXY"><![CDATA[网络设置]]></Text>
+    <Text ID="xDlgRes_TAB_PRIVACY"><![CDATA[隐私设置]]></Text>
+    <Text ID="xDlgRes_TAB_STATE"><![CDATA[基本信息]]></Text>
+    <Text ID="xDlgRes_TAB_VNC"><![CDATA[远程连接]]></Text>
+    <Text ID="xDlgRes_TAB_CROP"><![CDATA[企业服务]]></Text>
+
+    <Text ID="xDlgRes_BTN_OK"><![CDATA[确定]]></Text>
+    <Text ID="xDlgRes_BTN_NEXT"><![CDATA[下一步]]></Text>
+    <Text ID="xDlgRes_BTN_CANCEL"><![CDATA[取消]]></Text>
+    <Text ID="xDlgRes_BTN_LOCK"><![CDATA[立即锁定]]></Text>
+    <Text ID="xDlgRes_BTN_UNLOCK"><![CDATA[解除锁定]]></Text>
+    <Text ID="xDlgRes_BTN_CLOSE"><![CDATA[关闭]]></Text>
+    <Text ID="xDlgRes_BTN_SEL_CONTACTOR"><![CDATA[选择联系人]]></Text>
+    <Text ID="xDlgRes_BTN_REMOTE"><![CDATA[移除]]></Text>
+    <Text ID="xDlgRes_BTN_ADD"><![CDATA[添加]]></Text>
+    <Text ID="xDlgRes_BTN_START_CHAT"><![CDATA[发起文本会话]]></Text>
+    <Text ID="xDlgRes_BTN_INVITE_RC"><![CDATA[请求远程协助]]></Text>
+    <Text ID="xDlgRes_BTN_UPDATE"><![CDATA[立即升级]]></Text>
+    <Text ID="xDlgRes_BTN_DELAY_UPDATE"><![CDATA[稍后升级]]></Text>
+    <Text ID="xDlgRes_BTN_SKIP_UPDATE"><![CDATA[跳过此版本]]></Text>
+    <Text ID="xDlgRes_BTN_RESTART_APP"><![CDATA[立即重启软件]]></Text>
+    <Text ID="xDlgRes_BTN_UPD_NOTIFY"><![CDATA[提示对方安装并启动组件]]></Text>
+    <Text ID="xDlgRes_BTN_COPY_CLIP"><![CDATA[复制到剪切板]]></Text>
+    <Text ID="xDlgRes_BTN_EXECUTE"><![CDATA[执行]]></Text>
+    <Text ID="xDlgRes_BTN_SET_PROXY"><![CDATA[设置代理]]></Text>
+    <Text ID="xDlgRes_BTN_RETRY"><![CDATA[重试]]></Text>
+    <Text ID="xDlgRes_BTN_ACCEPT"><![CDATA[接入]]></Text>
+
+    <!-- Menu res -->
+    <Text ID="xMenuRes_M_SHOW_ALL"><![CDATA[显示全部]]></Text>
+    <Text ID="xMenuRes_M_SHOW_RUNNING"><![CDATA[显示正在运行的任务]]></Text>
+    <Text ID="xMenuRes_M_SHOW_FINISH"><![CDATA[显示已完成的任务]]></Text>
+    <Text ID="xMenuRes_M_SHOW_RECV"><![CDATA[显示接受的任务]]></Text>
+    <Text ID="xMenuRes_M_SHOW_SEND"><![CDATA[显示发送的任务]]></Text>
+    <Text ID="xMenuRes_M_MENU"><![CDATA[菜单]]></Text>
+    <Text ID="xMenuRes_M_CHECK"><![CDATA[查看]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS"><![CDATA[设置]]></Text>
+    <Text ID="xMenuRes_M_HELP"><![CDATA[帮助]]></Text>
+    <Text ID="xMenuRes_M_ABOUT"><![CDATA[关于]]></Text>
+    <Text ID="xMenuRes_M_HOMEPAGE"><![CDATA[访问XT800公司网站]]></Text>
+    <Text ID="xMenuRes_M_TOVIP"><![CDATA[升级为VIP]]></Text>
+    <Text ID="xMenuRes_M_EXIT"><![CDATA[退出]]></Text>        
+    <Text ID="xMenuRes_M_CHECKUPDATE"><![CDATA[检测更新]]></Text>
+    <Text ID="xMenuRes_M_LANGUAGE"><![CDATA[语言]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS"><![CDATA[系统设置]]></Text>
+    <Text ID="xMenuRes_M_FILE_TRANS_LOG"><![CDATA[文件传输记录]]></Text>
+    <Text ID="xMenuRes_M_CHAT_LOG"><![CDATA[聊天历史记录]]></Text>
+    <Text ID="xMenuRes_M_STATE"><![CDATA[状态]]></Text>
+    <Text ID="xMenuRes_M_STATE_ONLINE"><![CDATA[在线]]></Text>
+    <Text ID="xMenuRes_M_STATE_AWAY"><![CDATA[离开]]></Text>
+    <Text ID="xMenuRes_M_STATE_DND"><![CDATA[忙碌]]></Text>
+    <Text ID="xMenuRes_M_LOCK"><![CDATA[锁定]]></Text>
+    <Text ID="xMenuRes_M_MAINWND"><![CDATA[打开主界面]]></Text>
+    <Text ID="xMenuRes_M_CLIENT_LIST"><![CDATA[显示未接入客户列表]]></Text>
+    <Text ID="xMenuRes_M_LOGOUT"><![CDATA[注销]]></Text>    
+    <Text ID="xMenuRes_M_CONTACTOR_WND"><![CDATA[显示联系人面板]]></Text>            
+    <Text ID="xMenuRes_M_MENU"><![CDATA[菜单]]></Text>
+    <Text ID="xMenuRes_M_NEW"><![CDATA[新建]]></Text>
+    <Text ID="xMenuRes_M_CONTACTOR"><![CDATA[联系人]]></Text>
+    <Text ID="xMenuRes_M_FOLDER_SHARE"><![CDATA[共享文件夹]]></Text>    
+    <Text ID="xMenuRes_M_CHECK"><![CDATA[查看]]></Text>
+    <Text ID="xMenuRes_M_SERVICE_LOG"><![CDATA[服务记录]]></Text>
+    <Text ID="xMenuRes_M_CHECK_CONTACTOR"><![CDATA[查看联系人]]></Text>
+    <Text ID="xMenuRes_M_BY_GROUP"><![CDATA[按分组显示联系人]]></Text>
+    <Text ID="xMenuRes_M_BY_NAME"><![CDATA[按用户名称排序]]></Text>
+    <Text ID="xMenuRes_M_BY_ID"><![CDATA[按用户ID排序]]></Text>
+    <Text ID="xMenuRes_M_GENNAL_SETTINGS"><![CDATA[常规选项]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_002"><![CDATA[安全策略]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_003"><![CDATA[隐私设置]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_004"><![CDATA[文件传输]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_005"><![CDATA[远程控制]]></Text>
+    <Text ID="xMenuRes_M_SETTINGS_006"><![CDATA[网络连接]]></Text>
+    <Text ID="xMenuRes_M_CHECK_SERVICE_LOG"><![CDATA[查看服务记录]]></Text>
+    <Text ID="xMenuRes_M_CHECK_FILE_TRANS_LOG"><![CDATA[查看文件传输记录]]></Text>
+    <Text ID="xMenuRes_M_START_CHAT"><![CDATA[开始会话]]></Text>
+    <Text ID="xMenuRes_M_SENDFILE"><![CDATA[发送文件]]></Text>
+    <Text ID="xMenuRes_M_SENDFOLDER"><![CDATA[发送文件夹]]></Text>
+    <Text ID="xMenuRes_M_DISCONNECT_RC"><![CDATA[断开远程控制连接]]></Text>
+    <Text ID="xMenuRes_M_GRAPH_SPEED"><![CDATA[画质/速度]]></Text>
+    <Text ID="xMenuRes_M_AUTO"><![CDATA[自动选择]]></Text>
+    <Text ID="xMenuRes_M_SPEED"><![CDATA[速度优先]]></Text>
+    <Text ID="xMenuRes_M_QUALITY"><![CDATA[画质优先]]></Text>
+    <Text ID="xMenuRes_M_CUSTOM"><![CDATA[用户设定]]></Text>
+    <Text ID="xMenuRes_M_CUSTOM_CFG"><![CDATA[用户设定选项]]></Text>
+    <Text ID="xMenuRes_M_SHOW_FPS"><![CDATA[显示传输速率]]></Text>
+    <Text ID="xMenuRes_M_ZOOM"><![CDATA[缩放比例]]></Text>
+    <Text ID="xMenuRes_M_REFRESH"><![CDATA[刷新]]></Text>
+    <Text ID="xMenuRes_M_ENABLE_CONTROL"><![CDATA[开启控制对方桌面]]></Text>
+    <Text ID="xMenuRes_M_FORBID_LOCAL_INPUT"><![CDATA[禁止被控端键盘鼠标输入]]></Text>
+    <Text ID="xMenuRes_M_NO_ALPHA"><![CDATA[被控端不截取半透明窗体]]></Text>
+    <Text ID="xMenuRes_M_SHOW_REMOTE_CURSOR"><![CDATA[显示被控端鼠标操作]]></Text>
+    <Text ID="xMenuRes_M_SWITCH_SCREEN"><![CDATA[切换显示屏]]></Text>
+    <Text ID="xMenuRes_M_SEND_CAD"><![CDATA[发送 Ctrl+Alt+Del]]></Text>
+    <Text ID="xMenuRes_M_RC_SHUTDOWN"><![CDATA[关闭远程计算机]]></Text>
+    <Text ID="xMenuRes_M_RC_REBOOT"><![CDATA[重新启动远程计算机]]></Text>    
+    <Text ID="xMenuRes_M_REMOTE_FILEMGR"><![CDATA[远程文件管理]]></Text>    
+    <Text ID="xMenuRes_M_INVITE_RC"><![CDATA[邀请对方控制我的计算机]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_CONTROL"><![CDATA[远控对方计算机]]></Text>
+    <Text ID="xMenuRes_M_USE_PWD"><![CDATA[通过授权码]]></Text>
+    <Text ID="xMenuRes_M_RC_REQUEST"><![CDATA[发送请求]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_MONITOR"><![CDATA[通过授权码查看对方计算机]]></Text>
+    <Text ID="xMenuRes_M_REMOTE_FILEMGR"><![CDATA[远程文件管理]]></Text>
+    <Text ID="xMenuRes_M_CHECK_CHAT_LOG"><![CDATA[查看历史聊天记录]]></Text>
+    <Text ID="xMenuRes_M_ADD_TO_CONTACTOR"><![CDATA[加为联系人]]></Text>
+    <Text ID="xMenuRes_M_ADD_TO_BLACKLIST"><![CDATA[列入黑名单]]></Text>
+    <Text ID="xMenuRes_M_DEL_CONTACTOR"><![CDATA[删除联系人]]></Text>
+    <Text ID="xMenuRes_M_SEND_SCREENSHOT"><![CDATA[发送屏幕截图]]></Text>
+    <Text ID="xMenuRes_M_SEND_SURVARY"><![CDATA[发送问卷调查]]></Text>
+    <Text ID="xMenuRes_M_Switch_Account"><![CDATA[切换账号]]></Text>
+    
+  </Texts>
+</XResources>

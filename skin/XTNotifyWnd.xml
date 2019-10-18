@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTNotifyWnd" Bounds="0, 0, 252, 102" Text="提示消息" MiniSize="252, 102" OverlappedWindow="False">
+  <XUIManager ID="KDTNotifyWnd" Bounds="0,0, 252, 102">
+    <XImagePanel ID="xBackground" Bounds="0,0,W,H" Dock="Fill" Fill="Title" Visible="True" FastBit="True">
+      <Image><![CDATA[Images\Notify\Popmsg_bg.png]]></Image>
+    </XImagePanel>
+    
+    <XUIButton ID="ButtonClose" Bounds="229, 11, 12, 12" ElemID="ButtonClose" StateCount="5" Anchor="Right|Top" Tooltip="关闭" SysCmdID="SC_CLOSE">
+      <Image><![CDATA[Images\Notify\Popmsg_close.png]]></Image>
+    </XUIButton>
+
+    <XImagePanel ID="NotifyLogo" Bounds="13, 12, 32, 32" Fill="Fit" BufferOnce="True">
+      <Image><![CDATA[Images\Common\Icon_info_32.png]]></Image>
+    </XImagePanel>
+    
+    <XTextPanel StyleID="DefTextSimSunBold" ID="NotifyCaption" Bounds="55, 14, 170, 14" Anchor="Left|Top" Color="#000000" Align="Near" AlignV="Center">
+      <![CDATA[提示消息]]>
+    </XTextPanel>
+    <XUIHyperLink StyleID="DefHyperLinkNotifyContent" ID="NotifyContent" Bounds="55, 35, 180, 40" Anchor="All" ElemID="NotifyContent">
+      <Text><![CDATA[]]></Text>
+    </XUIHyperLink>
+
+    <!-- 接受 -->
+    <XUIHyperLink StyleID="DefHyperLinkNotify" ID="NotifyConfirm" Bounds="55, H - 22, 40, 14" Anchor="Left|Bottom" ElemID="NotifyConfirm" Visible="False">
+      <Text><![CDATA[接受]]></Text>
+    </XUIHyperLink>
+    <!-- 续传 -->
+    <XUIHyperLink StyleID="DefHyperLinkNotify" ID="NotifyContinueRecv" Bounds="55, H - 22, 40, 14" Anchor="Left|Bottom" ElemID="NotifyContinueRecv" Visible="False">
+      <Text><![CDATA[续传]]></Text>
+    </XUIHyperLink>
+    <!-- 另存为 -->
+    <XUIHyperLink StyleID="DefHyperLinkNotify" ID="NotifySaveAs" Bounds="95, H - 22, 60, 14" Anchor="Left|Bottom" ElemID="NotifySaveAs" Visible="False">
+      <Text><![CDATA[另存为]]></Text>
+    </XUIHyperLink>
+    <!-- 拒绝 -->
+    <XUIHyperLink StyleID="DefHyperLinkNotify" ID="NotifyDeny" Bounds="W - 64, H - 22, 40, 14" Anchor="Right|Bottom" ElemID="NotifyDeny" Visible="False">
+      <Text Align="Far"><![CDATA[拒绝]]></Text>
+    </XUIHyperLink>
+
+    <!-- 添加到我的联系人 -->
+    <XUIHyperLink StyleID="DefHyperLinkNotify" ID="NotifySubscribe" Bounds="W - 134, H - 22, 120, 14" Anchor="All" ElemID="NotifySubscribe" Visible="False">
+      <Text Align="Far"><![CDATA[添加到我的联系人]]></Text>
+    </XUIHyperLink>
+
+
+  </XUIManager>
+</XWnd>

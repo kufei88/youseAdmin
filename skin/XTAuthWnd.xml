@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XWnd ID="KDTAuthWnd" Bounds="0, 0, 320, 120" Text="授权码验证" MiniSize="320, 120" OverlappedWindow="True" ThickFrame="False"
+      BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTRemoteRequestWnd" Bounds="0,0, 320, 120">
+    <!-- 纯色背景 -->
+    <XColorPanel  ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <XTextPanel ID="StatusText"  StyleID="DefTextSimSun" Bounds="50, 28, W - 80, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near">
+      <![CDATA[请输入远程设备的授权码：]]>
+    </XTextPanel>
+
+    <XUIWndObject ID="EditPassword" Bounds="50, 48, W - 100, 20" Anchor="Left|Top|Right"></XUIWndObject>
+
+    <!--按钮登录-->
+    <XUIWndObject ID="ButtonOK" Bounds="W - 180, H - 30, 80, 24" Anchor="Bottom|Right"></XUIWndObject>
+    <!--按钮取消-->
+    <XUIWndObject ID="ButtonCancel" Bounds="W - 90, H - 30, 80, 24" Anchor="Bottom|Right"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

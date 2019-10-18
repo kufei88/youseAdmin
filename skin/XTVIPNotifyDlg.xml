@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteStateWnd" Bounds="0, 0, 380, 166" Text="系统提示" MiniSize="380, 166" OverlappedWindow="True" ThickFrame="False" BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTRemoteStateWnd" Bounds="0,0, 380, 166">
+    <!-- 纯色背景 -->
+    <XColorPanel ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <XImagePanel ID="Logo" Bounds="18, 38, 32, 32" Fill="Fit" BufferOnce="True">
+      <Image><![CDATA[Images\Common\logo_32.png]]></Image>
+    </XImagePanel>
+    <XTextPanel StyleID="DefTextSimSun" ID="MessagePanel" Bounds="65, 30, 290, 70"  Anchor="All" Color="#000000" Align="Near" MultiLine="True">
+      <![CDATA[]]>
+    </XTextPanel>
+
+    <!--按钮登录-->
+    <XUIWndObject ID="ButtonCusstom" Bounds="W - 190, H - 40, 80, 24" Anchor="Bottom|Left"></XUIWndObject>
+    <XUIWndObject ID="ButtonOK" Bounds="W - 100, H - 40, 80, 24" Anchor="Bottom|Right"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

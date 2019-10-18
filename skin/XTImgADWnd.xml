@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="ImgADWnd" Bounds="0, 0, 160, 120" Text="XTMainRemoteWnd" MiniSize="160, 120" >
+  <XUIManager ID="KDTMainRemoteWnd" Bounds="0,0, 160, 120">
+    
+    <!--纯色背景-->
+    <XColorPanel  ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+    
+    <XImagePanel ID="ADImg"  Bounds="0, 0, W, H" Dock="Fill"  Fill="Fit" Visible="False">
+      <Image><![CDATA[]]></Image>
+    </XImagePanel>
+    <XGifImagePanel ID="GifADImg"  Bounds="0, 0, W, H" Dock="Fill" Fill="Fit" Visible="False">
+      <Image><![CDATA[]]></Image>
+    </XGifImagePanel>
+
+    <XTextPanel ID="ADText" Bounds="0, 0, W, H"  Dock="Fill" FontHeight="9" AlignV="Center" Color="#000000" Align="Near" Visible="False">
+      <![CDATA[]]>
+    </XTextPanel>
+
+    <XUIButton ID="ButtonClick" Bounds="0, 0, W, H" ElemID="ButtonClick" StateCount="5" Dock="Fill" Cursor="Hand" Visible="False">
+    </XUIButton>
+        
+  </XUIManager>
+</XWnd>

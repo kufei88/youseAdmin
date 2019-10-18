@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteStateWnd" Bounds="0, 0, 450, 146" Text="添加联系人" MiniSize="450, 146" OverlappedWindow="True" ThickFrame="False" BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTRemoteStateWnd" Bounds="0,0, 450, 146">
+    <!-- 纯色背景 -->
+    <XColorPanel ID="BGColor" Bounds="0, 0, W, H" Anchor="All" Color="#FFFFFF">
+    </XColorPanel>
+
+    <XImagePanel ID="Logo" Bounds="18, 35, 32, 32" Fill="Fit" BufferOnce="True">
+      <Image><![CDATA[Images\Common\logo_32.png]]></Image>
+    </XImagePanel>
+    <XTextPanel StyleID="DefTextSimSun" Bounds="65, 40, W - 70, 18"  Anchor="Left|Top|Right" Color="#000000" Align="Near" MultiLine="True">
+      <![CDATA[您的联系人添加数量已超出免费版限制，如需不限制联系人数量，]]>
+    </XTextPanel>
+    <XUIHyperLink StyleID="DefHyperLinkLogin" ID="LinkKnowMore" Bounds="65, 64, 155, 18" Anchor="Left|Top" ElemID="LinkKnowMore">
+      <Text Bounds="0, 0, W, H" Dock="Fill" Color="#1604FA" Style="Underline" ColorHL="#1604FA" StyleHL="Underline" FontName="新宋体" FontHeight="9" Align="Near" AlignV="Near">
+        <![CDATA[请升级为VIP用户。]]>
+      </Text>
+    </XUIHyperLink>
+
+    <!--按钮登录-->
+    <XUIWndObject ID="ButtonOK" Bounds="W - 100, H - 40, 80, 24" Anchor="Bottom|Right"></XUIWndObject>
+
+  </XUIManager>
+</XWnd>

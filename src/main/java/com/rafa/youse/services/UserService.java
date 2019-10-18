@@ -29,4 +29,8 @@ public class UserService {
         }
         return rm;
     }
+
+    public void closeAccount(int bool){
+        um.closeAccount(bool);
+    }
 }

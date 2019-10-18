@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTMainWnd" Bounds="0, 0, 537, 432" Text="XT800 个人版" MiniSize="537, 432" OverlappedWindow="False" ThickFrame="False"  BigIconResID="101" SmallIconResID="138">
+  <XUIManager ID="KDTMainWnd" Bounds="0,0, 537, 432">
+    <!-- 图片背景 -->
+    <XImagePanel ID="xBackground" Bounds="0, 0, W, H" Fill="Title" Dock="Fill" FastBit="True">
+      <Image><![CDATA[Images\Window\Bg_blue.png]]></Image>
+    </XImagePanel>
+    
+    <!--Title-->
+    <XTextPanel ID="WindowTitle" Bounds="10, 10, 95, 14"  Anchor="Left|Top" FontName="Tahoma" FontHeight="9" AlignV="Center" Color="#FFFFFFFF" Align="Near" Style="Bold">
+      <![CDATA[XT800 个人版]]>
+    </XTextPanel>
+    <!--一条线-->
+    <XColorPanel Bounds="108, 10, 1, 12" Color="#4D82CB"></XColorPanel>
+    
+    <!--拖动区域-->
+    <XUINcHitElem Bounds="0, 0, W, 32" Dock="Top" NCHit="Caption" />
+
+    <!-- MenuBar -->
+    <XUIMenuBar ID="MainMenuBar" StyleID="DefMenuBar" Bounds="116, 5, 180, 23" Anchor="Top|Left" AppResID="140" >
+    </XUIMenuBar>
+    
+    <!--SystemButton-->
+    <XUIButton ID="ButtonClose" Bounds="W - 29, 7, 18, 18" ElemID="ButtonClose" StateCount="5" Anchor="Right|Top" Tooltip="%SYS_CLOSE%" SysCmdID="SC_CLOSE">
+      <Image><![CDATA[Images\Window\Window_btn_close.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="ButtonMini" Bounds="W - 47, 7, 18, 18" ElemID="ButtonOption" StateCount="5" Anchor="Right|Top" Tooltip="%SYS_MIN%" SysCmdID="SC_MINIMIZE">
+      <Image><![CDATA[Images\Window\Window_btn_mini.png]]></Image>
+    </XUIButton>
+
+    <XUIContainer Bounds="2, 33, W - 4, H - 38" Anchor="All" Lockable="True">
+      <!--背景-->
+      <XImagePanel Bounds="3, 36, W - 6, H - 36" Fill="Title" Anchor="All">
+        <Image><![CDATA[Images\Window\Bg_gray.png]]></Image>
+      </XImagePanel>
+      
+      <!--Tab区域-->
+      <!-- Fake tab button -->
+      <XImagePanel Bounds="3, 3, 88, 38" Fill="Fit" Anchor="Left|Top">
+        <Image><![CDATA[Images\Main\fake_tab_button.png]]></Image>
+      </XImagePanel>
+      
+      <XUITabBar ID="MainPageTab" Bounds="-2, 2, 99, 36" Anchor="Left|Top" ValidSize="94" ActuallySize="99" ElemID="MainPageTab" FastBit="False" DCBuffer="False" >
+        <EventCall Event="eTabActive" Call="PageTabActive"></EventCall>
+      </XUITabBar>
+      <XUITabPageContainer ID="MainPageWndContainer" Bounds="3, 43, 527, 344" Anchor="All">
+      </XUITabPageContainer>
+
+      
+
+      <!-- Extend button -->
+      <XImagePanel Bounds="W - 215, 12, 16, 16" Fill="Fit" FastBit="False" Visible="False">
+        <Image><![CDATA[Images\Common\Icon_plus.png]]></Image>
+      </XImagePanel>
+      <XUIHyperLink StyleID="DefHyperLink" ID="LinkInvite" Bounds="W - 200, 12, 60, 18" Anchor="Right|Top" ElemID="HyperLinkInvite">
+        <Text Align="Center" StyleHL="Regular"><![CDATA[邀请他人]]></Text>
+      </XUIHyperLink>
+      <XColorPanel Bounds="W - 139, 13, 1, 14" Anchor="Right|Top" Color="#75ADF6"></XColorPanel>
+      
+      <XUIHyperLink StyleID="DefHyperLink" ID="LinkFileTrans" Bounds="W - 134, 12, 60, 18" Anchor="Right|Top" ElemID="HyperLinkFileTrans">
+        <Text Align="Center" StyleHL="Regular"><![CDATA[传输管理]]></Text>
+      </XUIHyperLink>
+      <XColorPanel Bounds="W - 73, 13, 1, 14" Anchor="Right|Top" Color="#75ADF6"></XColorPanel>
+
+      <!--
+      <XUIHyperLink StyleID="DefHyperLink" ID="LinkSetting" Bounds="W - 35, 8, 30, 18" Anchor="Right|Top" ElemID="HyperLinkSetting">
+        <Text Align="Center"><![CDATA[设置]]></Text>
+      </XUIHyperLink>
+      -->
+
+      <XImagePanel Bounds="W - 64, 13, 13, 13" Fill="Fit" FastBit="False">
+        <Image><![CDATA[Images\Contactor\icon.png]]></Image>
+      </XImagePanel>
+      <XUIHyperLink StyleID="DefHyperLink" ID="LinkContactor" Bounds="W - 63, 12, 60, 18" Anchor="Right|Top" ElemID="HyperLinkContactor">
+        <Text Align="Center" StyleHL="Regular"><![CDATA[  联系人]]></Text>
+      </XUIHyperLink>
+
+    </XUIContainer>
+
+  </XUIManager>
+</XWnd>

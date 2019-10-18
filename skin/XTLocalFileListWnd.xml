@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--745-->
+<XWnd ID="KDTRemoteFileListWnd" Bounds="0, 0, 311, 401" AutoDelete="False">
+  <XUIManager ID="KDTRemoteFileMgrWnd" Bounds="0,0, 311, 401">
+    <!-- 纯色背景 -->
+    <XColorPanel Bounds="0, 0, W, H" Dock="Fill" Color="#EEF4FB">
+    </XColorPanel>
+
+
+    <!--Toolbar-->
+    <XImagePanel Bounds="0, 0, W, 41" Anchor="Top|Left|Right" Fill="XTile" FastBit="True" >
+      <Image><![CDATA[Images\Window\Bg_fileshare_Toolbar.png]]></Image>
+    </XImagePanel>
+    
+    <!--文字-->
+    <XTextPanel StyleID="DefTextSimSun" ID="ComputerName" Bounds="2, 16, 80, 14"  Anchor="Left|Right|Top" Color="#000000" AlignV="Center">
+      <![CDATA[本地计算机：]]>
+    </XTextPanel>
+
+    <XUIButton ID="BtnRefresh" Bounds="80, 10, 24, 24" ElemID="BtnRefresh" Anchor="Left|Top" StateCount="5" Tooltip="刷新" DCBuffer="False">
+      <Icon><![CDATA[Images\RemoteFile\Icon_refresh.png]]></Icon>
+      <Image><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="BtnDelete" Bounds="110, 10, 24, 24" ElemID="BtnDelete" Anchor="Left|Top" StateCount="5" Tooltip="删除" DCBuffer="False">
+      <Icon><![CDATA[Images\RemoteFile\Icon_delete.png]]></Icon>
+      <Image><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="BtnNewFolder" Bounds="140, 10, 24, 24" ElemID="BtnNewFolder" Anchor="Left|Top" StateCount="5" Tooltip="新建文件夹" DCBuffer="False">
+      <Icon><![CDATA[Images\RemoteFile\Icon_newfolder.png]]></Icon>
+      <Image><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="BtnUp" Bounds="170, 10, 24, 24" ElemID="BtnUp" Anchor="Left|Top" StateCount="5" Tooltip="向上" DCBuffer="False">
+      <Icon><![CDATA[Images\RemoteFile\Icon_up.png]]></Icon>
+      <Image><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    <XUIButton ID="BtnHome" Bounds="200, 10, 24, 24" ElemID="BtnHome" Anchor="Left|Top" StateCount="5" Tooltip="回到桌面" DCBuffer="False">
+      <Icon><![CDATA[Images\RemoteFile\Icon_home.png]]></Icon>
+      <Image><![CDATA[Images\Common\Icon_btn.png]]></Image>
+    </XUIButton>
+    
+    <!--ListCtrl-->
+    <XUIWndObject ID="FileListCtrl" Bounds="0, 41, W, H - 41" Anchor="All"></XUIWndObject>
+    
+  </XUIManager>
+</XWnd>

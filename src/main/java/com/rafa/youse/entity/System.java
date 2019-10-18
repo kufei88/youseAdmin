@@ -1,6 +1,8 @@
 package com.rafa.youse.entity;
 
-public class System {
+import java.io.Serializable;
+
+public class System implements Serializable {
     public String getMemName() {
         return memName;
     }
@@ -18,5 +20,11 @@ public class System {
     }
 
     private String memName;
+
+    public System(String memName, String memValue) {
+        this.memName = memName;
+        this.memValue = memValue;
+    }
+
     private String memValue;
 }
