@@ -121,4 +121,22 @@ public class DefaultController {
     List<Map<String,Object>> getHandlerList(HttpServletRequest request){
         return dm.getHandlerList();
     }
+
+    @RequestMapping(value="/getHandlerSalary",method = RequestMethod.GET)
+    List<Map<String,Object>> getHandlerSalary(String period){
+      return dm.getHandlerSalary(period);
+    }
+
+    @RequestMapping(value="/updateHandlerSalary",method = RequestMethod.POST)
+    int updateHandlerSalary(HttpServletRequest request){
+      String period = request.getParameter("period");
+      String salary = request.getParameter("salary");
+      String handler = request.getParameter("handler");
+      dm.delHandlerSalary(period,handler);
+      return dm.addHandlerSalary(period,handler,salary);
+    }
+  @RequestMapping(value="/get_employee_defaultfactor",method = RequestMethod.GET)
+  List<Map<String,Object>> get_employee_defaultfactor(String period){
+    return dm.get_employee_defaultfactor(period);
+  }
 }
